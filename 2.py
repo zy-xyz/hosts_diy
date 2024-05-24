@@ -74,7 +74,7 @@ async def process_file(file_path, rules_folder):
 
 def parse_rule(line):
     line = line.strip()
-    if not line or line.startswith(("#", "!")):
+    if line.startswith("!") or line.startswith("#") or line.startswith("_"):
         return None
 
     # 处理以 "{" 开头的规则
