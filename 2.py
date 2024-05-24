@@ -96,13 +96,17 @@ def parse_rule(line):
             ip, host = parts
             if is_valid_ip(ip):
                 return HostsRule(line)
-            else:
+            elif is_valid_domain(host):
                 return DomainRule(line)
+            else:
+                return None
         elif len(parts) == 1:
             if "$" in line:
                 return ModifyRule(line)
-            else:
+            elif is_valid_domain(line):
                 return DomainRule(line)
+            else:
+                return None
         else:
             return None
 
@@ -121,6 +125,11 @@ def is_valid_ip(ip):
             return False
     except ValueError:
         return False
+
+def is_valid_domain(domain):
+    # 域名格式检查正则表达式
+    domain_pattern = r'.*'
+    return bool(re.match(domain_pattern, domain))
         
 async def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
