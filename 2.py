@@ -74,7 +74,7 @@ async def process_file(file_path, rules_folder):
 
 def parse_rule(line):
     line = line.strip()
-    if line.startswith("!") or line.startswith("#") or line.startswith("_"):
+    if line.startswith("!") or line.startswith("_"):
         return None
 
     # 处理以 "{" 开头的规则
@@ -85,9 +85,11 @@ def parse_rule(line):
         except ValueError:
             return None
 
-    if line.startswith("||") or line.startswith("@@||") or line.startswith("/") or line.startswith("@@/"):
-        if "$" in line:
+    if line.startswith("||") or line.startswith("@@||") or line.startswith("|") or line.startswith("/") or line.startswith("*/") or line.startswith("@@/") or line.startswith("<") or line.startswith("*")or line.startswith(":"):
+        if "$" in line or "#" in line:
             return ModifyRule(line)
+        elif line.endswith("^") and "*" not in line:
+            return DomainRule(line)
         else:
             return RegexRule(line)
     else:
@@ -96,12 +98,15 @@ def parse_rule(line):
             ip, host = parts
             if is_valid_ip(ip):
                 return HostsRule(line)
-            elif is_valid_domain(host):
-                return DomainRule(line)
+            elif "$" in line or "#" in line:  
+                return ModifyRule(line)
+               
+            # elif is_valid_domain(host):
+                # return DomainRule(line)
             else:
                 return None
         elif len(parts) == 1:
-            if "$" in line:
+            if "$" in line or "#" in line or "/" in line :
                 return ModifyRule(line)
             elif is_valid_domain(line):
                 return DomainRule(line)
@@ -116,20 +121,31 @@ def is_valid_ip(ip):
         parts = ip.split(".")
         if len(parts) == 4 and all(part.isdigit() and 0 <= int(part) <= 255 for part in parts):
             return True
+
         # 检查 IPv6 地址
-        elif len(ip.split(":")) > 1:
-            # 使用正则表达式检查 IPv6 地址格式
-            pattern = r'^(([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe80:(:[0-9a-fA-F]{0,4}){0,4}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])|([0-9a-fA-F]{1,4}:){1,4}:((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9]))$'
-            return bool(re.match(pattern, ip))
-        else:
-            return False
+        parts = ip.split(":")
+        if 2 <= len(parts) <= 8:
+            # 允许 IPv6 地址中出现 "::"
+            if "::" in ip:
+                double_colon_count = ip.count("::")
+                if double_colon_count > 1:
+                    return False
+                parts = [part for part in ip.split(":") if part]
+                if 2 <= len(parts) <= 8:
+                    return all(len(part) <= 4 and all(c.isalnum() for c in part) for part in parts)
+            else:
+                return all(len(part) <= 4 and all(c.isalnum() for c in part) for part in parts)
+
+        return False
     except ValueError:
         return False
 
 def is_valid_domain(domain):
-    # 域名格式检查正则表达式
-    domain_pattern = /\.([a-zA-Z]+)$/
-    return bool(re.match(domain_pattern, domain))
+    parts = domain.split(".")
+    for part in parts:
+        if 2 <= len(part) <= 6 and part.isalpha():
+            return True
+    return False
         
 async def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))

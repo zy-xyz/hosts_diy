@@ -16,8 +16,6 @@ async def read_rules(file_name):
         async with aiofiles.open(file_path, "r", encoding="utf-8") as f:
             async for line in f:
                 if file_name == "domain.txt":
-                    # 删除 # 后面的内容
-                    line = line.split("#")[0].strip()
                     # 通过逗号分割域名
                     for domain in (domain.strip() for domain in line.split(",")):
                         if domain and is_valid_domain(domain):
@@ -31,9 +29,11 @@ async def read_rules(file_name):
         return set()
 
 def is_valid_domain(domain):
-    # 使用 r'.*' 正则表达式进行域名格式检查
-    domain_pattern = r'^([a-zA-Z0-9]([a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$'
-    return bool(re.match(domain_pattern, domain))
+    parts = domain.split(".")
+    for part in parts:
+        if 2 <= len(part) <= 6 and part.isalpha():
+            return True
+    return False
 
 async def dedup_rules(file_name, rules):
     if file_name == "domain.txt":
