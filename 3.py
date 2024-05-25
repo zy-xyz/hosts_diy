@@ -32,7 +32,7 @@ async def read_rules(file_name):
 
 def is_valid_domain(domain):
     # 使用 r'.*' 正则表达式进行域名格式检查
-    domain_pattern = r'.*'
+    domain_pattern = r'^([a-zA-Z0-9]([a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$'
     return bool(re.match(domain_pattern, domain))
 
 async def dedup_rules(file_name, rules):

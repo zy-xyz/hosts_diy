@@ -128,7 +128,7 @@ def is_valid_ip(ip):
 
 def is_valid_domain(domain):
     # 域名格式检查正则表达式
-    domain_pattern = r'.*'
+    domain_pattern = /\.([a-zA-Z]+)$/
     return bool(re.match(domain_pattern, domain))
         
 async def main():
