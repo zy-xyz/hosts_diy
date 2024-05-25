@@ -31,7 +31,7 @@ async def read_rules(file_name):
 def is_valid_domain(domain):
     parts = domain.split(".")
     for part in parts:
-        if 2 <= len(part) <= 6 and part.isalpha():
+        if 2 <= len(part) <= 6:
             return True
     return False
 
