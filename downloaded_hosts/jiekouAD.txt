@@ -1,10 +1,22 @@
 [Adblock Plus 2.0]
 ! Title: 轻量广告拦截规则
 ! Homepage: https://github.com/damengzhu/banad
-! Update Time: 2024-05-29 10:23:11（北京时间）
-! Total Count: 5310
+! Update Time: 2024-06-09 17:36:51（北京时间）
+! Total Count: 5320
 ! by: 酷安@大萌主
 ! Host
+||vbiakpu.icu^
+||xianpowei.com^
+||dtnaximya.360doc.cn^
+||uuysiaq.com^
+||qrmozsc.icu^
+||pjoo8.com^
+||ta20k.xyz^
+||dceuhnpc57.shop^
+||obl74.xyz^
+||u7em6.xyz^
+||6uzxtlv.cn^
+||kl.67it.com^
 ||70r8fo5.com^
 ||7j4tpio.com^
 ||7dqjgdk.com^
@@ -959,7 +971,6 @@
 ||cpro.baidustatic.com^
 ||cpro.zol.com.cn^
 ||cpro88.vip^
-||cpt.9136.com^
 ||cpucdn.baidu.com^
 ||cqbuchouhua.com^
 ||cqtlimi.cn^
@@ -4465,6 +4476,7 @@ com:8891/c.php?s=*$third-party
 ||yxdm.tv/js/gad.js
 ||277txt.com/da/*.js
 .live/ty/*-*-*$third-party
+||sump4.cc/js/wcount.js
 :8891/v*$third-party
 .cyou/xling_*_$third-party
 /m.html?rmid=*&yd=
@@ -4523,8 +4535,7 @@ js/yys/Pfhl365.js
 ||tz659.com/js/cdn.js
 Mplay/kk1.js
 .live/hm.js$third-party
-static/pull/qwe1021.js
-com/js/lp365.js
+||dbmp4.com/js/foot.js
 ||halihali*.com/js/wap2-jm-ms.js
 ||verysadfun.com/assets/publish/jquery.*.js
 .com/candy*.js$third-party
@@ -4732,6 +4743,7 @@ www.apkmirror.com##DIV[style$=' display: flex; justify-content: center; font-fam
 www.apkmirror.com##.ains.ains-has-label
 guancha.cn##.g_swiper_container
 guancha.cn##.g_header44
+so.com##.res-mediav
 so.com##.c-title-tag
 so.com##.res-mediav-right
 so.com##.inner_left
@@ -5076,10 +5088,6 @@ javbus.com##.container-fluid:nth-child(9) > .row > .ad-list:nth-child(3)
 ##div.bf_qy DIV.copy_div_btn
 ##DIV#advertisings.advertising
 ##A[href^='http://cszb420.tinawd81.com/']
-##ul.content-list > li.content-tb
-##div.video-box > div.hf > a
-##body > h1 > strong > title > a
-##UL.myui-extra.clearfix
 ##A[href^='https://www.nonstopclub.xyz']
 ##A[href^='https://js.iconiclee.com']
 ##[alt='ad']
@@ -5301,6 +5309,8 @@ javbus.com##.container-fluid:nth-child(9) > .row > .ad-list:nth-child(3)
 ##[href*='slkdnlkfnskl.com']
 ##.globalPadding
 ##.adwap
+##[style^='display: block; z-index: 2147483646; width: 17px; ']
+##[style^='display: block; z-index: 2147483646; width: 10%;']
 ##[src^='https://369x520.com']
 ##[href^='https://31jrx5y7.com/']
 ##[href*='pojuko.buzz']
