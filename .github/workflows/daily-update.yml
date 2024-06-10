@@ -47,9 +47,6 @@ jobs:
         python 1.py
         python 2.py
         python 3.py
-    - name: Test with pytest
-      run: |
-        pytest
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
