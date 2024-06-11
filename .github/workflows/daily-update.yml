@@ -50,9 +50,9 @@ jobs:
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add rules
-        git add cache
-        git add downloaded_hosts
+        git add --sparse rules
+        git add --sparse cache
+        git add --sparse downloaded_hosts
         git add -u
         git commit  -am "Add changes"
     - name: Push changes
