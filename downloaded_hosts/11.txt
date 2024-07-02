@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 6EbLls4ufHgsU4k7zbnFmA
-! Diff-Path: ../patches/11/11-s-1719844642-3600.patch
+! Checksum: IDApB/Pe7xCFwx1mmd874A
+! Diff-Path: ../patches/11/11-s-1719927335-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.52.55
-! TimeUpdated: 2024-07-01T14:34:33+00:00
+! Version: 2.0.52.63
+! TimeUpdated: 2024-07-02T13:32:59+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -265,7 +265,6 @@
 ||tx-ad.a.yximgs.com^
 ||tx-kmpaudio.pull.yximgs.com^
 ||hw-ot-ad.a.yximgs.com^
-||kskwai.com^
 ||adkwai.com^
 ||marketing.mangacopy.com^
 ||gdfp.gifshow.com^
@@ -2332,6 +2331,9 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+utaten.com##div[style="height: 180px; margin-bottom: 10px;"]
+chosun.com##iframe[title="Advertisement"]
+freepornvideos.xxx##.ft
 vook.vc##.note-sp-spnsr
 blogtag.ameba.jp##ul > div[class]:has(> div > div[id^="div-gpt-ad-"])
 blogtag.ameba.jp##aside > div[class]:has(> div > div[id^="div-gpt-ad-"])
@@ -2458,6 +2460,8 @@ adacomi.com##a[href][target] > .bbs_box
 adacomi.com##body > div[style*="min-height:"][align="center"]
 forum.donanimhaber.com##article > div[style]:has(> div[style] > div.empower-ad)
 estadao.com.br##.house-ads-container
+estadao.com.br#$#.navbar-header-estadao.--not-subscriber { top: 0 !important; }
+estadao.com.br#$#.nav-bar-reserved-area { height: 48px !important; }
 mwed.jp##.displayable[data-controller="bottom-fixed-advertisement"]
 motorauthority.com##.adv-spacer-top-wraper
 motorauthority.com##.adv-spacer
@@ -2572,7 +2576,7 @@ m.business-gazeta.ru##.banner
 privatehomeclips.com##.video__wrapper > section[style="display: flex;"]
 m.tsumanne.net##object[data*="/ad.html"]
 inrlp.de##div[class^="w4_Mobile_Pos"]
-eroist.site##div[class$="koukoku300"]
+eroist.site##div[class^="koukoku"]
 olhardigital.com.br##.cardV2-ad
 forum.finanzaonline.com###leoskin-content
 allboxing.ru##ins[data-revive-zoneid]
@@ -6543,7 +6547,6 @@ zockify.de#?#.embed-responsive:has(> .embed-responsive-item > .vm-placement)
 tagesspiegel.de#?#article div:has(> div[id^="iqadtile"])
 bestproducts.com,cosmopolitan.com,thepioneerwoman.com,roadandtrack.com,womansday.com,harpersbazaar.com,countryliving.com,womenshealthmag.com,autoweek.com#?#section > div[class*="css-"]:has(> div[id^="gpt-ad"])
 elle.com,elledecor.com,runnersworld.com#?#div[class*="css-"]:has(> div.ad-container)
-tmailweb.com#?#.row > div[class^="col-"]:has(> div.d-none > ins.adsbygoogle)
 popularmechanics.com#?#section > div[class*=" "]:has(> div[class]:first-child + .ad-container:last-child)
 veranda.com,wetter.com#?#div[class^="sc-"]:has(> div.ad-container)
 wetter.com##.som-wrapper
@@ -7181,6 +7184,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_mobile
 !
 ! Yandex ads in mobile apps
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/161152
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181356
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181178
 ! https://github.com/AdguardTeam/AdguardFilters/issues/174175
