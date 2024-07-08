@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: W5fvDw3tY/wE1JzisxCibw
-! Diff-Path: ../patches/11/11-s-1720366628-3600.patch
+! Checksum: ta5b9ru0NDZVvP7pOONaTg
+! Diff-Path: ../patches/11/11-s-1720442416-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.52.74
-! TimeUpdated: 2024-07-07T15:33:25+00:00
+! Version: 2.0.52.78
+! TimeUpdated: 2024-07-08T12:34:48+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2332,6 +2332,10 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+||thumbor.4gamers.com.tw/*/*ads-media*.png
+4gamers.com.tw##div[class*="safe-area-inset-bottom"] div.fixed:has(a[target="_blank"] source[srcset*="ads-media"])
+4gamers.com.tw##div[class*="interstitial-width"] div.relative:has(a[target="_blank"] source[srcset*="ads-media"])
+m.baidu.com##div[data-module="rec:undefined-undefined"]
 famitsu.com###yahoo-banner
 famitsu.com##div[class^="HeaderBannerForSp_container_"]
 jisin.jp##.zoom_2
@@ -2345,7 +2349,7 @@ news.audee.jp###sp_UZOUSPbnr
 m.airporthaber1.com##.Banner
 utaten.com##div[style="height: 180px; margin-bottom: 10px;"]
 chosun.com##iframe[title="Advertisement"]
-freepornvideos.xxx##.ft
+fullvideos.xxx,omg.xxx,4kporno.xxx,fullporn.xxx,fullporno.xxx,freepornvideos.xxx##.ft
 blogtag.ameba.jp##ul > div[class]:has(> div > div[id^="div-gpt-ad-"])
 blogtag.ameba.jp##aside > div[class]:has(> div > div[id^="div-gpt-ad-"])
 namaeuranai.biz#$#body { padding-bottom: 0 !important; }
