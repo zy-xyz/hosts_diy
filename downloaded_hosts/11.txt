@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: a5Gr/AhhKIDL8ue7UkUi0Q
-! Diff-Path: ../patches/11/11-s-1721644702-3600.patch
+! Checksum: A9q3c7tlLGvFMhcSpNuYkQ
+! Diff-Path: ../patches/11/11-s-1721749155-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.53.12
-! TimeUpdated: 2024-07-22T10:34:05+00:00
+! Version: 2.0.53.16
+! TimeUpdated: 2024-07-23T15:33:52+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1118,7 +1118,7 @@ ya.ru##services-feed div.banner
 ! Update unblocking rule for the search ads in usefulads.txt
 yandex.*##div[class^="Direct "]
 ya.ru,yandex.*#$?##search-result > li:has(span:contains(/[PРeеkклaаmмaа]{7}/)) { remove: true; }
-ya.ru,yandex.*##div[class^="serp-list"] > div.serp-item:has(> div[data-bem*="organic"] > div[class^="Organic"] > div[class^="VanillaReact"] > a[data-event-required])
+ya.ru,yandex.*##.content__left > ul#search-result > li:has(> div.organic > div.OrganicTitle > a[href^="https://ya.ru/search/_crpd/"])
 !
 ! Yandex.Images
 yandex.*##.justifier__col > div.incut
@@ -1948,6 +1948,8 @@ deviantart.com#$#div[class*="dp-ad-"] {height: 0!important; width: 0!important; 
 !
 !
 !
+! fix swipe
+@@||www.exploader.net/js/swipe-right-20171229.js|$script,~third-party
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179429
 @@||cmp.inmobi.com/GVL-v2/$domain=express.co.uk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/177593
@@ -2339,6 +2341,10 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+as-web.jp##.ASW_sp_header
+botanica-media.jp##div[id^="BOTANICA_SP_"]
+financefeeds.com##div[id^="tdm-popup-modal-td"]
+epey.com###mobil_masthead
 exploader.net###firstpop
 m.winfuture.de##img[alt="test"]
 umamusume.net###ad-first
