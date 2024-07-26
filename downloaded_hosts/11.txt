@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: wnVrnp8a0bLJFicyeyFuMQ
-! Diff-Path: ../patches/11/11-s-1721918236-3600.patch
+! Checksum: v6eOCYRd0qBt/4y02Ik6tg
+! Diff-Path: ../patches/11/11-s-1722001056-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.53.25
-! TimeUpdated: 2024-07-25T14:33:23+00:00
+! Version: 2.0.53.27
+! TimeUpdated: 2024-07-26T13:33:36+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2338,8 +2338,8 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+b-para.co,blcollection.co###full-overlay
 39mag.benesse.ne.jp##.cmnTopBnr
-nyahentai.re###video_inst_area
 livemint.com###signInPopUp
 gentosha-go.com###sgo_280_wrapper
 gentosha-go.com###JP_SGO_SP_article_footer_2nd
@@ -2441,7 +2441,7 @@ amazon.*###px-profile_feature_div
 lawspot.gr###pbmb
 ilfattoquotidiano.it###adk-interstitial-list
 pennlive.com###ad-wrapper__mobile-bottom-adhesion
-momon-ga.com###video_inst_area
+nyahentai.re,momon-ga.com###video_inst_area
 xatakahome.com##body article.article div.ad
 lapkins.ru##.start .start-ban
 gizmodo.com##.ad-mobile-dynamic
@@ -3519,7 +3519,6 @@ diariodecuyo.com.ar##.banner-box
 car-moby.jp##.rwMainAd
 sports.kz##.hbnr
 index.hr##.js-slot-container
-map.goo.ne.jp##.spot-table__ad-item
 ero-gazou.jp##.spad-ov
 a1.ro##.ads-ribon
 as.ro###digitalag-sticky
@@ -4251,7 +4250,6 @@ kalerkantho.com##.parallax-main
 m.ensonhaber.com##a[rel="sponsored"]
 m.tribuneindia.com##section[class^="ad-img"]
 seattletimes.com##.zeus-ad-right
-map.goo.ne.jp##div[class^="gooad-spbadge300"]
 mapion.co.jp###adserver_rectangle
 ranking.goo.ne.jp##.first-banner
 ranking.goo.ne.jp##.overlay-ads-sp
