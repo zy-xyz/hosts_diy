@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: aQw3m3iQ3y2Fvx/z80I5LQ
-! Diff-Path: ../patches/11/11-s-1723041516-3600.patch
+! Checksum: mupl2ko59ykBNyaOAfAuUg
+! Diff-Path: ../patches/11/11-s-1723120682-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.53.54
-! TimeUpdated: 2024-08-07T14:34:19+00:00
+! Version: 2.0.53.58
+! TimeUpdated: 2024-08-08T12:33:54+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2341,6 +2341,10 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+mynet.com##.stickyFooterAdContainer
+game-kouryaku.info##.ado3
+forum.donanimhaber.com##div[style^="width: 100%; float: left;"]:has(> div[style] > div.empower-ad)
+pcguru.hu##.top-mobile-banner-holder
 gtplanet.net##div[style="text-align:center;margin:30px 0 0;"] > a > img
 11880.com##body .search-result-list-item--topad
 ||m.xianqihaotianmi.org/4ENSM9hu/*.js
@@ -5979,7 +5983,7 @@ ck101.com###mobileFloat
 ck101.com##.mobileAD_responsive
 gamespark.jp##div[style^="min-height:280px;"]
 s.inside-games.jp##.sp-ifad
-s.response.jp,gamespark.jp,s.inside-games.jp##.aside-box-ad
+manetatsu.com,s.response.jp,gamespark.jp,s.inside-games.jp##.aside-box-ad
 gamespark.jp,s.inside-games.jp##div[style^="text-align"][style*="min-height:2"]
 s.inside-games.jp##a[href^="https://deliver.ads2.iid.jp"]
 chosunonline.com##.wrap_ad_inner
