@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: M4ENY79aGrBLaC/5Iyxt3Q
-! Diff-Path: ../patches/11/11-s-1723455446-3600.patch
+! Checksum: 7rdHQITOUq5QhxsMusEaCA
+! Diff-Path: ../patches/11/11-s-1723563396-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.53.60
-! TimeUpdated: 2024-08-12T09:33:34+00:00
+! Version: 2.0.53.65
+! TimeUpdated: 2024-08-13T15:32:53+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1796,6 +1796,7 @@ deviantart.com#$#div[class*="dp-ad-"] {height: 0!important; width: 0!important; 
 ! Repeated requests, two or more in one second if blocked - https://old.reddit.com/r/Adguard/comments/ztbv96/how_do_i_stop_this_my_phone_is_overheating_and/
 ! https://old.reddit.com/r/Adguard/comments/18s9snu/api2branch_causing_cpu_overheat/
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/186071
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182993
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181178
 ! https://github.com/AdguardTeam/AdguardFilters/issues/178331
@@ -2341,6 +2342,10 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+tomshw.it###sticky_ads
+tomshw.it##.customads
+gfinityesports.com##.article-full__article-content > div[class]:has(> div.htl-inarticle-container)
+dexerto.com##.flex > div[class^="border"]:has(> div[id^="FooterAd_Mobile"])
 promiflash.de##.sm\:hidden:has(> div[class] > div.adContainer)
 koko-soccer.com##.bnr-overlay
 bepal.net###single-fv > div[style="min-height: 180px;"]
@@ -7056,6 +7061,8 @@ yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,~afisha.yandex.
 yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,~afisha.yandex.by,~afisha.yandex.kz,~afisha.yandex.ru,~avia.yandex.by,~avia.yandex.kz,~travel.yandex.ru,~bilet.yandex.com.tr,~flights.yandex.com,~disk.yandex.by,~disk.yandex.com,~disk.yandex.com.tr,~disk.yandex.fr,~disk.yandex.kz,~disk.yandex.ru,~mail.yandex.by,~mail.yandex.kz,~mail.yandex.ru,~mail.yandex.com,~mail.yandex.com.tr,~music.yandex.ru,~music.yandex.by,~music.yandex.kz,~rabota.yandex.by,~rabota.yandex.kz,~rabota.yandex.ru,~radio.yandex.by,~radio.yandex.kz,~radio.yandex.ru,~realty.yandex.by,~realty.yandex.kz,~realty.yandex.ru,~tv.yandex.by,~tv.yandex.kz,~tv.yandex.ru,~yadi.sk,~docviewer.yandex.by,~docviewer.yandex.com,~docviewer.yandex.com.tr,~docviewer.yandex.fr,~docviewer.yandex.kz,~docviewer.yandex.ru,~rasp.yandex.by,~rasp.yandex.kz,~rasp.yandex.ru#$?#body > div.serp_js_inited.main .serp-list > .serp-item:has(a[href^="http://yabs.yandex."] > div > div.label_theme_direct) { remove: true; }
 ! Yandex.News
 yandex.ru#?#body[class*="news_phone"] div.news-container > span > div > div.unit:has(> div.turbo-advert__item)
+! Yandex.Market
+market.yandex.*##div[id="/content/header/headerPromo"]
 !
 ! END: Yandex
 !
@@ -7276,6 +7283,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_mobile
 !
 ! Yandex ads in mobile apps
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/185996
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183979
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161152
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181356
