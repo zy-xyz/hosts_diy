@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: XfR5KyuYyXIp0VyZOHaZvw
-! Diff-Path: ../patches/11/11-s-1724938684-3600.patch
+! Checksum: NyzeijspGKeTn8R+3HJPyg
+! Diff-Path: ../patches/11/11-s-1725032253-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.53.98
-! TimeUpdated: 2024-08-29T13:33:12+00:00
+! Version: 2.0.54.2
+! TimeUpdated: 2024-08-30T15:33:04+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2343,6 +2343,16 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+mantan-web.jp##div[style="height:58px; width:320px;"]
+bbsnet.info###ad_carousel
+bbsnet.info##div[id$="Box"] h2:has(+ script + #ad_carousel)
+anal.bbsnet.info###lcBox > div.aside:has(> div.asdr > div.siteshokai)
+anal.bbsnet.info###lcBox > h2.colorh2:has(+ div.mainBack > p > a.btn-square-soft2[href*="/go.php?"])
+anal.bbsnet.info###lcBox > h2:has(+ p > a.btn-square-soft[href^="https://ac.cross-system.com"])
+anal.bbsnet.info###lcBox p:has(> a[class^="btn-square"][target="_blank"])
+ms.bbsnet.info##div.randambtn001
+smpt.webrental.org##.dendou
+tiscali.it###wp-top
 cnbctv18.com##.inart-wrp
 cnbctv18.com##.inart-wrp + br
 cnbctv18.com##.taboola_section
@@ -5219,7 +5229,6 @@ tutudao.net##.m_adv > a[href="https://m.13xp.com/"]
 collectionofbestporn.com##.banner-mobile-header
 merlininkazani.com,javsubtitle##.header-ads
 ndtv.com##amp-iframe[src^="https://drop.ndtv.com/"]
-online.anidub.com###dle-content > div[style*="width: 300px;"][style*="height: 300px;"]
 india.com,india.com,bollywoodlife.com,bgr.in##.add-box
 mirtesen.ru##.footer-ad-block
 gadgetsnow.com##.dfp
