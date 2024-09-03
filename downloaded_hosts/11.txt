@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: EMWb4SRuhVvmPTPD2O8umA
-! Diff-Path: ../patches/11/11-s-1725277544-3600.patch
+! Checksum: c0JMTlYsdpa6dW4uByk7Mg
+! Diff-Path: ../patches/11/11-s-1725374294-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.54.8
-! TimeUpdated: 2024-09-02T11:33:10+00:00
+! Version: 2.0.54.12
+! TimeUpdated: 2024-09-03T14:33:56+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2347,6 +2347,11 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+nikkansports.com##p[style="margin-bottom: 1em;"] > span[style="color:#333;font-weight:bold;display:block;margin-top:1em;font-size:16px;"]
+baseballking.jp##.txtarea > div[style="text-align:center; border-top: 1px solid #f3f3f3; border-bottom: 1px solid #f3f3f3; margin:20px -10px 0px -10px"]
+mainichikirei.jp##.article__inner > div[style^="text-align:center; margin-top:"][style*="margin-bottom:0px; color: #595757; font-size: 0.9em; height: 1"]
+fuqster.com,bigtitbitches.com##.sponsors-mobile
+fuqster.com,bigtitbitches.com##.header__nav-item--adv-link
 many.xxx##.avd_mob
 informator.ua##.inf_ua-content div[id][style^="min-height:"]:has(> ins)
 zozovideo.com##div[style^="position: absolute; width:"][style$=" top: 0px; left: 0px;"]
@@ -2496,7 +2501,7 @@ news.audee.jp###sp_UZOUSPbnr
 m.airporthaber1.com##.Banner
 utaten.com##div[style="height: 180px; margin-bottom: 10px;"]
 chosun.com##iframe[title="Advertisement"]
-many.xxx,porner.xxx,fullvideos.xxx,omg.xxx,4kporno.xxx,fullporn.xxx,fullporno.xxx,freepornvideos.xxx##.ft
+fullhd.xxx,many.xxx,porner.xxx,fullvideos.xxx,omg.xxx,4kporno.xxx,fullporn.xxx,fullporno.xxx,freepornvideos.xxx##.ft
 blogtag.ameba.jp##ul > div[class]:has(> div > div[id^="div-gpt-ad-"])
 blogtag.ameba.jp##aside > div[class]:has(> div > div[id^="div-gpt-ad-"])
 namaeuranai.biz#$#body { padding-bottom: 0 !important; }
@@ -4806,7 +4811,7 @@ dcfever.com##.container > .row > div[style^="margin-bottom:"][style*="text-align
 thetrendspotter.net##.mobile_advert
 thetrendspotter.net##.mysite-adsense-mobile-header
 miurayoshitaka.hatenablog.com##.ad-online-afc
-hatena.ne.jp,hateblo.jp,hatenablog.*,hatenadiary.*##.variable-rectangle-ad
+hatena.ne.jp,hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp##.variable-rectangle-ad
 morgenpost.de##amp-fx-flying-carpet[height="450px"]
 bgr.in##div[class="amp-flying-carpet-text-border"][style^="font-size:12px;background-color: #000; color: #fff;text-align: center;"]
 gendai.media##[style="min-height:250px;"]
