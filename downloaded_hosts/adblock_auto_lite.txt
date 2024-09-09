@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: QBF5uDypwH2todhuQqwA7Q
-! Title: 混合规则精简版(更新日期2024-09-08 16:18:12)
-! Version: 20240908161812
+! Checksum: 5gY5VtV9UEOda5QMI8Lxwg
+! Title: 混合规则精简版(更新日期2024-09-09 08:49:05)
+! Version: 20240909084905
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-09-08 16:18:12
-! Total Count: 35415
-! Blocked Filters: 35415
+! Last modified: 2024-09-09 08:49:05
+! Total Count: 35428
+! Blocked Filters: 35428
 ! Description: 合并于各种知名的Adblock规则，适用于移动端轻量的浏览器，例如 VIA / Rian / B仔浏览器
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -16,7 +16,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/keytoolazy/adblock_auto/raw/Rules/adblock_auto_lite.txt?ref=main
 
 
-!<<<<<域名规则>>>>>21087
+!<<<<<域名规则>>>>>21095
 |http*://*?$third-party,domain=forums.socialmediagirls.com|pornhub.com|redtube.com|tube8.com|youporn.com|youporngay.com
 |http://$image,third-party,domain=pornhub.com|redtube.com|redtube.net|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com|you-porn.com|youpornru.com|youporn.fyi
 |http://*/ts.js$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|ac88.info|aisex.com|cnnice.biz|go543.com
@@ -7180,6 +7180,7 @@
 ||dsbqvj.xyz^
 ||dsbudkwq.xyz^
 ||dsceopm.cn^
+||dsdsg44.fun^
 ||dsg.reifporn.de^
 ||dshangyan.com/pc/advertising/
 ||dshjbn.xyz^
@@ -8275,6 +8276,7 @@
 ||fq01.shop^
 ||fq02.shop^
 ||fq03.shop^
+||fq04.shop^
 ||fq67.top^
 ||fqbjzj.xyz^
 ||fqfclmlo.xyz^
@@ -8636,6 +8638,7 @@
 ||gerdonarium.com^$third-party
 ||gesdxashb1.fun^
 ||gesfdashb5.fun^
+||gessdashb6.fun^
 ||gesvfvfhhb6.fun^
 ||get-gx.net^
 ||get-link.xyz^
@@ -11235,6 +11238,7 @@
 ||jy01.shop^
 ||jy04.shop^
 ||jy05.shop^
+||jy06.shop^
 ||jy135.com/js/pubuliu.
 ||jy135.com^$third-party
 ||jy147a.com^
@@ -14417,6 +14421,7 @@
 ||pixfs.net/module/fullPage/dist/ad-full-page.
 ||pixoctopus.pixnet.net^
 ||pizzasnut.com^$third-party
+||pjcijbv.icu^
 ||pjcn.org^$third-party
 ||pjdthz.xyz^
 ||pjtime.com/js/show_ad
@@ -18413,6 +18418,7 @@
 ||ttad125.com^
 ||ttauri.livescience.com^
 ||ttavav6.com/zz/
+||ttdpxh.xyz^
 ||ttgbnmk.top^
 ||ttienli.top^
 ||ttnwxhjv.xyz^
@@ -18946,6 +18952,7 @@
 ||uu22662.com^
 ||uu3192uu.com^
 ||uu8811uu.com^
+||uuajq.top^
 ||uub.jp/kkn/DL_banner_940x100.png
 ||uugtv.com/x/app/videoSpread?
 ||uuiaoq.top^
@@ -20751,6 +20758,7 @@
 ||yx1.managershare.com^
 ||yxad.com/baidu/
 ||yxad.com/yxad/
+||yxamkm.xyz^
 ||yxbao.com/js/beitou.
 ||yxcrcc.xyz^
 ||yxdd.com^$subdocument
@@ -30976,7 +30984,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 |javascript:*window.location
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>3515
+!<<<<<通用Css规则>>>>>3520
 ###ADbox
 ###ADtip
 ###AdBlockDialog
@@ -31185,6 +31193,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###adspace-top
 ###adspace300x250
 ###adspaceBox
+###adspop
 ###adtoniq-msgr-bar
 ###adtop1
 ###adv-2
@@ -33022,6 +33031,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.popup + .shortcuts-m-overlay
 ##.popup + .shortcuts-mobile-overlay
 ##.popup.popup-abk
+##.popup.popup-abk + div[style]
 ##.post-card > img[src$=".gif"][data-action="zoom"][class="blog-background"]
 ##.post-card[data-url$=".gif"]
 ##.post-content + .article-bottom-apps
@@ -33113,6 +33123,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.svg-adblock-full
 ##.svg-adblock-full--box
 ##.svg-icon + #player_pause
+##.swiper#bottomFixed
 ##.swiper-wrapper.gpwggaoh
 ##.swipercctv
 ##.sxAdBox
@@ -33898,6 +33909,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##body > div[id][onclick^="this.style.display='none';window.open(q17"][onclick$="());"]
 ##body > div[id][style="display: block; width: 100%; position: relative; height: 127.188px; margin: 0px; padding: 0px; border: 0px none; background: none;"]
 ##body > div[id^="a17"] > div[id^="u17"]
+##body > div[style$="background: #000;opacity:0.01;"]
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
 ##body > embed[id][src*="://"][src$="="]
@@ -34337,6 +34349,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##img[src*=".wzxty168.com"][src$=".gif"][width="100%"]
 ##img[src*="//acc.snmovie.com"]
 ##img[src*="//ad.xmmnsl.com"]
+##img[src*="//ali-ec.static.yximgs.com/bs2/"]
 ##img[src*="//api.promptsgod.com/"][style*="width: 100%;"]
 ##img[src*="//app.zuozuomu.xyz"]
 ##img[src*="//fhh.emossvu.cn"]
