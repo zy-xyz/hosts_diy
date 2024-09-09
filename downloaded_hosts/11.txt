@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: +XeY5rvpH0ZxmbU6usi4cQ
-! Diff-Path: ../patches/11/11-s-1725640657-3600.patch
+! Checksum: TkgEjzHNhldr/jIOphrqcg
+! Diff-Path: ../patches/11/11-s-1725892632-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.54.25
-! TimeUpdated: 2024-09-06T16:33:18+00:00
+! Version: 2.0.54.28
+! TimeUpdated: 2024-09-09T14:33:10+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2347,6 +2347,8 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+jiji.com##.ArticleText > span.notice
+menshealth.de##div[class^="mps-ad-container"]
 allabout.co.jp##li[data-tracking-zone*="gcInfeedFrame"]
 honestjohn.co.uk##div[id^="floatingBanner"]
 baseballking.jp##div[style^="text-align:center; border-top: 1px solid #f3f3f3; border-bottom: 1px solid #f3f3f3; margin:"]
@@ -4417,9 +4419,9 @@ thinkapple.pl##.after-more-tag > a[target="_blank"] > img
 mat6tube.com,zeenite.com##div[style*="height:250px;"][style*="width:300px;"]
 mat6tube.com,zeenite.com##div[style*="height:100px;"][style*="width:300px;"]
 weather.goo.ne.jp##.ads_h250
-muratordom.pl##.zpr_m_inside_1
-muratordom.pl##.m_zpr_box_top1
-muratordom.pl###m_zpr_box_art_lead
+muratorplus.pl,muratordom.pl##.zpr_m_inside_1
+muratorplus.pl,muratordom.pl##.m_zpr_box_top1
+muratorplus.pl,muratordom.pl###m_zpr_box_art_lead
 onepiece-log.com##.wrapper center
 heavy-r.com##iframe[src^="//a.pierlinks.com/"]
 ||heavy-r.com/js/mobile*.js
@@ -5566,6 +5568,7 @@ thenewsminute.com##amp-iframe#prebid-user-sync
 purepc.pl##a[databx][href*="/red1r.php"]
 m.dcnews.ro##.mainContainer > div[align="center"] > a[href][rel="nofollow"][target="_blank"] > img
 sirabee.com##.glssp_div_container
+mail.yahoo.com##aside[data-test-id="leaderboard-ad-mobile"]
 mail.yahoo.com##div[data-test-id="ad-carousel-container"]
 brainly.co.id##.brn-ads-mobile-container
 focus.ua##.no-pad-top > div.clearfix > aside.content-block__col > div.f-block:last-child
@@ -7208,6 +7211,7 @@ forum.golem.de##div[id^="mob_forum"]
 cheb.ru##.topbanpda
 !+ NOT_OPTIMIZED
 pravda.com.ua##amp-iframe[src^="https://orbit4.lun.ua/"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/187643
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165241
 yahoo.com#$?#li[data-wf-native-da-id^="ntk-native-ad-"] { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69965
