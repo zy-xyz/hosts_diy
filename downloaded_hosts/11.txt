@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: yt9QePO1xeOEuitihY45tA
-! Diff-Path: ../patches/11/11-s-1727098642-3600.patch
+! Checksum: VE69BKrmiLdFoePlTcu5zA
+! Diff-Path: ../patches/11/11-s-1727192224-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.54.78
-! TimeUpdated: 2024-09-23T13:33:17+00:00
+! Version: 2.0.54.81
+! TimeUpdated: 2024-09-24T15:32:51+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1023,14 +1023,6 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
-! https://github.com/AdguardTeam/AdguardFilters/issues/167434
-@@||b1.best-hit.tv^$generichide
-@@||h178.com^$generichide
-@@||j-baseball.club^$generichide
-@@||j-basketball.club^$generichide
-j-basketball.club#@#ins.adsbygoogle[data-ad-client]
-j-basketball.club##ins.adsbygoogle[data-ad-slot]
-h178.com,j-baseball.club,j-basketball.club###gStickyAd
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169823
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164959
 nan-net.jp,nan-net.com##+js(remove-node-text, script, adblock)
@@ -2351,7 +2343,9 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
-topics.smt.docomo.ne.jp##div[style="height:250px;"]
+love-spo.com###sidebar > a[target="_blank"] > img[width="100%"][height="auto"]
+love-spo.com###single--content > .sp > a > img
+topics.smt.docomo.ne.jp##.jmty
 garticphone.com###__next > div[class^="jsx-"][class$=" side"]
 news.walla.co.il##aside[style$="background-color: rgb(245, 245, 245);"]
 gulte.com#$##awt_popup_landing { display: none !important; }
@@ -4110,7 +4104,7 @@ tarzanweb.jp##.bnr
 jj-jj.net##div[style="text-align:center;margin-bottom:20px;"]
 sumaho-susume.com###sp-tokusetsu-bottom
 gressive.jp##.sp-footer-banners
-h-taikendan.net##div[style="height:250px;"]
+topics.smt.docomo.ne.jp,h-taikendan.net##div[style="height:250px;"]
 erobanach.com##.apad
 erobanach.com##.shiny-btn1
 domonet.jp##main > section.banner_block + section.bnr_block
