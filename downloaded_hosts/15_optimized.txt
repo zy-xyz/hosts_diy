@@ -1,9 +1,9 @@
-! Checksum: gU5I1CtCxPgTsdWQbImTxA
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1728218192-3600.patch
+! Checksum: /9F/m94J5jbq7TGUo45l8g
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1728308151-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.71.32
-! TimeUpdated: 2024-10-06T12:33:19+00:00
+! Version: 2.0.71.37
+! TimeUpdated: 2024-10-07T13:32:49+00:00
 ! Expires: 5 days (update frequency)
 ||comicad.net^
 ||notabl8.com^
@@ -38800,6 +38800,7 @@ vkcdnservice.appspot.com^
 ||10753990.xyz^
 ||11152646.xyz^
 ||1116c5.xyz^
+||11778562.xyz^
 ||11c7a3.xyz^
 ||1350c3.xyz^
 ||14202444.xyz^
@@ -59541,6 +59542,19 @@ inapps.appsflyersdk.com^
 ||51tongji.trafficmanager.net^
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
+||oaiqksi.top^
+||edadmy.xyz^
+||kgymoc.xyz^
+||xlxehr.xyz^
+||2efgcdcjr000.fun^
+||clmcam.xyz^
+||bmqulua.icu^
+||ddlmsoyo.icu^
+||mwurserx.top^
+||yjwxegq.icu^
+||6efgcdcjr000.fun^
+||bwurserv.top^
+||imndl.icu^
 ||yuayku.xyz^
 ||srmsii.xyz^
 ||qzorwe.xyz^
@@ -65220,6 +65234,7 @@ analytics-*.aasaam.com
 ||a4.overclockers.ua^
 ||novunu.football-plyus.net^
 ||api2.branch.io^$dnsrewrite=0.0.0.0
+@@||f-gear.ec-optimizer.com^|
 @@||hidive.com^|
 @@||res.ads.nicovideo.jp^|
 @@||sax.sina.com.cn^|
