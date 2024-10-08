@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Xd8arvJNx6NecCsLIwxU6A
-! Diff-Path: ../patches/11/11-s-1728283032-3600.patch
+! Checksum: fIoSfAZECGS55hV0rpn0CQ
+! Diff-Path: ../patches/11/11-s-1728387381-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.55.20
-! TimeUpdated: 2024-10-07T06:33:16+00:00
+! Version: 2.0.55.24
+! TimeUpdated: 2024-10-08T11:32:30+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -209,6 +209,7 @@
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||frontier100-toutiao-lf.fqnovel.com^
 ||ad.snaptube.app^
 ||ad.mobiuspace.net^
 ||api-ad-callback.falconnet.app^
@@ -2350,7 +2351,7 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 newsphere.jp##div[style="height: 210px;"]
 shogis.com##.adv300_250
-tempo.com,tiempo.com,meteored.*#$#.pie-pagina { margin-bottom: 0 !important; }
+yourweather.co.uk,theweather.net,tempo.pt,tempo.com,tiempo.com,meteored.*#$#.pie-pagina { margin-bottom: 0 !important; }
 s.kakaku.com##.u-bt_ad
 s.kakaku.com##.p-box-foot_item
 dengekionline.com##.gAdBanner
@@ -3313,7 +3314,7 @@ english.tupaki.com##.inside-post-ad-before
 indy100.com##.grid-advertisement
 soluzionecomputer.it##.ai-viewport-3[data-code]
 amazon.*##div[cel_widget_id="mobile-dp-sims_SPThematicBrand_Same"]
-amazon.*##section[class*="csm-placement-id"]
+amazon.*##section[class*="csm-placement-id"]:not([data-cel-widget^="sobe_d_"])
 m.efuxs.com##.inglestore
 livemint.com##.fixadtopadheight
 financialexpress.com##.ad-bg-container
