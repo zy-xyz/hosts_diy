@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 98yLthKhEgp3g9u1b7K94Q
-! Diff-Path: ../patches/11/11-s-1729075023-3600.patch
+! Checksum: iDYbSafu8RpipnCxltw9Ug
+! Diff-Path: ../patches/11/11-s-1729265817-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.55.36
-! TimeUpdated: 2024-10-16T10:33:08+00:00
+! Version: 2.0.55.41
+! TimeUpdated: 2024-10-18T15:32:58+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -201,6 +201,7 @@
 ||plugin.mobopay.baidu.com^
 ||mo.freeindoapp.com^
 ! AfreecaTV
+||vod-mplayer.sooplive.co.kr^
 ||reqde.sooplive.co.kr^
 ||adballoon.sooplive.co.kr^
 ||deapi.sooplive.co.kr^
@@ -209,6 +210,8 @@
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||a.07aa269c0e76550c929640c170af557c7371753ba1b580236d7fa0a4.com^
+||a.64e98469810bd13e2b45e52d19d6fddfe333b3528350d8cfa792d478.com^
 ||ad.zijieapi.com^
 ||ads*-normal-*.zijieapi.com^
 ||frontier100-toutiao-lf.fqnovel.com^
@@ -1036,9 +1039,9 @@
 nan-net.jp,nan-net.com##+js(remove-node-text, script, adblock)
 nan-net.jp,nan-net.com###adblock_guide_mask
 nan-net.jp,nan-net.com##.adblock_guide_box
-! nazology.net,nijimen.net anti-adb
-nazology.kusuguru.co.jp,nijimen.net##+js(no-setTimeout-if, adBoxEl)
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=nazology.kusuguru.co.jp|nijimen.net
+! nazology.kusuguru.co.jp,nijimen.kusuguru.co.jp anti-adb
+nazology.kusuguru.co.jp,nijimen.kusuguru.co.jp##+js(no-setTimeout-if, adBoxEl)
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=nazology.kusuguru.co.jp|nijimen.kusuguru.co.jp
 ! Rules for AdFender to block injected ads when AdGuard DNS is active
 ! https://github.com/AdguardTeam/AdguardFilters/issues/127712
 erozine.jp##+js(set-constant, mobiles, '')
@@ -2352,6 +2355,9 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+j-antenna.net##._X_article_space_
+voyeurhit.com##.video-page__wrapper > div[class]:has(> div[class] > a[href^="https://clickadilla.com/"])
+m.economictimes.com###wapFooter
 geinoukame.com##header + center
 geinoukame.com##.ninja-recommend-block + br + center
 jumpmatome2ch.biz##.sp-ad
@@ -4170,8 +4176,8 @@ web.goout.jp##.bx-ad.my-10
 web.goout.jp###secondary > div.bx-ad:first-child
 app.handelsblatt.com##div[class^="vhb-cls-"]
 app.handelsblatt.com##.vhb-ad-article-fullsize
-nijimen.net##aside[style*="max-height:280px"]
-nijimen.net##aside[style*="max-height:336px"]
+nijimen.kusuguru.co.jp##aside[style*="max-height:280px"]
+nijimen.kusuguru.co.jp##aside[style*="max-height:336px"]
 domani.shogakukan.co.jp##div[style="display: flex; justify-content: center; align-items: center; min-height: 100px;"]
 crea.bunshun.jp###wrapper > div[style^="text-align:center ; min-height: 260px"]
 ||openloadpro.com/wp-content/themes/opro/ad/
