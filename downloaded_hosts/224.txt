@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: qIq183Cd/HHElziyqwH6ow
-! Diff-Path: ../patches/224/224-s-1730216229-3600.patch
+! Checksum: RJjvJ50JuFB7wqPvmtFbhQ
+! Diff-Path: ../patches/224/224-s-1730302674-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.24.80
-! TimeUpdated: 2024-10-29T15:33:25+00:00
+! Version: 2.1.24.87
+! TimeUpdated: 2024-10-30T15:33:54+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4826,12 +4826,19 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||ioublio.top^
+||whrwlxg.icu^
+||bdawrsi.icu^
+||houbliu.top^
+||6ft8a.icu^
+||aikkits.com^
 ||mzpecui.icu^
 ||chmueyv.icu^
 ||kemmars.com^
 ||sv5nm.icu^
 ||treferty33.fun^
 ||coublif.top^
+||cadcc.icu^
 ||1gmzo.icu^
 ||crnmyrk.icu^
 ||hdxyj.icu^
@@ -4919,7 +4926,7 @@ newduba.cn###jq_youxi
 ##a[href*=".hg63222.com"]
 ##a[href*=".kaiyunty.live"]
 ##a[href*=".labsda.com"]
-##a[href*=".nhjhu25hd.com:"]
+##a[href*=".nhjhu25hd.com"]
 ##a[href*=".ww1425pw.vip"]
 ##a[href*=".zhuijuwa.app"]
 ##a[href*=".zxzjys.com/"]
@@ -13753,7 +13760,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 .sinaimg.cn/large/008qC0LFgy1hutqvck5ufj30qe02i74t.
 ||zzzyk.com/js/
 ||huo720.com/files/vidhub.
+||69shuba.cx^*/shu.js
 szxx.com.cn###A0
+element-plus.org##.page-sidebar-row
+cnblogs.com###blog_c1
 layui.dev##div[style*="sentcss.com"]
 yiche.com##.h-middle-gd-box
 yiche.com##.h-gd-box
