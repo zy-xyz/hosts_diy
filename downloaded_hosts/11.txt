@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: eXCV0WlesCzHrVVkHJVaOw
-! Diff-Path: ../patches/11/11-s-1730295415-3600.patch
+! Checksum: JQjlUOWyjz7HoxiXDrbVlA
+! Diff-Path: ../patches/11/11-s-1730385429-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.55.68
-! TimeUpdated: 2024-10-30T13:33:02+00:00
+! Version: 2.0.55.74
+! TimeUpdated: 2024-10-31T14:33:06+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -210,6 +210,7 @@
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||ad.inston.ltd^
 ||ad.deepthought.industries^
 ||ad.bandlab.io^
 ||ads.cocomobi.com^
@@ -1353,8 +1354,6 @@ pornhd.com##+js(abort-on-property-read, popUnderUrl)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/38730
 ! https://github.com/AdguardTeam/AdguardFilters/issues/9324
 ! TODO: Change AG_defineProperty to scripltet when this issue will be fixed - https://github.com/AdguardTeam/Scriptlets/issues/65
-! https://github.com/AdguardTeam/AdguardFilters/issues/2520
-sasisa.ru##+js(set-constant, Umobi, noopFunc)
 !-------------------
 !-------CSS---------
 !-------------------
@@ -1503,8 +1502,6 @@ ddd-smart.net#$##inviewstitial { display: none !important; }
 ddd-smart.net#$#body { overflow: auto !important; }
 ! maclife.de - left-over at top
 maclife.de#$#body.mobile.ads .mobilesticky { min-height: 0px !important; height: 50px !important; top: 0px !important; margin-top: 0px !important; }
-! https://github.com/AdguardTeam/AdguardFilters/issues/137945
-t.lafa.site#$##wrapper { margin-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/137676
 bogmedia.org#$#.fp-player > div[style^="position: absolute;"][style*="z-index"] { display: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/137600
@@ -2363,6 +2360,11 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+lol.ps##div[id^="mobile_banner-"]
+lol.ps##.flex.justify-center:has(> div:is(#mobile_mpu-champ, #mobile_takeover))
+get2ch.net##.header_dlsite
+get2ch.net##.list-group > div[style]:has(> script[src^="//d-load.org/"])
+ndtv.com##div[class^="ad-art_"]
 zestolu.cz,osobnosti.cz##div[class^="mobile-"]
 kakijun.jp##.gaddiv
 forvo.com###fixed-banner-container
@@ -2996,7 +2998,7 @@ motortrend.com##section[data-c="body"] > div[class]:has(.lazyload-placeholder)
 motortrend.com###content *[class]:not([class=""]):has(> div[class=""] div[id][class]):not(:has(> div[class=""] ~ *))
 rollingstone.de###bannerWrapper
 cruxnow.com##.grid > div.w-full > div[class^="flex"]:has(> div[class] > div[id^="div-gpt-ad"])
-||d-load.org^$script,domain=2ch-c.net
+||d-load.org^$script,domain=2ch-c.net|get2ch.net
 ||2ch-c.net/mgs/
 2ch-c.net##.cdt_wrapper
 2ch-c.net##a[href="mgs/mgs.php"]
@@ -3885,7 +3887,6 @@ buhitter.com##aside[style="display: flex; justify-content: center;height: 300px;
 cumhuriyet.com.tr##header > address + div[style^="text-align:center; margin-bottom:20px;"]
 ||doujinnomori.com/ad/
 coinranking.com##.sticky--full-width
-||t.lafa.site/pic/yabrmob.png
 moviewalker.jp##div[style*="min-width:320px;"]
 business.nikkei.com##.dag_rectangle
 a-eroland.net###fam_rectp
