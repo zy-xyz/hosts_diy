@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: al+svDiQ1X1Q60rzd0sRXg
-! Diff-Path: ../patches/11/11-s-1730475436-3600.patch
+! Checksum: FLti3QmdQrNaeHl8JqiGTg
+! Diff-Path: ../patches/11/11-s-1730561850-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.55.77
-! TimeUpdated: 2024-11-01T15:33:20+00:00
+! Version: 2.0.55.81
+! TimeUpdated: 2024-11-02T15:33:21+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -210,6 +210,7 @@
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||ads-config-engine-noneu.truecaller.com^
 ||ad.inston.ltd^
 ||ad.deepthought.industries^
 ||ad.bandlab.io^
@@ -2360,6 +2361,7 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+marieclaire.com.tw##div[class^="ad"]
 uzmanparam.milliyet.com.tr##div[style^="min-height: 250px;display: flex;justify-content: center;"]
 lol.ps##div[id^="mobile_banner-"]
 lol.ps##.flex.justify-center:has(> div:is(#mobile_mpu-champ, #mobile_takeover))
@@ -3471,8 +3473,6 @@ doucolle.net##.entry_body > [href^="https://al.dmm.co.jp/"]
 olyrix.com##.mobile-interstitial
 olyrix.com##.pub
 autos-yahoo-com.cdn.ampproject.org,yahoo.com##.pencilad
-||my-best.com/anchor_banners/
-my-best.com##.l-wrapper > div > a[href^="https://hb.afl.rakuten.co.jp/ichiba"][target="_blank"]
 the-ans.jp##.banner-list-item > a:not([href*="the-ans.jp"])
 baseball.yahoo.co.jp,soccer.yahoo.co.jp,sports.yahoo.co.jp##.sn-videoEmbed__banner
 baseball.yahoo.co.jp,soccer.yahoo.co.jp,sports.yahoo.co.jp##.sn-videoEmbed__credit
