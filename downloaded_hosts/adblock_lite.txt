@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-11-03 21:15:39(GMT+8) 
-! Total count: 34804
+! ! Version: 2024-11-04 12:51:40(GMT+8) 
+! Total count: 34815
  
 ###ADtip
 ###AdBlockDialog
@@ -1067,6 +1067,7 @@
 ##A[target='_blank'][href*='/auth/register?code=']
 ##BODY > DIV.ggcontainer
 ##DIV#advertisings.advertising
+##DIV#appss[style='padding:15px;']
 ##DIV#bannerCtrl.source_container.swiper-wrapper
 ##DIV#bfad
 ##DIV#bl_mobile_float
@@ -1276,6 +1277,7 @@
 ##[onclick*='www.l4lui.com'],.col-12.position-relative>b
 ##[onclick="window.open('http://682kg.com/')"]
 ##[onclick="window.open('https://docs.qq.com/doc/DZGtmWUxpamJGTnNY');"]
+##[onclick='goAppHtml();']
 ##[onclick='gourl()'][src^='/images/bfq/']
 ##[onclick^="window.location.href='https://apps.apple.com/cn/app/%E9%80%9F%E9%98%85%E5%B0%8F%E8%AF%B4"]
 ##[poster^='https://dingbu.bj.bcebos.com/']
@@ -17963,6 +17965,7 @@ zzzyk.com###Tinfo
 ||2rbda.icu^
 ||2rwonuh.com^
 ||2s8s.com^
+||2sfpy.icu^
 ||2u3v4w5x6y.com^
 ||2vqgtxw.cn^
 ||2wgolxk.com^
@@ -18553,6 +18556,7 @@ zzzyk.com###Tinfo
 ||7down.com/static/js/foot_
 ||7dqjgdk.com^
 ||7dusx.xyz^
+||7f7rt.icu^
 ||7j4tpio.com^
 ||7jkzmbd.cn^
 ||7junshi.com/con/ad
@@ -23232,6 +23236,7 @@ zzzyk.com###Tinfo
 ||ezprice.com.tw/ezysm/
 ||ezprice.com.tw/js/*_ysm_
 ||ezraahdn.icu^
+||ezrcowa.icu^
 ||ezu6rd5.houge.in^
 ||f*.baidu.com/it/u=*,*&fm=$third-party,domain=~hao123.com|~haokan.com|~yoojia.com
 ||f1.06ps.com^
@@ -24899,6 +24904,7 @@ zzzyk.com###Tinfo
 ||htxwzp.xyz^
 ||hty9m.cn^
 ||htyusiu.top^
+||huaban.com^*/ads
 ||huaerdadi.com^$third-party
 ||huaiduoduo.info/Runtime/js/
 ||huancaicp.com/?pid=$popup
@@ -25481,6 +25487,7 @@ zzzyk.com###Tinfo
 ||ipm.atm.youku.com^
 ||iporn.world/attachment/ad/
 ||ipprof.ru/wp-content/plugins/ad-blocking-advisor/
+||ipqajyy.icu^
 ||ipqc5ejfe.icu^
 ||iprefer.com.tw^$third-party
 ||ipryes.top^
@@ -28544,6 +28551,7 @@ zzzyk.com###Tinfo
 ||ooqiu.com/ad_js/
 ||ooqwc.xyz^
 ||ootyx24.com^
+||ooublik.top^
 ||oouiqi.xyz^
 ||open.e.kuaishou.cn^
 ||open.e.kuaishou.com^
@@ -32308,6 +32316,7 @@ zzzyk.com###Tinfo
 ||uopsawxst.cyou^
 ||uoqsxdpx.xyz^
 ||uosxdmk.cn^
+||uoublit.top^
 ||uouvxlit.top^
 ||up.qingdaonews.com/up/$object,script
 ||upailek.cn^
@@ -32428,6 +32437,7 @@ zzzyk.com###Tinfo
 ||uwerpyh.cn^
 ||uwgnpkd.cn^
 ||uwnvcxb.cn^
+||uwsaqoi.icu^
 ||uwumr.cn^
 ||uwursert.top^
 ||uxbd4id.xyz^
@@ -32718,6 +32728,7 @@ zzzyk.com###Tinfo
 ||vrrw.net//templets/default/js/ad.js
 ||vs1.exo01.xyz^$image,third-party
 ||vsjrnh.xyz^
+||vsojfsoj.com^
 ||vsping-*.myqcloud.com/ggw/
 ||vsping.com/website/adLinks?
 ||vsping.com/website/ads?
