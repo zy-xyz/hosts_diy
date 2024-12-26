@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: +FEw9HJrAleaeCnawGC98Q
-! Diff-Path: ../patches/11/11-s-1735141246-3600.patch
+! Checksum: Gt6ps+DI4XOoa9kK1GiIqQ
+! Diff-Path: ../patches/11/11-s-1735227738-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.56.92
-! TimeUpdated: 2024-12-25T15:36:23+00:00
+! Version: 2.0.56.97
+! TimeUpdated: 2024-12-26T15:37:45+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1368,6 +1368,8 @@ pornhd.com##+js(abort-on-property-read, popUnderUrl)
 !-------------------
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/194769
+c5n.com#$#.header-sticky { top: 0 !important; }
+c5n.com#$#body { padding-top: 51px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/193605
 pulzo.com#$#.container-headband-new { margin-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/192421
@@ -2380,6 +2382,7 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+screenrant.com##div[id^="adsninja-"]
 yahoo.com##div[style="height: 250px; width: 300px;"]
 yahoo.com##div[class^="col-fullbleed mb-4 bg-marshmallow pb-5 "]
 books.j-cast.com##div[id^="sp_books\.j-cast_kiji_"][style^="min-width: 300px"]
@@ -3093,7 +3096,7 @@ wuxiabee.com##.chapter-content > p + div[class]:has(> div[id] > script)
 okbizcs.okwave.jp##.box_ad_rectangle_btm
 okbizcs.okwave.jp##.box_ad_rectangle_detail
 m.sports.ru##.navigation-left-banner
-thepopverse.com###sticky_leaderboard
+purexbox.com,thepopverse.com###sticky_leaderboard
 pixiv.net##.ad-mobile-anchor
 webtekno.com##div.visible-mobile[style*="min-height"]
 webtekno.com##body .sticky-ad-container-mobile
@@ -3795,7 +3798,6 @@ bbs.animanch.com###news > li > div.inner
 g-journal.jp##div[style*="min-height: 250px;"]
 e1.ru##div[data-test="sticky-header"] + div[class]
 friday.kodansha.co.jp##div[class^="styles_period"] > ol[class^="styles_rankingList"] > li:not([data-cx-position])
-tgrthaber.com.tr##.detay-kare-container
 moqlog.jp##.spbill
 cityheaven.net##.adm-layoutshift-loading
 m.ura.news##div[class$="placeholder"]
@@ -4121,7 +4123,7 @@ daretoku-eromanga.info###container > div.widget_text.side_col:not(:last-child)
 hbooks.club##div[style^="width:"][style*="height:"][style*="margin:"][style$=";overflow:hidden;"]
 hdzog.com##.video-page__content > div[class]:first-child > div[class]
 daretoku-eromanga.info##.osusumeba
-tgrthaber.com,turkiyegazetesi.com.tr,mavikadin.com##.footer-sticky-ad
+tgrthaber.com,turkiyegazetesi.com.tr##.footer-sticky-ad
 tennisworldusa.org##.text_box > center[style*="margin:15px 0 15px;"]
 honeshabri.hatenablog.com###my-footer > p[style^="text-align:center; font-size:"]
 aucview.aucfan.com###itembeltRakuten
@@ -5191,7 +5193,6 @@ amp.fitforfun.de##.amp-flying-carpet-text-border + amp-fx-flying-carpet[height="
 www-nordbayern-de.cdn.ampproject.org,fnp.de,nordbayern.de,deichstube.de,da-imnetz.de,fehmarn24.de,hersfelder-zeitung.de##.amp-flying-carpet-text-border + amp-fx-flying-carpet[height="300px"]
 tehno-rating.ru##.mob_fixx
 songmeanings.com##.Container_BTF_300M
-mobile.tgrthaber.com.tr##div[style^="margin-bottom:"][style*="height: 250px;"]
 webtekno.com##.masthead-mobile
 news-postseven.com##div[style$="text-align:center; min-height: 100px;"]
 news-postseven.com##div[style$="text-align:center; margin-bottom: 5px; margin-top:-20px; min-height:245px;"]
