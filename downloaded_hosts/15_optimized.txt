@@ -1,9 +1,9 @@
-! Checksum: +SsL/aK3ev0wT/T0wBo0OA
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1735216712-3600.patch
+! Checksum: Za4VZFcEq/OMsg7pRZmAYQ
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1735303128-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.74.54
-! TimeUpdated: 2024-12-26T12:34:49+00:00
+! Version: 2.0.74.58
+! TimeUpdated: 2024-12-27T12:35:05+00:00
 ! Expires: 5 days (update frequency)
 ||gsrgjsmymkwt.com^
 ||zeecajichaiw.net^
@@ -32743,6 +32743,9 @@ vkcdnservice.appspot.com^
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||k-words.io^
+||tlmtr.org^
+||sentinelbi.com^
 ||ascendeummedia.com^
 ||agma-analytics.de^
 ||cdn-gw-dv.vip^
@@ -32905,7 +32908,6 @@ vkcdnservice.appspot.com^
 ||pbcs.decider.com^
 ||pbcs.pagesix.com^
 ||tagtoo.co^
-||sentinelbi.com^
 ||count.sibbo.net^
 ||umami.is^
 ||logger.torimochi-ad.net^
@@ -36326,6 +36328,7 @@ vkcdnservice.appspot.com^
 ||atinternet.com^
 ||tagcommander.com^
 ||commandersact.com^
+||tccd.douglas.
 ||storetail.io^
 ||dnsdelegation.io^
 ||dataunlocker.com^
@@ -36361,6 +36364,12 @@ vkcdnservice.appspot.com^
 ||trekkww.space^
 ||trekkeeee.space^
 ||trekkww.fun^
+.stape.net
+|load.gtm.
+|load.sgtm.
+|load.ss.
+|load.sst.
+||thegreatesthits.
 ||e.truedata.co^
 ||webtrekk.com^
 ||webtrekk-asia.net^
@@ -36369,10 +36378,11 @@ vkcdnservice.appspot.com^
 ||webtrekk.net^
 ||wizaly.com^
 ||d1udjti6mtxz9q.cloudfront.net^
-.stape.net
 ||tagman.britishairways.com^
 |piwik.
+||syndication.twitter.com^
 ||gtm.temu.com^
+.prod.pr.analytics.console.aws.a2z.com
 ||log.shortbread.analytics.console.aws.a2z.com^
 ||log.shortbread.aws.dev^
 ||trck.pix.aak.prod-na.turntable.sonic.advertising.amazon.dev^
@@ -39044,6 +39054,7 @@ inapps.appsflyersdk.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||events.watchtower.imdbtv.amazon.dev^
 ||mobile-production.content-square.net^
 ||sf16-static.i18n-pglstatp.com^
 ||log.pullcenter.live^
@@ -41601,6 +41612,7 @@ inapps.appsflyersdk.com^
 ||adwile.com^
 ||mpuls.ru^
 ||newseek.org^
+.infox.sg^
 ||sv-pr.ru^
 ||svitnews.com^
 ||ferdarius.com^
@@ -47191,6 +47203,7 @@ inapps.appsflyersdk.com^
 ||chinhphu.cc^
 ||chinhphu.dulieucutru.org^
 ||chinhphu.hodancu.com^
+||chinhphu.kbshkdt.org^
 ||chovayfecredit.com^
 ||chovaynhanh.online^
 ||chovaytiengopsg.com^
@@ -49072,6 +49085,7 @@ inapps.appsflyersdk.com^
 ||proapkcrack.com^
 ||procfullcracked.com^
 ||procrackfree.com^
+||profileid.info^
 ||prolicensekeys.com^
 ||promomobilsuzukijakarta.com^
 ||provider.giize.com^
@@ -51366,6 +51380,13 @@ inapps.appsflyersdk.com^
 ||51tongji.trafficmanager.net^
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
+||ncvwnp.icu^
+||sachaits.com^
+||fzdwtage.icu^
+||gw8.icu^
+||bwilmiv.top^
+||gmso12271oka.top^
+||screddoit.com^
 ||pzzedx.icu^
 ||owilmik.top^
 ||jy7.icu^
@@ -51374,6 +51395,8 @@ inapps.appsflyersdk.com^
 ||zaeqrath.com^
 ||qovunx.com^
 ||lurefq.com^
+||5ik.icu^
+||lwilmil.top^
 ||vriesziy.com^
 ||rwdjrn.icu^
 ||twilmii.top^
@@ -51627,7 +51650,6 @@ inapps.appsflyersdk.com^
 ||sirrors.com^
 ||uldaens.com^
 ||qidzwhfp.icu^
-||aizhantj.com^
 ||g41i.icu^
 ||tweizai.top^
 ||wcwkcus.top^
@@ -55318,6 +55340,7 @@ inapps.appsflyersdk.com^
 @@||captcha.su.baidu.com^
 @@||img.ads.tvb.com^
 ||27gh.cc^
+||a1.cyyangqiguan.com^
 ||jbdch1.appmobile.cn^
 ||lcd.aivote.com^
 ||cnbd1.appmobile.cn^
@@ -55450,7 +55473,6 @@ inapps.appsflyersdk.com^
 ||a.qinghua5.com^
 ||a.qncye.net^
 ||a.qsjiajiao.com^
-||a.quangushi.com^
 ||a.qunzou.com^
 ||a.rensheng5.com^
 ||a.shenchuang.com^
