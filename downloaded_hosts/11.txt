@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: rcw+Y/Imy2XV9PjXhA3LiA
-! Diff-Path: ../patches/11/11-s-1736264621-3600.patch
+! Checksum: D4Oo+TgeJivrm1XQ/VpggA
+! Diff-Path: ../patches/11/11-s-1736430189-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.57.26
-! TimeUpdated: 2025-01-07T15:39:15+00:00
+! Version: 2.0.57.31
+! TimeUpdated: 2025-01-09T13:39:15+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2391,6 +2391,8 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+cardu.com.tw##.platinum-ph-ad
+wedge.ismedia.jp##.article-service > .visual-box
 lettuceclub.net##.content-container > section > div.pt-4:has(#lcn-s_all_mb_gam)
 dic.pixiv.net##div[id^="d-sp-itemarticle"]
 lovehotel.yapy.jp##.Ad_display_top
@@ -3403,7 +3405,7 @@ times.abema.tv##div[style="min-height: 100px;margin-bottom: 2vh; text-align: cen
 times.abema.tv##.article-banner
 upworthy.com##.mobile_ads
 cumhuriyet.com.tr#?#.container > div.row > div.row.mb20:has(> #sticky-player)
-18comic.org,jmcomic1.me##.div_sticky2
+18comic.org,jmcomic1.me##.hidden-lg > div[class$="_sticky2"]
 ehow.co.uk##.mobile-display-ad
 pcgames.de,gamesworld.de##.sdgSlotContainer
 pussyspace.com,pussyspace.net#?##main-area-box div[id]:has(> iframe[src*="/lazyload"])
@@ -7287,6 +7289,8 @@ noodlemagazine.com##.container > div[style*="height:250px"]
 noodlemagazine.com##.main > div.container > div[style^="max-width:450px;margin:0 auto;padding:15px"]
 noodlemagazine.com#?#div[style^="background-color:"]:has(> iframe[data-src^="//go."])
 ! op.gg
+op.gg##.css-rn9m24
+op.gg##.css-16uhif2
 op.gg##td:has(> div[class^="css-"] > div[id^="div-gpt-ad-"])
 op.gg##.content > div[class^="css-"]:has(> div > div.vm-placement)
 op.gg##div:not([class]) > div[class^="css-"]:has(> div > div.vm-placement)
@@ -7573,6 +7577,9 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_mobile
 !
 ! Yandex ads in mobile apps
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/195708
+! loads by HTTP, no root required
+||interface3.music.163.com/eapi/ad/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/193163
 ! https://github.com/AdguardTeam/AdguardFilters/issues/191556
 ! https://github.com/AdguardTeam/AdguardFilters/issues/187116
