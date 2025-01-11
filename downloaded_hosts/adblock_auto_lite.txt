@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: xs21/Ot3Sx3UzKmLavRT2w
-! Title: 混合规则精简版(更新日期2025-01-11 00:13:35)
-! Version: 20250111001335
+! Checksum: bWbu/qcohfVn4iYFAEqF0w
+! Title: 混合规则精简版(更新日期2025-01-12 00:12:14)
+! Version: 20250112001214
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-11 00:13:35
-! Total Count: 50953
-! Blocked Filters: 50953
+! Last modified: 2025-01-12 00:12:14
+! Total Count: 51008
+! Blocked Filters: 51008
 ! Description: 合并于各种知名的Adblock规则，适用于移动端轻量的浏览器，例如 VIA / Rian / B仔浏览器
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -16,7 +16,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/keytoolazy/adblock_auto/raw/Rules/adblock_auto_lite.txt?ref=main
 
 
-!<<<<<通配符规则>>>>>3245
+!<<<<<通配符规则>>>>>3256
 $third-party,domain=1337x.buzz|adblockeronstape.me|adblockeronstreamtape.me|adblockeronstrtape.xyz|adblockplustape.com|adblockplustape.xyz|adblockstreamtape.art|adblockstreamtape.fr|adblockstreamtape.site|adblocktape.online|adblocktape.store|adblocktape.wiki|advertisertape.com|animepl.xyz|animeworld.biz|antiadtape.com|atrocidades18.net|cloudemb.com|cloudvideo.tv|d000d.com|databasegdriveplayer.xyz|dembed1.com|diampokusy.com|dir-proxy.net|dirproxy.info|dood.la|dood.li|dood.pm|dood.re|dood.sh|dood.so|dood.to|dood.watch|dood.wf|dood.ws|dood.yt|doods.pro|dooood.com|ds2play.com|embedsito.com|fembed-hd.com|file-upload.com|filemoon.sx|freeplayervideo.com|geoip.redirect-ads.com|gettapeads.com|gogoanime.lol|gogoanime.nl|haes.tech|hentai2read.com|highstream.tv|hubfiles.ws|hydrax.xyz|katfile.com|kissanime.lol|kokostream.net|livetv498.me|loader.to|luluvdo.com|mixdroop.co|mixdrop.ag|mixdrop.bz|mixdrop.click|mixdrop.club|mixdrop.nu|mixdrop.ps|mixdrop.si|mixdrop.sx|mixdrop.to|mixdrp.co|mixdrp.to|monstream.org|noblocktape.com|okru.link|oneproxy.org|piracyproxy.biz|piraproxy.info|pixroute.com|playtube.ws|porn-tube-club.com|pouvideo.cc|projectfreetv2.com|proxyer.org|raes.tech|sbfast.com|sbplay2.com|sbplay2.xyz|sbthe.com|scloud.online|shavetape.cash|slmaxed.com|ssbstream.net|stapadblockuser.info|stapadblockuser.xyz|stape.fun|stape.me|stapewithadblock.beauty|stapewithadblock.monster|stapewithadblock.xyz|strcloud.in|streamadblocker.cc|streamadblocker.com|streamadblocker.store|streamadblocker.xyz|streamlare.com|streamnoads.com|streamta.pe|streamtape.cc|streamtape.com|streamtape.to|streamtape.xyz|streamtapeadblock.art|streamtapeadblockuser.art|streamtapeadblockuser.homes|streamtapeadblockuser.monster|streamtapeadblockuser.xyz|streamz.ws|strtape.cloud|strtapeadblocker.xyz|strtapewithadblock.art|strtapewithadblock.xyz|strtpe.link|supervideo.tv|suzihaza.com|tapeadsenjoyer.com|tapeadvertisement.com|tapeantiads.com|tapeblocker.com|tapelovesads.org|tapenoads.com|tapewithadblock.com|tapewithadblock.org|theproxy.ws|trafficdepot.xyz|tubeload.co|un-block-voe.net|uploadfiles.pw|uproxy.co|upstream.to|upvid.biz|uqload.com|userload.co|vanfem.com|vgfplay.com|vidcloud9.com|vidlox.me|viewsb.com|vivo.sx|voe-unblock.com|voe-unblock.net|voe.sx|voeunblock1.com|voeunblock2.com|voiranime.com|watchsb.com|welovemanga.one|wiztube.xyz|wootly.ch|y2mate.is|youtubedownloader.sh|ytmp3.cc|ytmp3.sh
 $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fastpic.ru|fileone.tv|filmlinks4u.is|imagefap.com|keepvid.com|megaup.net|olympicstreams.me|pocketnow.com|pornhub.com|pornhubthbh7ap3u.onion|powvideo.net|redtube.com|redtube.com.br|roadracerunner.com|shorte.st|tribune.com.pk|tube8.com|tube8.es|tube8.fr|tune.pk|vcpost.com|vidmax.com|vidoza.net|vidtodo.com|xtube.com|youporn.com|youporngay.com
@@ -239,6 +239,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .cn:*/?channelCode=$~third-party
 .cn:*/c.php?s=
 .cn:*/d/*?t=
+.cn:*/effect.php?type=$third-party
 .cn:*/mnrt/*.json
 .cn:*/sc/*?c=$third-party
 .cn:*/sc/*?n=$third-party
@@ -960,6 +961,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .xyz/iis.*.1*.json?$third-party
 .xyz/iutfkdfnshsdfk.js$third-party
 .xyz/jque*.js?
+.xyz/js.php?z=*=$third-party
 .xyz/js/addp.js
 .xyz/js/adlm$third-party,script
 .xyz/js/ads/
@@ -1188,6 +1190,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /?pl=*&sm=
 /?rb=*&zoneid=$all,third-party
 /?scontext_r=*&nrb=
+/?u1=*&o1=*&sid=t*~
 /?view=ad
 /?z=*&syncedCookie=true&rhd=false
 /@apix/v1/series/nxs/1/?age=1$third-party
@@ -1896,7 +1899,6 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /banner.cgi?
 /banner.php$~xmlhttprequest,domain=~research.hchs.hc.edu.tw
 /banner_ads/*$~xmlhttprequest,domain=~clickbd.com
-/bannerad3.js$script
 /bannerads/*$~xmlhttprequest,domain=~coldwellbankerhomes.com
 /bannerpop/uploads/*
 /banners*swf
@@ -1937,6 +1939,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /channel/downApk*&appName=antv$~third-party
 /chatIndex?kefu_id=$~third-party
 /chunyu*.html?channelCode=$~third-party
+/click.php?key=*&zone_id=
 /click/zone?
 /click?adv=
 /clientapi/app/getinfo?appid=*&android=true$third-party
@@ -1949,7 +1952,6 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /common/ads?
 /concert_ads-$script
 /config/json/cctv.json?v=1$~third-party
-/content-ads.js$script
 /content/ads/*$~xmlhttprequest
 /contents/images-banners/*
 /cookie_check.min.js$domain=acetv.me
@@ -2072,6 +2074,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /floatingad.js$script
 /floatingads.js$script
 /flr.js$domain=8boobs.com|angelgals.com|babesinporn.com|fooxybabes.com|hotbabeswanted.com|hotstunners.com|mainbabes.com|nakedbabes.club|pleasuregirl.net|rabbitsfun.com|silkengirl.com|silkengirl.net
+/flyad.js$script
 /footer_ad.js$script,domain=~streamruby.com
 /fpc.js$domain=babez.net|dirtyselfieshots.com|porntubedownload.com|xmonk.net
 /frame.php$domain=imgadult.com|imgdrive.net|imgtaxi.com|imgwallet.com
@@ -2165,6 +2168,9 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /gexternalad.
 /gg.php
 /gg/*960X120.gif$third-party,image
+/ggads
+/ggads/*.php$third-party
+/ggadsense.
 /gogl_detector$script,domain=meddaily.ru|newsru.com
 /gonggao/gg.js
 /google-adblock.
@@ -2358,7 +2364,6 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /leftad.js$script
 /leftad.png$image
 /levelmaxblock.js
-/links/popad
 /live800.
 /livejasmin.$~xmlhttprequest,domain=~livejasmin.com
 /log_ad?
@@ -2474,6 +2479,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /pixel/sbs?$third-party
 /pixelads/*
 /play/*.php$domain=jjdy8.cc
+/play/*tu.php$~third-party
 /player/html.php$domain=fapnfuck.com|sexpester.com|w4nkr.com|w1mp.com|bigtitbitches.com|fuqster.com
 /player/html.php?aid=$domain=xhand.com|homemade.xxx|filtercams.com
 /plg_adbutlerads/*$script,stylesheet
@@ -2689,8 +2695,12 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /static/js/fad.js$domain=ciligui.org|ciligui.cc|ciligui.com|ciligui.live|ciligui.buzz|ciligui.cn|ciligui.xyz
 /static/js/fad.js$script
 /static/js/top.js$domain=ciligui.org|ciligui.cc|ciligui.com|ciligui.live|ciligui.buzz|ciligui.cn|ciligui.xyz
+/static/node.js$~third-party
+/static/nodes.js$~third-party
 /static/resources/*/*.gif$domain=18-comic.work|18-comicblade.art|18-comicblade.club|18-comicblade.org|18-comicblade.xyz|18-comicfreedom.org|18-comicfreedom.xyz|18-comicstellar.art|18-comicstellar.xyz|18comic-erdtree.xyz|18comic.org|18comic.vip|jm-comic1.cc|jm-comic2.cc|jmcomic.me|jmcomic1.city|jmcomic1.group|jmcomic1.me|jmcomic1.win|jmcomic2.me
 /static/resources/lp.php$domain=18-comic.work|18-comicblade.art|18-comicblade.club|18-comicblade.org|18-comicblade.xyz|18-comicfreedom.org|18-comicfreedom.xyz|18-comicstellar.art|18-comicstellar.xyz|18comic-erdtree.xyz|18comic.org|18comic.vip|jm-comic1.cc|jm-comic2.cc|jmcomic.me|jmcomic1.city|jmcomic1.group|jmcomic1.me|jmcomic1.win|jmcomic2.me
+/statics/js/dddd.js$~third-party
+/statics/js/ding.js$~third-party,script
 /stickyad.js$script
 /stickyads.js$script
 /submit.min.js?abvar=
@@ -3124,6 +3134,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 ://s.htkk*.top:$script,third-party
 ://seai*/ads/float.js
 ://shiold*.zhaosw.com$script
+://static.*xx.com/static/js/a*.js?v=$third-party
 ://tj.*.icu/*.js?17$script,third-party
 ://tpic.*.cn/*.js$third-party
 ://tpic.*.cn/*.txt$third-party
@@ -3264,7 +3275,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 |javascript:*window.location
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<域名规则>>>>>34018
+!<<<<<域名规则>>>>>34057
 |http*://*?$third-party,domain=forums.socialmediagirls.com|pornhub.com|redtube.com|tube8.com|youporn.com|youporngay.com
 |http://$image,third-party,domain=pornhub.com|redtube.com|redtube.net|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com|you-porn.com|youpornru.com|youporn.fyi
 |https://m.frgls.com/js/*.js?v=
@@ -9228,6 +9239,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||9kp.cc/js/bbk/
 ||9ku.com/aaa/
 ||9l3s3fnhl.com^
+||9pub.io^
 ||9revr.lycheenews.com^
 ||9s4l9nik.de^
 ||9s64g.icu^
@@ -9474,6 +9486,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||abazelfan.com^
 ||abbao.cn^*adblock
 ||abbasidquippy.shop^
+||abbateerupted.com^
 ||abberantpawnpalette.com^
 ||abbotpredicateemma.com^
 ||abbotsgalen.com^
@@ -12330,6 +12343,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||assbwaaqtaqx.com^
 ||assemblyexchange.com^$third-party
 ||asserts.avple.tv/file/avple-asserts/ad.js
+||assets-v2.boisedev.com^
 ||assets.adobedtm.com^$domain=sacbee.com|centredaily.com|tagesspiegel.de
 ||assets.ahmybid.net^
 ||assets.alicdn.com/*/webpush-ui.js
@@ -13018,6 +13032,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||bbxyxt.xyz^
 ||bc0ca74b.live^
 ||bc3f648d44.5f631bb110.com^
+||bc4.fun^
 ||bc98ad.xyz^
 ||bcb5.com/gg/
 ||bcbe.site^
@@ -16494,6 +16509,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||d3dpet1g0ty5ed.cloudfront.net^
 ||d3dq1nh1l1pzqy.cloudfront.net^
 ||d3e192e8ea.85a90880b9.com^
+||d3edbb478c.com^
 ||d3ej838ds58re9.cloudfront.net^
 ||d3eub2e21dc6h0.cloudfront.net^
 ||d3f1wcxz2rdrik.cloudfront.net^
@@ -16582,6 +16598,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||dafdfd.cn^
 ||daffodilnotifyquarterback.com^
 ||daftporn.com/nb_
+||dagassapereion.com^
 ||dagheepsoach.net^
 ||dagnar.com^
 ||dagobasswotter.top^
@@ -16975,6 +16992,10 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||dev-reporting.bloblohub.com^
 ||dev.appboy.com^
 ||dev.bloblohub.com^
+||dev.to/billboards/sidebar_left^
+||dev.to^*/billboards/post_body_bottom^
+||dev.to^*/billboards/post_comments^
+||dev.to^*/billboards/post_sidebar^
 ||dev2pub.com^$third-party
 ||devcre.site^
 ||developer.mozilla.org/pong/
@@ -18314,6 +18335,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||eonsmedia.com^
 ||eontappetito.com^
 ||eoof.net/PicZone/qzgg
+||eopleshouldthink.info^
 ||eoqmbnaelaxrg.com^
 ||eoredi.com^
 ||eoubliw.top^
@@ -19090,6 +19112,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||flatwaremeeting.com^
 ||flawerosion.com^
 ||flawgrandparentsmysterious.com^
+||flaxdescale.com^
 ||flaxierfilmset.com^
 ||fleaderned.com^
 ||fleetenreplevy.com^
@@ -19570,6 +19593,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||g.cnzz.cn/Static/js/*-
 ||g.doubleclick.net^
 ||g.gegeyingshi.com^
+||g.gtimg.cn^
 ||g.hsw.cn^
 ||g.jinti.com/f/a/a
 ||g.lznews.cn^
@@ -21358,6 +21382,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||horizontallypolluteembroider.com^
 ||horizontallywept.com^
 ||horny.su^
+||hornygamer.com/play_horny_games/
 ||hornylitics.b-cdn.net^
 ||horriblysparkling.com^
 ||horsesbarium.com^
@@ -22832,6 +22857,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||jdwx.info/api.php?mod=ad&
 ||jdyurlia.top^
 ||jealousstarw.shop^
+||jebrhb.icu^
 ||jecromaha.info^
 ||jedlnn.xyz^
 ||jeekomih.com^
@@ -24150,6 +24176,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||lfstmedia.com^
 ||lftpvh.xyz^
 ||lfxozd.xyz^
+||lgad.cjpowercast.com.edgesuite.net^
 ||lgecqrb.com^$~third-party
 ||lgidskil.top^
 ||lgjtvyurnivf.com^
@@ -24434,6 +24461,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||localsnaughty.com^
 ||locatchi.xyz^
 ||locatejav182.fun^
+||locatejest.com^
 ||locked-link.com^
 ||lockeddippickle.com^
 ||lockerdomecdn.com^
@@ -24571,6 +24599,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||lrhomznfev.com^
 ||lrtlisl.top^
 ||lrutvncl.top^
+||lrvalstybe.lt/storage^*200x200$image
 ||lsandothesaber.org^
 ||lsfevr.xyz^
 ||lsforum.net/cam2/*.gif
@@ -24717,6 +24746,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||lzep.cn/ep/sda/
 ||lzk.hl.cn/lctp/
 ||lznfuab.xyz^
+||lzqmjakwlllvk.top^
 ||lzxdx24yib.com^
 ||lzyysw.com/upload/
 ||lzzqfj.xyz^
@@ -26912,6 +26942,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||omnitagjs.com^
 ||omoonsih.net^
 ||omvenusaurchan.com^
+||omwovzodgck.com^
 ||omxwt.cn^
 ||omzylhvhwp.com^
 ||on5ga.icu^
@@ -27168,6 +27199,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||osiextantly.com^
 ||osisk.com^
 ||osmeticjewlike.com^
+||osminaclumber.com^
 ||osmzym.xyz^
 ||ospartners.xyz^
 ||ospreyorceins.com^
@@ -28572,6 +28604,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||projectorcentral.com/*?bid=
 ||projectwonderful.com^
 ||prolatecyclus.com^
+||proleclips.com^
 ||proll.esexa.online^
 ||proll.manrec.cc^
 ||prologuerussialavender.com^
@@ -29942,6 +29975,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||ripooloopsap.net^
 ||rirtoojoaw.net^
 ||riscati.com^
+||riscats.com^
 ||riscil.com^
 ||rising.cn/js/haoAdData.js
 ||rising.cn/rxbox/
@@ -30087,7 +30121,6 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||rou.video/js/exo.js
 ||roudoduor.com^
 ||rouduranter.com^
-||rouhavenever.com^
 ||roujonoa.net^
 ||roulettebotplus.com^
 ||rounddescribe.com^
@@ -30157,6 +30190,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||rtb-uswest.bidderads.com^
 ||rtb.appbid.com^
 ||rtb2-eu.n-data.io^
+||rtb42td.com^
 ||rtbadshubmy.com^
 ||rtbadsmenetwork.com^
 ||rtbadzesto.com^
@@ -30266,6 +30300,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||rvrpushserv.com^
 ||rvtfwryz.icu^
 ||rvxmlj.icu^
+||rvxsvwqf.icu^
 ||rw.pleatpipe.com^
 ||rwdjrn.icu^
 ||rwoscaonf.com^
@@ -30953,6 +30988,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||sexykittenporn.com/images/sexykittenporn.com/is.js
 ||sexyno1.com/mk-banner/
 ||sexywomeninlingerie.com/qpjsdm0_$script
+||seymourlamboy.com^
 ||sf-ads.io^
 ||sf2.net/a/index.
 ||sfesdef6.fun^
@@ -31875,6 +31911,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||ssl.images.audycje.tokfm.pl/prodstatic360/img/autopromocja/*.mp3$domain=audycje.tokfm.pl
 ||ssl.pstatic.net/static/m/comic/im/app_banner_
 ||ssl.qhres2.com/ssl/
+||ssl2anyone5.com^
 ||sslir.icu^
 ||ssm.codes^$third-party
 ||ssnn.net^*-200-250.jpg
@@ -32709,6 +32746,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||techreviewtech.com^
 ||techritual.com/wp-content/uploads/*/HDcource_
 ||techug.com/aatb/
+||tectureclod.top^
 ||tediousbear.com^$third-party
 ||tediousticket.com^$third-party
 ||tedioustooth.com^$third-party
@@ -32727,6 +32765,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||teenytinyshirt.com^$third-party
 ||teenytinytongue.com^$third-party
 ||teestoagloupaza.net^
+||teewhilemath.net^
 ||tegleebs.com^
 ||tegronews.com^
 ||tehxzz.xyz^
@@ -33071,6 +33110,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||tirepoliticsspeedometer.com^
 ||tiresomethunder.com^$third-party
 ||tirosagalite.com^
+||tiscali.it/export/system/modules/*/resources/script/planner.js
 ||tisitnxrfdjwe.com^
 ||tissueinstitution.com^
 ||titan007.com/ad/
@@ -33281,6 +33321,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||toublii.top^
 ||touchupchows.com^
 ||touchytautogs.com^
+||tougaipteehuboo.xyz^
 ||touimg.com/u/20200306/12094716.gif
 ||touimg.com/u/20200419/18431854.gif
 ||touimg.com/u/20200510/2142*.gif
@@ -34443,6 +34484,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||vdbaa.com^
 ||vddf0.club^
 ||vdfvdf33q.fun^
+||vdhf042.fun^
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
 ||vdo.ai^$third-party
@@ -35206,9 +35248,11 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||westca.com/server/
 ||weste.net/js/showpagead.js
 ||wetlwse.top^
+||wetnesstommer.com^
 ||wetpussy.sexy/js/index-nb.js
 ||wetpussygames.com/images/hentai_game/600-
 ||wetuu8r.com^
+||wevechinse.com^
 ||wew.dushiwenxue.net^
 ||wewearegogogo.com^
 ||wewrute.top^
@@ -35295,6 +35339,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||wholedailyjournal.com^
 ||wholefreshposts.com^
 ||wholehk.com/atttuop.js
+||wholehugewords.com^
 ||wholenicenews.com^
 ||wholewowblog.com^
 ||whomcomposescientific.com^
@@ -35318,6 +35363,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||whugesto.net^
 ||whulsauh.tv^
 ||whulsaux.com^
+||whunpainty.com^
 ||whuzucot.net^
 ||whvx.net/ads.js
 ||whyl-laz-i-264.site^
@@ -35326,6 +35372,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||wibtntmvox.com^
 ||wicdn.cloud^
 ||wideaplentyinsurance.com^
+||widenetworks.net^$domain=flysat.com
 ||widespace.com^
 ||widget.engageya.com/engageya_loader.js
 ||widget.ezprice.com.tw^$third-party
@@ -35413,6 +35460,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||wittypopcorn.com^$third-party
 ||wiwlqc.xyz^
 ||wixlabs-adsense-v3.uc.r.appspot.com^
+||wixstatic.com/media/*~mv2.gif$domain=taxi-point.co.uk
 ||wizardscharityvisa.com^
 ||wizardunstablecommissioner.com^
 ||wiztube.xyz/banner/
@@ -37260,6 +37308,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||zxqiwe.cn^
 ||zxw51.com^$third-party
 ||zybrdr.com^
+||zyc003.com/static/node.js
+||zyc003.com/static/nodes.js
 ||zyf03k.xyz^
 ||zyfnbl.xyz^
 ||zylizz.xyz^
@@ -37285,7 +37335,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>8384
+!<<<<<网站单独规则>>>>>8388
 $third-party,domain=1337x.buzz|adblockeronstape.me|adblockeronstreamtape.me|adblockeronstrtape.xyz|adblockplustape.com|adblockplustape.xyz|adblockstreamtape.art|adblockstreamtape.fr|adblockstreamtape.site|adblocktape.online|adblocktape.store|adblocktape.wiki|advertisertape.com|animepl.xyz|animeworld.biz|antiadtape.com|atrocidades18.net|cloudemb.com|cloudvideo.tv|d000d.com|databasegdriveplayer.xyz|dembed1.com|diampokusy.com|dir-proxy.net|dirproxy.info|dood.la|dood.li|dood.pm|dood.re|dood.sh|dood.so|dood.to|dood.watch|dood.wf|dood.ws|dood.yt|doods.pro|dooood.com|ds2play.com|embedsito.com|fembed-hd.com|file-upload.com|filemoon.sx|freeplayervideo.com|geoip.redirect-ads.com|gettapeads.com|gogoanime.lol|gogoanime.nl|haes.tech|hentai2read.com|highstream.tv|hubfiles.ws|hydrax.xyz|katfile.com|kissanime.lol|kokostream.net|livetv498.me|loader.to|luluvdo.com|mixdroop.co|mixdrop.ag|mixdrop.bz|mixdrop.click|mixdrop.club|mixdrop.nu|mixdrop.ps|mixdrop.si|mixdrop.sx|mixdrop.to|mixdrp.co|mixdrp.to|monstream.org|noblocktape.com|okru.link|oneproxy.org|piracyproxy.biz|piraproxy.info|pixroute.com|playtube.ws|porn-tube-club.com|pouvideo.cc|projectfreetv2.com|proxyer.org|raes.tech|sbfast.com|sbplay2.com|sbplay2.xyz|sbthe.com|scloud.online|shavetape.cash|slmaxed.com|ssbstream.net|stapadblockuser.info|stapadblockuser.xyz|stape.fun|stape.me|stapewithadblock.beauty|stapewithadblock.monster|stapewithadblock.xyz|strcloud.in|streamadblocker.cc|streamadblocker.com|streamadblocker.store|streamadblocker.xyz|streamlare.com|streamnoads.com|streamta.pe|streamtape.cc|streamtape.com|streamtape.to|streamtape.xyz|streamtapeadblock.art|streamtapeadblockuser.art|streamtapeadblockuser.homes|streamtapeadblockuser.monster|streamtapeadblockuser.xyz|streamz.ws|strtape.cloud|strtapeadblocker.xyz|strtapewithadblock.art|strtapewithadblock.xyz|strtpe.link|supervideo.tv|suzihaza.com|tapeadsenjoyer.com|tapeadvertisement.com|tapeantiads.com|tapeblocker.com|tapelovesads.org|tapenoads.com|tapewithadblock.com|tapewithadblock.org|theproxy.ws|trafficdepot.xyz|tubeload.co|un-block-voe.net|uploadfiles.pw|uproxy.co|upstream.to|upvid.biz|uqload.com|userload.co|vanfem.com|vgfplay.com|vidcloud9.com|vidlox.me|viewsb.com|vivo.sx|voe-unblock.com|voe-unblock.net|voe.sx|voeunblock1.com|voeunblock2.com|voiranime.com|watchsb.com|welovemanga.one|wiztube.xyz|wootly.ch|y2mate.is|youtubedownloader.sh|ytmp3.cc|ytmp3.sh
 $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fastpic.ru|fileone.tv|filmlinks4u.is|imagefap.com|keepvid.com|megaup.net|olympicstreams.me|pocketnow.com|pornhub.com|pornhubthbh7ap3u.onion|powvideo.net|redtube.com|redtube.com.br|roadracerunner.com|shorte.st|tribune.com.pk|tube8.com|tube8.es|tube8.fr|tune.pk|vcpost.com|vidmax.com|vidoza.net|vidtodo.com|xtube.com|youporn.com|youporngay.com
@@ -37913,6 +37963,7 @@ aol.com,fossbytes.com##div[class^="AdChoiceContainer"]
 aol.com,fossbytes.com##div[class^="index__adWrapper"]
 aowu365.com,chusixs.com,oucibook.com,sisizw.com##p:has([style^="color:"])
 apexlegends-leaksnews.com##.ad-inserter
+api.flickr.com##.banner-ad-enabled
 apiyoutube.cc###ads_msg
 apkmirror.com##.ains-apkm_outbrain_ad
 apkmirror.com##.ains-has-label
@@ -38127,6 +38178,7 @@ baidu.com##.wgt-union-wapqbyoux-ads
 baidu.com##[class$="_ad"]
 baidu.com##[class$="_ads"]
 baidu.com##[class*="ad"][class*="Recommend"]
+baidu.com##[class*="ad"][class*="godCard"]
 baidu.com##[class*="ad"][class*="recommend" i]
 baidu.com##[class*="ad"][class*="recommend"]
 baidu.com##[class*="brand" i][class*="Entry" i]
@@ -40327,6 +40379,7 @@ idlixofficialx.*,idlixofficial.net,idlixofficial.co,idlixofficials.com,pornflixh
 idnes.cz##div[data-redistribute="ad"]
 idou.me##.ad__search-infeed-banner
 idownloadblog.com###iDB_Mobile_Below_Content
+ids.nan-net.jp##div[style="min-height:250px;"]:not([class],[id])
 ifanr.com##.popup-download
 ifeng.com##[class*="temp-ad"]
 ifeng.com##[class="openapp"]
@@ -42796,6 +42849,7 @@ pornclassic.tube,tubepornclassic.com##.content > div > div.container + div
 pornclassic.tube,tubepornclassic.com##.video__wrapper > .partners-wrap + div[class]:has(div[id^="suggestion_"])
 pornclassic.tube,tubepornclassic.com##a[href^="http://www.theclassicporn.com/"]
 pornclassic.tube,vjav.*##.video-page__player + div[class] > div[class]
+pornclipsguru.com##.under_video
 pornclipsxxx.com##div[align="right"][style="color:#333;text-align:center;"]
 porncore.net##div[style="margin:10px auto;height:200px;width:800px;"]
 porndictator.com,pornomovies.com,mypornsniffer.com,gaysearch.com,feetporno.com,freehardcore.com,deviants.com##.twocolumns > div.aside
@@ -45672,7 +45726,7 @@ zzz.gamers-luck.com##.gamer-sp_postbottom
 zzztube.com,videoporn.tube##.b-random-column
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>4300
+!<<<<<通用Css规则>>>>>4301
 ###ADbox
 ###ADtip
 ###Ad-Container
@@ -49858,6 +49912,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ##img[src*="zhanlangimg.dingjiancdn.com"][src$=".gif"]
 ##img[src*="新葡京送"]
 ##img[src="/apijs/image/960x100.gif"]
+##img[src="/play/tu.php"]
 ##img[src][style*="width:100%;height:auto;"][id^="hengfu"]
 ##img[src^="//"][src*="/safu/safu.php?"]
 ##img[src^="/6666/"][alt]
