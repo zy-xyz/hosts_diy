@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: wDNTufCYQa5ra9ov9PH+TA
-! Diff-Path: ../patches/11/11-s-1736779404-3600.patch
+! Checksum: tHdtHadaxR8qRHSk/GQ+Jw
+! Diff-Path: ../patches/11/11-s-1736869450-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.57.42
-! TimeUpdated: 2025-01-13T14:39:13+00:00
+! Version: 2.0.57.46
+! TimeUpdated: 2025-01-14T15:39:53+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2392,6 +2392,8 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+h178.com###StickyAd
+f95zone.to##.sidePanel__tabPanels ul.offCanvasMenu-list > li:has(> div.offCanvasMenu-linkHolder > a.offCanvasMenu-link[target="_blank"])
 gamewith.jp##.overlay-creative-ad
 trailrunner.jp##.side_banner_sm_box
 plaza.rakuten.co.jp##.blogBody > table[border="0"]:has(a[href^="https://hb.afl.rakuten.co.jp/ichiba/"][rel^="nofollow sponsored"] > img)
@@ -2547,7 +2549,6 @@ kahoku.news###kahoku_sp_article_under_recommend_4th
 rtl.de##div[class^="group-grid-combi-ad"]
 kurier.de,np-coburg.de,frankenpost.de##div[id^="mobilebanner"]
 speedrun.com##div[data-type="elo-placement"]
-h178.com##div[class^="substitute-area-"] > div
 op.gg##div[class^="css-"]:has(> div:not([class]):empty)
 gazetasp.com.br##.coluna > div.mobile:has(> div.propaganda)
 app.famitsu.com##.fc-contents-wrapper
@@ -4125,7 +4126,7 @@ books.rakuten.co.jp##.pushAd
 m.republicworld.com##div[style*="justify-content: center;"][style*="text-align: center;"]
 calcus.ru##div[style="height:300px"]
 smpt.webrental.org##.toppagefix
-missav.ai,missav.ws,missav123.com,missav888.com##.under_player
+missav.*,missav123.com,missav888.com##.under_player
 publico.es##.pb-mobile-ads
 pogoda.meta.ua##.main__banner-bottom
 okdiario.com###okd-catfish
@@ -6102,7 +6103,7 @@ techbook.de##.amp-wp-article-content > amp-iframe[src*="affiliate"]
 abc.es##.publicidad-portada
 m.delfi.lt##.mosaic > span > img
 tvtropes.org##.proper-ad-unit
-hclips.com##.rek
+www-antalyahakkinda-com.cdn.ampproject.org,hclips.com##.rek
 hclips.com##.rek-link
 physicsandmathstutor.com,beemtube.com,gry-online.pl,m.eprice.com.hk,m.eprice.com.tw##div[class^="ad-"]
 yesiltopuklar.com##.home-adbox-for-m
