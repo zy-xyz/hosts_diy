@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 330RTnWcDD7/Uv/q1ezk4w
-! Title: 混合规则精简版(更新日期2025-02-03 00:12:27)
-! Version: 20250203001227
+! Checksum: Xb6ndikxCJ6708VKlUKOnA
+! Title: 混合规则精简版(更新日期2025-02-04 00:13:26)
+! Version: 20250204001326
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-03 00:12:27
-! Total Count: 51866
-! Blocked Filters: 51866
+! Last modified: 2025-02-04 00:13:26
+! Total Count: 52292
+! Blocked Filters: 52292
 ! Description: 合并于各种知名的Adblock规则，适用于移动端轻量的浏览器，例如 VIA / Rian / B仔浏览器
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -495,6 +495,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .com/vj4/$third-party
 .com/vj5/$third-party
 .com/vodad.js
+.com/watch.*.js?key=
 .com/wcm/?sh=*&$third-party
 .com/xtub_*_rony.js$third-party
 .com/zh/*/*.gif$third-party,image
@@ -1456,7 +1457,6 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /ad/cpmstar/*
 /ad/cross-
 /ad/dfp/*
-/ad/dfp/*$script
 /ad/directcall/*
 /ad/display.php
 /ad/display.php?$third-party
@@ -1578,7 +1578,6 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /adclick.
 /adclick?
 /adclickcv.php
-/adcount.js$script
 /addons/adplan/assets/js/adshow.js
 /adengine.js$script
 /adfox/*
@@ -1714,6 +1713,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /advertising-$image,domain=~abramarketing.com|~advertising-direct.com|~advertising-excellence.com|~advertising-factory.de|~advertising-stands.com.ua|~advertising.amazon.com|~deals-italy.com|~microsoft.com|~outbrain.com|~yellowimages.com
 /advertising.$~script,~xmlhttprequest,domain=~advertising.amazon.ae|~advertising.amazon.ca|~advertising.amazon.cn|~advertising.amazon.co.jp|~advertising.amazon.co.uk|~advertising.amazon.com|~advertising.amazon.com.au|~advertising.amazon.com.mx|~advertising.amazon.de|~advertising.amazon.es|~advertising.amazon.fr|~advertising.amazon.in|~advertising.amazon.it|~advertising.amazon.sa|~advertising.berlin-airport.de|~advertising.boardgamegeek.com|~advertising.bulurum.com|~advertising.byhoxby.com|~advertising.dailymotion.com|~advertising.expedia.com|~advertising.greunenberg.com|~advertising.hulu.com|~advertising.lavenir.net|~advertising.mobile.de|~advertising.nzme.co.nz|~advertising.org.il|~advertising.racingpost.com|~advertising.roku.com|~advertising.scoop.co.nz|~advertising.sevenwestmedia.com.au|~advertising.shpock.com|~advertising.theguardian.com|~advertising.utexas.edu|~advertising.vrisko.gr|~advision.co
 /advertising.js
+/advertising/ad-shield.js$script
 /advertising/banner_
 /advertising/banners/*
 /advertising/traffic-
@@ -1808,7 +1808,6 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /analytics.js$domain=qunar.com
 /ane-popup-1/ane-popup.js$script
 /ane-popup-banner.js$script
-/anti-adblock/*$~stylesheet
 /antiadblockmsg.
 /antv/*/antv-v*_asqt*.apk$~third-party
 /antv/antv_v*.*.apk$~third-party
@@ -2281,6 +2280,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /js/cpv_fm_
 /js/db.js$script,third-party
 /js/dfp-
+/js/dfp.js$script
 /js/dj1ll*.js
 /js/dj2ll*.js
 /js/dnsads.js?
@@ -3276,7 +3276,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 |javascript:*window.location
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<域名规则>>>>>34832
+!<<<<<域名规则>>>>>35248
 |http*://*?$third-party,domain=forums.socialmediagirls.com|pornhub.com|redtube.com|tube8.com|youporn.com|youporngay.com
 |http://$image,third-party,domain=pornhub.com|redtube.com|redtube.net|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com|you-porn.com|youpornru.com|youporn.fyi
 |https://m.frgls.com/js/*.js?v=
@@ -3966,6 +3966,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||0319.jemonews.com^
 ||0319.loopanews.com^
 ||0319.reminews.com^
+||0320.sifenews.com^
 ||0321.gofenews.com^
 ||0321.reminews.com^
 ||0322.lookinews.com^
@@ -4189,6 +4190,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||0474.reminews.com^
 ||0475.gofenews.com^
 ||0476.reminews.com^
+||0477.jemonews.com^
 ||0477.lootynews.com^
 ||0478.jemonews.com^
 ||0482.luronews.com^
@@ -4246,6 +4248,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||0533.deeginews.com^
 ||0533.jemonews.com^
 ||0533.reminews.com^
+||0535.luronews.com^
 ||0536.guesswhatnews.com^
 ||0536.lookinews.com^
 ||0536.reminews.com^
@@ -4254,6 +4257,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||0538.reminews.com^
 ||0539.lookinews.com^
 ||0540.lookinews.com^
+||0541.5clo0xmbf.com^
 ||0541.loopanews.com^
 ||0541.luronews.com^
 ||0542.sifenews.com^
@@ -4464,6 +4468,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||0825.lookinews.com^
 ||0825.reminews.com^
 ||0828.luronews.com^
+||0829.tegronews.com^
 ||0832.guesswhatnews.com^
 ||0832.reminews.com^
 ||0834.deeginews.com^
@@ -4497,6 +4502,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||0880.lookinews.com^
 ||0881.jemonews.com^
 ||0882.luronews.com^
+||0886.deeginews.com^
 ||0887.jemonews.com^
 ||0888.jemonews.com^
 ||0888.reminews.com^
@@ -4527,6 +4533,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||0931.lookinews.com^
 ||0931.reminews.com^
 ||0932.jemonews.com^
+||0933.jemonews.com^
 ||0933.reminews.com^
 ||0934.deeginews.com^
 ||0934.gofenews.com^
@@ -4813,10 +4820,13 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||1133.cc^$third-party
 ||1133.gofenews.com^
 ||1134.l5eamr17d.com^
+||1136.lookinews.com^
 ||1137.luronews.com^
 ||1138.luronews.com^
 ||1138.reminews.com^
 ||114.lycheenews.com^
+||1140.jemonews.com^
+||1141.rookinews.com^
 ||1141.sifenews.com^
 ||1142.jemonews.com^
 ||1143.gofenews.com^
@@ -4833,6 +4843,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||114la.com/static/js/egg.js
 ||114la.com^$third-party,domain=~ylmf.com
 ||114lm.com^$third-party
+||1150.jemonews.com^
 ||1150.lookinews.com^
 ||1150.tegronews.com^
 ||1152.loopanews.com^
@@ -4863,6 +4874,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||1188.luronews.com^
 ||1189.lootynews.com^
 ||1189.tegronews.com^
+||118d05e5f1.fd2cd5c351.com^
 ||118pan.com/common/i/openjs/
 ||119.lycheenews.com^
 ||1190.lookinews.com^
@@ -4888,6 +4900,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||1200.deeginews.com^
 ||1200555.com^
 ||1205.jemonews.com^
+||1205.lookinews.com^
 ||1208344341.rsc.cdn77.org^
 ||1209.5clo0xmbf.com^
 ||120askimages.com/ask/js/askfrom.js
@@ -4953,6 +4966,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||1262.lookinews.com^
 ||1262.reminews.com^
 ||1262.tegronews.com^
+||1263.luronews.com^
 ||1264.deeginews.com^
 ||1265.jemonews.com^
 ||1265.lookinews.com^
@@ -4982,6 +4996,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||13.guesswhatnews.com^
 ||13.lookinews.com^
 ||13.notifysrv.com^
+||13.tegronews.com^
 ||130.211.$third-party,domain=~in-addr.arpa
 ||1300.lookinews.com^
 ||1301.lookinews.com^
@@ -5088,6 +5103,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||1432.lookinews.com^
 ||1434.luronews.com^
 ||1434.reminews.com^
+||1435.deeginews.com^
 ||1437953666.rsc.cdn77.org^
 ||1439.reminews.com^
 ||1440.lookinews.com^
@@ -5114,10 +5130,12 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||1482.luronews.com^
 ||1482.rookinews.com^
 ||1483.reminews.com^
+||1484.lookinews.com^
 ||1488.deeginews.com^
 ||1488.reminews.com^
 ||1492.gofenews.com^
 ||1492.jemonews.com^
+||1492.selornews.com^
 ||1494.lookinews.com^
 ||1496.gofenews.com^
 ||1497.lookinews.com^
@@ -5186,6 +5204,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||1589.tegronews.com^
 ||158zm.com/head.js
 ||158zm.com/top.js
+||1590.sifenews.com^
 ||1591.gofenews.com^
 ||1591.reminews.com^
 ||1598.reminews.com^
@@ -5261,6 +5280,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||1678.luronews.com^
 ||1678.reminews.com^
 ||168.it168.com^$script
+||1680.jemonews.com^
 ||1681.reminews.com^
 ||1682.lookinews.com^
 ||1684sm.com/js/1684/
@@ -5288,6 +5308,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||1701.reminews.com^
 ||17022993.xyz^
 ||1707.guesswhatnews.com^
+||1707.lookinews.com^
 ||1707.tegronews.com^
 ||1708t.com/js/jquery.js
 ||17123.net^
@@ -5335,6 +5356,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||1741.gofenews.com^
 ||1745.reminews.com^
 ||1746.reminews.com^
+||1747.luronews.com^
 ||1749.jemonews.com^
 ||1751.jemonews.com^
 ||1753.lookinews.com^
@@ -5357,6 +5379,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||1777.luronews.com^
 ||177o.com^
 ||178.com/glr.js
+||1781.jemonews.com^
 ||1782.reminews.com^
 ||1783.luronews.com^
 ||1788.reminews.com^
@@ -5408,9 +5431,11 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||1829.sifenews.com^
 ||1831.jemonews.com^
 ||1834.lookinews.com^
+||1837.deeginews.com^
 ||1838.jemonews.com^
 ||183yf.cn/img/nz.png
 ||1843.gofenews.com^
+||1845.reminews.com^
 ||1848.luronews.com^
 ||185.147.34.126^
 ||1850.lookinews.com^
@@ -5422,6 +5447,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||1863.reminews.com^
 ||1866.jemonews.com^
 ||1867.lookinews.com^
+||1869.gofenews.com^
 ||187.sifenews.com^
 ||1870.reminews.com^
 ||1870.selornews.com^
@@ -5436,6 +5462,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||188.72.219.36^
 ||1880.lookinews.com^
 ||1883.jemonews.com^
+||1883.reminews.com^
 ||1888.lycheenews.com^
 ||188soft.com/js/PCsoftDetailAD.js
 ||189.cn/actpush/$third-party
@@ -5481,6 +5508,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||19199675.xyz^
 ||192.151.218.66^$third-party
 ||192.luyouwang.com^
+||1922.huronews.com^
 ||1923.reminews.com^
 ||1925.lookinews.com^
 ||1927.5clo0xmbf.com^
@@ -5495,6 +5523,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||194.guesswhatnews.com^
 ||1940.luronews.com^
 ||1942.jemonews.com^
+||1942.reminews.com^
 ||1950.deeginews.com^
 ||1951.jemonews.com^
 ||19515bia.de^
@@ -5509,6 +5538,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||19706903.xyz^
 ||1973.deeginews.com^
 ||1977.deeginews.com^
+||1984.luronews.com^
 ||1984.tegronews.com^
 ||1985.lookinews.com^
 ||199.180.100.185/love44^
@@ -5596,6 +5626,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||1redirb.com^
 ||1redirc.com^
 ||1rpupqghk.lycheenews.com^
+||1rrpuqg.lycheenews.com^
 ||1rrwqittqy.lycheenews.com^
 ||1rwqittqyye.lycheenews.com^
 ||1rx.io^
@@ -5647,6 +5678,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||2017.lycheenews.com^
 ||2017.notifysrv.com^
 ||2017.rookinews.com^
+||2017.tegronews.com^
 ||2018x.*/guang/
 ||2019.lookinews.com^
 ||202.102.26.253:8182/files/7/lhzs1k.jpg
@@ -5656,6 +5688,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||2021welcome.com^$third-party
 ||2022welcome.com^
 ||2023welcome.com^$third-party
+||2024.gofenews.com^
 ||2024114t.shop^
 ||2024jphatomenesys36.top^
 ||2025.notifysrv.com^
@@ -5697,6 +5730,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||2053.lootynews.com^
 ||2055.guesswhatnews.com^
 ||2058.deeginews.com^
+||2059.jemonews.com^
 ||2059.reminews.com^
 ||2063.reminews.com^
 ||2069.lootynews.com^
@@ -5816,6 +5850,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||2274.selornews.com^
 ||2275.gofenews.com^
 ||2281.loopanews.com^
+||2287.sifenews.com^
 ||2289.k3718qw08.com^
 ||2294.luronews.com^
 ||2298.jemonews.com^
@@ -5952,7 +5987,10 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||2422.deeginews.com^
 ||2422.jemonews.com^
 ||2422.lookinews.com^
+||2423.lookinews.com^
 ||2424.luronews.com^
+||2425.lookinews.com^
+||2426.luronews.com^
 ||2434.jemonews.com^
 ||2435.gofenews.com^
 ||2435march2024.com^
@@ -5962,6 +6000,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||2441.luronews.com^
 ||2441.rookinews.com^
 ||2442.jemonews.com^
+||2445.lootynews.com^
 ||2445.tegronews.com^
 ||2449march2024.com^
 ||2451.5clo0xmbf.com^
@@ -5995,6 +6034,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||2495may2024.com^
 ||2497.lycheenews.com^
 ||2497may2024.com^
+||2498.lookinews.com^
 ||2499.gofenews.com^
 ||249999.xyz^*.gif
 ||24affiliates.com^
@@ -6045,6 +6085,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||2574.rookinews.com^
 ||2575.jemonews.com^
 ||2575.reminews.com^
+||2580.sifenews.com^
 ||258104d2.live^
 ||2588.lootynews.com^
 ||2589.reminews.com^
@@ -6063,6 +6104,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||2606.sifenews.com^
 ||2608.luronews.com^
 ||2610.luronews.com^
+||2613.reminews.com^
 ||2614.loopanews.com^
 ||2615.gofenews.com^
 ||2616.tegronews.com^
@@ -6128,6 +6170,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||2737.deeginews.com^
 ||2740.jemonews.com^
 ||2745.luronews.com^
+||2746.luronews.com^
 ||2749.lookinews.com^
 ||2749.reminews.com^
 ||2750.reminews.com^
@@ -6138,6 +6181,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||2765.lootynews.com^
 ||2766.lookinews.com^
 ||2768.luronews.com^
+||2769.reminews.com^
 ||2772.luronews.com^
 ||2779.reminews.com^
 ||2779ec7bc8.a6e822f510.com^
@@ -6165,9 +6209,11 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||2819.lookinews.com^
 ||2819.luronews.com^
 ||2819.reminews.com^
+||2820.lootynews.com^
 ||2828.deeginews.com^
 ||2829.sifenews.com^
 ||283.laobanfa.com^
+||2830.lookinews.com^
 ||2843.lookinews.com^
 ||2846.lookinews.com^
 ||2847.gofenews.com^
@@ -6179,6 +6225,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||2860.luronews.com^
 ||2862.jemonews.com^
 ||2869.jemonews.com^
+||2869.reminews.com^
+||2870.guesswhatnews.com^
 ||2870.lootynews.com^
 ||2871.deeginews.com^
 ||2871.reminews.com^
@@ -6213,11 +6261,14 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||2927.jemonews.com^
 ||2929.tegronews.com^
 ||2930.lookinews.com^
+||2933.gofenews.com^
 ||2934.jemonews.com^
 ||2935.jemonews.com^
 ||2937.jemonews.com^
 ||2940.lootynews.com^
 ||2942.deeginews.com^
+||2949.luronews.com^
+||2950917e4a.56eed75dbe.com^
 ||2951.huronews.com^
 ||2951.jemonews.com^
 ||2955.deeginews.com^
@@ -6246,6 +6297,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||29a7397be5.com^
 ||29apfjmg2.de^
 ||29b124c44a.com^
+||29s55bf2.de^
 ||29spp.com/js/tj.js
 ||29vpnmv4q.com^
 ||2a1b482343.1e55308a88.com^
@@ -6268,6 +6320,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||2cnjuh34jbpoint.com^
 ||2cnjuh34jbstar.com^
 ||2cq.com/third/tieba/sidebar
+||2d1a16af63.55f4605f6d.com^
 ||2d4f.com/love/
 ||2d8bc293.xyz^
 ||2d979880.xyz^
@@ -6324,11 +6377,13 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||3019.jemonews.com^
 ||3019.lootynews.com^
 ||3026.huronews.com^
+||3026.luronews.com^
 ||3029.reminews.com^
 ||3030.selornews.com^
 ||3037.rookinews.com^
 ||3039.selornews.com^
 ||3041.gofenews.com^
+||3043.gofenews.com^
 ||3047.jemonews.com^
 ||3049.luronews.com^
 ||3051.reminews.com^
@@ -6457,11 +6512,13 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||3297.reminews.com^
 ||3299.luronews.com^
 ||32ae2295ab.com^
+||32f5758570.487ed86ea3.com^
 ||32n.icu^
 ||32xp.com/upimg/
 ||33.autohome.com.cn^
 ||33.guesswhatnews.com^
 ||3302.reminews.com^
+||3305.reminews.com^
 ||3310.sifenews.com^
 ||3310586.notifysrv.com^
 ||3315.luronews.com^
@@ -6493,6 +6550,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||3345712.notify6.com^
 ||3346.lookinews.com^
 ||3348.gofenews.com^
+||3348.sifenews.com^
 ||3349.luronews.com^
 ||3350.gofenews.com^
 ||3351072.notify6.com^
@@ -6582,18 +6640,22 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||3452.deeginews.com^
 ||3453.gofenews.com^
 ||3456.5clo0xmbf.com^
+||3461.jemonews.com^
 ||3461281.notify6.com^
 ||3461347.notify6.com^
 ||3461533.notify6.com^
 ||3462.gofenews.com^
 ||3462.luronews.com^
 ||3462.tegronews.com^
+||3464703.notify6.com^
 ||3466847.notifysrv.com^
+||3467915.notify6.com^
 ||3468917.notify6.com^
 ||3469.79j68qav2.com^
 ||3469.gofenews.com^
 ||3469.reminews.com^
 ||3471.tegronews.com^
+||3472.lookinews.com^
 ||3475.jemonews.com^
 ||3475333.notify6.com^
 ||3476.rookinews.com^
@@ -6606,6 +6668,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||3489537.notifysrv.com^
 ||3493.reminews.com^
 ||3493551.notifysrv.com^
+||3494.jemonews.com^
 ||3495.deeginews.com^
 ||3495.rookinews.com^
 ||3496.reminews.com^
@@ -6634,6 +6697,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||3515.reminews.com^
 ||3516.deeginews.com^
 ||3516.gofenews.com^
+||3517.tegronews.com^
 ||3520.cc/js/3520/
 ||3524.deeginews.com^
 ||3524.luronews.com^
@@ -6670,6 +6734,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||3581.luronews.com^
 ||3588591.notify6.com^
 ||3591.reminews.com^
+||3594.reminews.com^
 ||3595.jemonews.com^
 ||3595711.notify6.com^
 ||3599.deeginews.com^
@@ -6697,18 +6762,21 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||3623.jemonews.com^
 ||3625ggtp1.com^
 ||3630.lycheenews.com^
+||3630.selornews.com^
 ||3634.reminews.com^
 ||3635.luronews.com^
 ||3636.jemonews.com^
 ||3636.reminews.com^
 ||3637.rookinews.com^
 ||3641.lycheenews.com^
+||3644.tegronews.com^
 ||3648.lookinews.com^
 ||3649.reminews.com^
 ||365.freeonlinegayporn.com^
 ||3650.jemonews.com^
 ||3653689.notifysrv.com^
 ||3654845.notify6.com^
+||3658.luronews.com^
 ||3662.lookinews.com^
 ||3662559.notifysrv.com^
 ||3662967.notify6.com^
@@ -6721,7 +6789,10 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||3681.luronews.com^
 ||3682181.notify6.com^
 ||36833185.xyz^
+||3684.deeginews.com^
 ||3685.tegronews.com^
+||3688.guesswhatnews.com^
+||3691.reminews.com^
 ||3693.lootynews.com^
 ||3694.lookinews.com^
 ||3694.luronews.com^
@@ -6763,6 +6834,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||3763.luronews.com^
 ||3764.loopanews.com^
 ||3769.lookinews.com^
+||3771.jemonews.com^
 ||3771491.notify6.com^
 ||3773.loopanews.com^
 ||3773.reminews.com^
@@ -6781,6 +6853,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||38.33.15.*.gif
 ||380.tw^$third-party
 ||3802.luronews.com^
+||3804.lookinews.com^
 ||380526f50a.e9a5ed7d7a.com^
 ||3809.reminews.com^
 ||380tv.com/upload/*-ad-
@@ -6797,6 +6870,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||3845.jemonews.com^
 ||3845.lookinews.com^
 ||3846.luronews.com^
+||3847.deeginews.com^
 ||3849.jemonews.com^
 ||3850.deeginews.com^
 ||3856.deeginews.com^
@@ -6820,6 +6894,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||3880.gofenews.com^
 ||3880.luronews.com^
 ||38835571.xyz^
+||3884.deeginews.com^
 ||3886.gofenews.com^
 ||3887.deeginews.com^
 ||3890.lycheenews.com^
@@ -6869,6 +6944,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||3961146.notify6.com^
 ||3965102.notify6.com^
 ||3968.lookinews.com^
+||3970.reminews.com^
 ||3972246.notify6.com^
 ||3975.luronews.com^
 ||3975.lycheenews.com^
@@ -6896,6 +6972,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||3997886.notify6.com^
 ||39jz.com^
 ||3a55f02d.xyz^
+||3a89fe0cd6.2cd21b9973.com^
 ||3ad2ae645c.com^
 ||3alian.net^$third-party
 ||3bfb3c04e6.6991eeac66.com^
@@ -6975,6 +7052,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||4004.jemonews.com^
 ||4005.reminews.com^
 ||4006.guesswhatnews.com^
+||4009.jemonews.com^
 ||4010.sifenews.com^
 ||4011.luronews.com^
 ||4014.jemonews.com^
@@ -6982,6 +7060,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||4019.luronews.com^
 ||4020.reminews.com^
 ||4021.luronews.com^
+||4022.tegronews.com^
 ||4024.luronews.com^
 ||4026.reminews.com^
 ||4027.jemonews.com^
@@ -6998,6 +7077,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||40407.com/plus/rpad/
 ||40407.com/plus_rpad_
 ||4042.gofenews.com^
+||4044.tegronews.com^
 ||4045.lycheenews.com^
 ||40451343.xyz^
 ||4045406.notify6.com^
@@ -7016,6 +7096,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||4066.lycheenews.com^
 ||4067.reminews.com^
 ||4067912.notify6.com^
+||4068.reminews.com^
 ||4070.tegronews.com^
 ||4073.lookinews.com^
 ||4074.lootynews.com^
@@ -7045,6 +7126,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||4108.luronews.com^
 ||4110.guesswhatnews.com^
 ||4113.jemonews.com^
+||4118.selornews.com^
 ||4121.lookinews.com^
 ||4121.lootynews.com^
 ||4122.lookinews.com^
@@ -7053,6 +7135,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||4125.lookinews.com^
 ||4125.reminews.com^
 ||4126fe80.xyz^
+||4127.reminews.com^
 ||4130.jemonews.com^
 ||4131.deeginews.com^
 ||4132.lookinews.com^
@@ -7089,6 +7172,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||4177.jemonews.com^
 ||4181.sifenews.com^
 ||4181.tegronews.com^
+||4186.jemonews.com^
 ||4186.luronews.com^
 ||4187.lootynews.com^
 ||4191.jemonews.com^
@@ -7145,9 +7229,11 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||4306.lookinews.com^
 ||4306.loopanews.com^
 ||4306130.notify6.com^
+||4307.jemonews.com^
 ||4308.tegronews.com^
 ||4310.deeginews.com^
 ||4315.deeginews.com^
+||4315.lookinews.com^
 ||4316.jemonews.com^
 ||4316.lookinews.com^
 ||4318.deeginews.com^
@@ -7158,6 +7244,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||4329.jemonews.com^
 ||4336.gofenews.com^
 ||4338.luronews.com^
+||4341.lookinews.com^
 ||4342.jemonews.com^
 ||4344.deeginews.com^
 ||4345.deeginews.com^
@@ -7180,6 +7267,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||4379.luronews.com^
 ||4384.jemonews.com^
 ||4389.luronews.com^
+||4390.tegronews.com^
+||4392.reminews.com^
 ||4395.jemonews.com^
 ||4397.reminews.com^
 ||4399.com/baiduad/
@@ -7198,6 +7287,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||4406.lootynews.com^
 ||4407.luronews.com^
 ||4408.jemonews.com^
+||4409.luronews.com^
 ||4410.luronews.com^
 ||4411.gofenews.com^
 ||4415.lootynews.com^
@@ -7206,10 +7296,12 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||4424.deeginews.com^
 ||4424.reminews.com^
 ||4425.reminews.com^
+||4431.lycheenews.com^
 ||4435.lootynews.com^
 ||4437.reminews.com^
 ||4438x*.com/Runtime/js/
 ||4439.gofenews.com^
+||444.bussyclub.com^
 ||4448.jemonews.com^
 ||4448.lookinews.com^
 ||4448.reminews.com^
@@ -7226,6 +7318,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||4471.luronews.com^
 ||4472.lycheenews.com^
 ||4472.reminews.com^
+||4475.gofenews.com^
 ||4477.deeginews.com^
 ||4479.luronews.com^
 ||4480.gofenews.com^
@@ -7244,6 +7337,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||4501.deeginews.com^
 ||4502.jemonews.com^
 ||4504.reminews.com^
+||4505.reminews.com^
 ||4506.deeginews.com^
 ||4508.guesswhatnews.com^
 ||4509.reminews.com^
@@ -7263,6 +7357,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||4544.jemonews.com^
 ||4545.lycheenews.com^
 ||45496fee.xyz^
+||4552.gofenews.com^
 ||4554.lookinews.com^
 ||4560.lookinews.com^
 ||4561.deeginews.com^
@@ -7270,6 +7365,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||4568.luronews.com^
 ||4571.luronews.com^
 ||4572.reminews.com^
+||4582.jemonews.com^
 ||4582.lookinews.com^
 ||4583.jemonews.com^
 ||4586.reminews.com^
@@ -7302,6 +7398,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||4643.deeginews.com^
 ||4647.luronews.com^
 ||4654.gofenews.com^
+||4654.reminews.com^
 ||4655.reminews.com^
 ||4662.loopanews.com^
 ||4663.huronews.com^
@@ -7364,6 +7461,9 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||47415889.xyz^
 ||4748.reminews.com^
 ||4749.gofenews.com^
+||4749.reminews.com^
+||4752.deeginews.com^
+||4752.lootynews.com^
 ||4754.sifenews.com^
 ||4754.sosqboh85.com^
 ||4764.reminews.com^
@@ -7388,6 +7488,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||4796.jemonews.com^
 ||4797.lookinews.com^
 ||4798.jemonews.com^
+||4801.reminews.com^
 ||4803.jemonews.com^
 ||4806.reminews.com^
 ||4807.lookinews.com^
@@ -7395,14 +7496,17 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||4816.rookinews.com^
 ||4824.deeginews.com^
 ||4825.tegronews.com^
+||4829.luronews.com^
 ||48304789.xyz^
 ||4836.jemonews.com^
 ||4836.reminews.com^
 ||4838.deeginews.com^
+||4838.k3718qw08.com^
 ||4840.jemonews.com^
 ||4844.deeginews.com^
 ||4845.gofenews.com^
 ||4848.reminews.com^
+||4849.sifenews.com^
 ||484r.com/images/flash/gallery_
 ||4850.reminews.com^
 ||4851.reminews.com^
@@ -7419,6 +7523,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||4867.deeginews.com^
 ||4873.gofenews.com^
 ||4876.luronews.com^
+||4881.luronews.com^
 ||4885e2e6f7.com^
 ||4896.lookinews.com^
 ||48a16802.site^
@@ -7455,6 +7560,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||4974.gofenews.com^
 ||49766251.xyz^
 ||4977.gofenews.com^
+||4977.lootynews.com^
 ||4979.lookinews.com^
 ||4984.reminews.com^
 ||4987.reminews.com^
@@ -7482,6 +7588,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||4dsply.com^
 ||4du666d55u6.lycheenews.com^
 ||4e04f7.xyz^
+||4e1305540a.1c0c3fde9d.com^
 ||4e55.xyz^
 ||4e68.xyz^
 ||4ef69e5814.c7b419036b.com^
@@ -7585,9 +7692,11 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||5130.luronews.com^
 ||5131774.notify6.com^
 ||5132.deeginews.com^
+||5135.gofenews.com^
 ||5135.luronews.com^
 ||5135.selornews.com^
 ||5143.luronews.com^
+||5143.reminews.com^
 ||5145.lookinews.com^
 ||5150.reminews.com^
 ||5155.huronews.com^
@@ -7597,12 +7706,15 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||5158.reminews.com^
 ||5160.reminews.com^
 ||5161.gofenews.com^
+||5161.jemonews.com^
+||5161.lootynews.com^
 ||5163.gofenews.com^
 ||5164.lookinews.com^
 ||5167.lookinews.com^
 ||5168.lookinews.com^
 ||51688.cc/ya/
 ||516qq.cn/theme/dd/
+||5175.gofenews.com^
 ||5176.tegronews.com^
 ||5179.lookinews.com^
 ||5180.gofenews.com^
@@ -7714,11 +7826,13 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||5337.reminews.com^
 ||5341.lookinews.com^
 ||5344.jemonews.com^
+||5350.loopanews.com^
 ||5350536.notify6.com^
 ||5354.lycheenews.com^
 ||5356.jemonews.com^
 ||5356.luronews.com^
 ||5361.lookinews.com^
+||5364.jemonews.com^
 ||5366.luronews.com^
 ||5367porh7.lookinews.com^
 ||5369.lootynews.com^
@@ -7729,6 +7843,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||537images1.com^
 ||5381.lootynews.com^
 ||5381.reminews.com^
+||5392.sifenews.com^
 ||5397.deeginews.com^
 ||5399.com^$third-party
 ||5399.lookinews.com^
@@ -7757,6 +7872,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||54199287.xyz^
 ||5427.jemonews.com^
 ||5428.reminews.com^
+||543.guesswhatnews.com^
 ||543.lycheenews.com^
 ||5433.lookinews.com^
 ||5434.deeginews.com^
@@ -7776,6 +7892,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||5461.lycheenews.com^
 ||5461.reminews.com^
 ||5463.lookinews.com^
+||5465.lookinews.com^
 ||5466dee3d9.92888e5ff3.com^
 ||5470.reminews.com^
 ||5476.lookinews.com^
@@ -7786,6 +7903,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||5485.lookinews.com^
 ||5489.deeginews.com^
 ||5489.jemonews.com^
+||5489.luronews.com^
 ||5493.deeginews.com^
 ||54admin.net/images/ad_
 ||54eeeadb.xyz^
@@ -7810,6 +7928,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||5539.jemonews.com^
 ||5539.sifenews.com^
 ||5543.jemonews.com^
+||5543.rookinews.com^
 ||5545.lookinews.com^
 ||5546.luronews.com^
 ||5547.gofenews.com^
@@ -7820,6 +7939,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||555bbb555www.com^
 ||555bbb777www.com^
 ||555ppp777ppp.com^
+||5562.jemonews.com^
 ||5568.jemonews.com^
 ||5568.lookinews.com^
 ||5569.loopanews.com^
@@ -7883,6 +8003,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||56514411.xyz^
 ||5653.lookinews.com^
 ||5653.luronews.com^
+||5656.gofenews.com^
 ||5659.luronews.com^
 ||5660.deeginews.com^
 ||5663.reminews.com^
@@ -7897,6 +8018,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||567bets10.com^
 ||567xxxp1orh7.lycheenews.com^
 ||5684.sifenews.com^
+||5686.tegronews.com^
 ||5689.jemonews.com^
 ||5691.rookinews.com^
 ||5696.jemonews.com^
@@ -7911,6 +8033,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||5707f9766c.com^
 ||5712.jemonews.com^
 ||5713.lookinews.com^
+||5715.gofenews.com^
 ||5718.lookinews.com^
 ||5718.reminews.com^
 ||5720.tegronews.com^
@@ -7921,10 +8044,14 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||5729.luronews.com^
 ||5731.reminews.com^
 ||5735.gofenews.com^
+||5736.gofenews.com^
 ||5740.jemonews.com^
 ||5745.gofenews.com^
 ||5747.jemonews.com^
+||5752.luronews.com^
 ||57573zubo36833.com^
+||5758.luronews.com^
+||5758.reminews.com^
 ||5759.jemonews.com^
 ||5762.selornews.com^
 ||5766.lootynews.com^
@@ -7951,11 +8078,13 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||58.com/demand/content?
 ||58.com/ds/tgbrand/*.js
 ||58.com/show/ads?
+||5802.jemonews.com^
 ||5808.luronews.com^
 ||580bk.com/ceshi/
 ||5810.reminews.com^
 ||5810.sifenews.com^
 ||5811.deeginews.com^
+||5814.jemonews.com^
 ||5815.gofenews.com^
 ||5815.luronews.com^
 ||5818.reminews.com^
@@ -7972,6 +8101,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||5834.luronews.com^
 ||5835.lookinews.com^
 ||5840.jemonews.com^
+||5843.jemonews.com^
 ||58455540.com^$~third-party
 ||5847.sifenews.com^
 ||5847.tegronews.com^
@@ -8051,6 +8181,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||5946.sifenews.com^
 ||5947.jemonews.com^
 ||5952.lookinews.com^
+||5953.tegronews.com^
 ||5954.deeginews.com^
 ||5954.lootynews.com^
 ||5957.deeginews.com^
@@ -8178,6 +8309,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||6072.jemonews.com^
 ||6073.deeginews.com^
 ||6075.reminews.com^
+||6077.luronews.com^
 ||6079.lookinews.com^
 ||6079.reminews.com^
 ||6080aa.com/template/*/images/g_js/
@@ -8190,6 +8322,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||6089.jemonews.com^
 ||6089.lycheenews.com^
 ||6094.luronews.com^
+||6095.deeginews.com^
 ||6095.lookinews.com^
 ||6096.loopanews.com^
 ||6097.reminews.com^
@@ -8206,6 +8339,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||6113.jemonews.com^
 ||6113.sifenews.com^
 ||6114.gofenews.com^
+||6120.gofenews.com^
 ||6120.luronews.com^
 ||6121.deeginews.com^
 ||6123.jemonews.com^
@@ -8224,6 +8358,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||6178.5clo0xmbf.com^
 ||6178.loopanews.com^
 ||6179.luronews.com^
+||6180.reminews.com^
 ||6181.deeginews.com^
 ||6188.lookinews.com^
 ||6190.deeginews.com^
@@ -8322,6 +8457,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||644446.com^
 ||6445.tegronews.com^
 ||6452.huronews.com^
+||6458.loopanews.com^
 ||6464.reminews.com^
 ||6471e7f7.xyz^
 ||6472.jemonews.com^
@@ -8333,6 +8469,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||6497.luronews.com^
 ||6499.reminews.com^
 ||64ma.com/tv/images/web.png
+||65.deeginews.com^
+||6500.reminews.com^
 ||65035033.xyz^
 ||6507.luronews.com^
 ||6507.selornews.com^
@@ -8344,6 +8482,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||6520.reminews.com^
 ||6521.jemonews.com^
 ||6522.lookinews.com^
+||6522.sifenews.com^
 ||6523.deeginews.com^
 ||6523.selornews.com^
 ||6525.lookinews.com^
@@ -8388,8 +8527,10 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||663008888.com^
 ||66308888.com^
 ||6633091.com^$~third-party
+||6636.jemonews.com^
 ||6636.lookinews.com^
 ||6644.luronews.com^
+||6648.gofenews.com^
 ||6651tp.com^
 ||6654.luronews.com^
 ||6654.reminews.com^
@@ -8439,6 +8580,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||6705.lookinews.com^
 ||6706.tegronews.com^
 ||6707.luronews.com^
+||6709.luronews.com^
 ||6710.jemonews.com^
 ||6711.lookinews.com^
 ||6715.jemonews.com^
@@ -8449,6 +8591,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||6743.gofenews.com^
 ||6747.sifenews.com^
 ||6749.lootynews.com^
+||6752.lootynews.com^
 ||6757.luronews.com^
 ||6762.lookinews.com^
 ||6762.reminews.com^
@@ -8463,6 +8606,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||6788.reminews.com^
 ||6789.net^$third-party
 ||6794.loopanews.com^
+||6796.reminews.com^
 ||68.guesswhatnews.com^
 ||6803.jemonews.com^
 ||6806.reminews.com^
@@ -8477,6 +8621,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||68287zubo85737.com^
 ||6831.lookinews.com^
 ||6834.jemonews.com^
+||6837.guesswhatnews.com^
 ||6838.deeginews.com^
 ||6839.79j68qav2.com^
 ||6839.loopanews.com^
@@ -8484,6 +8629,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||6845.jemonews.com^
 ||6846.huronews.com^
 ||6847.gofenews.com^
+||6850.jemonews.com^
 ||6852.jemonews.com^
 ||6852.luronews.com^
 ||6854.loopanews.com^
@@ -8496,6 +8642,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||6877.luronews.com^
 ||6885.jemonews.com^
 ||6886.lycheenews.com^
+||6896.luronews.com^
 ||68aq8q352.com^
 ||68yscw.com^
 ||6902.reminews.com^
@@ -8544,6 +8691,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||6br.lycheenews.com^
 ||6cs.icu^
 ||6dc2699b37.com^
+||6dfaf2c5aa.9421d59b1d.com^
 ||6e5f34gf3f.lycheenews.com^
 ||6e6cd153a6.com^
 ||6ea5cb0615.b12c99852d.com^
@@ -8581,6 +8729,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||7005.deeginews.com^
 ||7007.deeginews.com^
 ||7007.reminews.com^
+||700f9a0406.b4ba3365d5.com^
 ||7011.jemonews.com^
 ||7011.luronews.com^
 ||7011.stia.cn^
@@ -8591,6 +8740,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||7022.selornews.com^
 ||7033.reminews.com^
 ||7034.tegronews.com^
+||7034bdca2a.4f551488f3.com^
 ||7036.jemonews.com^
 ||7041.rookinews.com^
 ||7044.jemonews.com^
@@ -8602,15 +8752,18 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||7053.reminews.com^
 ||7056.lookinews.com^
 ||7056.reminews.com^
+||7057.guesswhatnews.com^
 ||705dm.com/color.js
 ||7060.lookinews.com^
 ||7061.reminews.com^
+||7064.jemonews.com^
 ||7067.jemonews.com^
 ||7068.gofenews.com^
 ||7071.lookinews.com^
 ||7073.huronews.com^
 ||7076.selornews.com^
 ||7078.gofenews.com^
+||7079.reminews.com^
 ||7080.lookinews.com^
 ||70822.com/agfile/
 ||7083.gofenews.com^
@@ -8631,6 +8784,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||70url.com/aiaike/bood.js$domain=yingwangtv.com
 ||7101.lycheenews.com^
 ||7110.lookinews.com^
+||7113.79j68qav2.com^
 ||7114.jemonews.com^
 ||7119.jemonews.com^
 ||7119.lookinews.com^
@@ -8654,11 +8808,13 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||7160.com/js/tiaozhuanquanju.js
 ||7162.reminews.com^
 ||7165.5clo0xmbf.com^
+||7165.jemonews.com^
 ||7168.jemonews.com^
 ||717.lycheenews.com^
 ||7176.reminews.com^
 ||7177.bestinterestings.com^
 ||7177.jemonews.com^
+||7181.reminews.com^
 ||7182.lootynews.com^
 ||7183.jemonews.com^
 ||7185.deeginews.com^
@@ -8674,6 +8830,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||7210.reminews.com^
 ||7211.reminews.com^
 ||7214.luronews.com^
+||7215.guesswhatnews.com^
 ||7223.lootynews.com^
 ||7230.gofenews.com^
 ||7230.lookinews.com^
@@ -8688,6 +8845,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||7240.luronews.com^
 ||7241.sifenews.com^
 ||7242.huronews.com^
+||7246.gofenews.com^
 ||7246.luronews.com^
 ||7249.reminews.com^
 ||7250.lookinews.com^
@@ -8701,12 +8859,14 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||72716408.xyz^
 ||7272.lookinews.com^
 ||7274.luronews.com^
+||7275.tegronews.com^
 ||7276.luronews.com^
 ||7276.reminews.com^
 ||7277.luronews.com^
 ||7279.luronews.com^
 ||72888710.xyz^
 ||7292.reminews.com^
+||7293.luronews.com^
 ||7294.luronews.com^
 ||7299tu75.cc^
 ||73.lycheenews.com^
@@ -8720,6 +8880,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||7313.luronews.com^
 ||7318.gofenews.com^
 ||7320.reminews.com^
+||7322.luronews.com^
 ||7323.jemonews.com^
 ||7324.luronews.com^
 ||7325.luronews.com^
@@ -8732,27 +8893,35 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||7354.gofenews.com^
 ||7354.rookinews.com^
 ||7356.jemonews.com^
+||7357.jemonews.com^
 ||7359.jemonews.com^
 ||73652253191.com^$third-party
 ||7366.deeginews.com^
 ||7367.tegronews.com^
 ||7370.reminews.com^
+||7371.luronews.com^
 ||7372.gofenews.com^
 ||7372.jemonews.com^
 ||7374.lootynews.com^
 ||7375.reminews.com^
 ||7376.gofenews.com^
+||7376.reminews.com^
 ||7380.luronews.com^
 ||7382.lookinews.com^
 ||7383.jemonews.com^
 ||7386.luronews.com^
+||7387.jemonews.com^
 ||7389.reminews.com^
+||7391.deeginews.com^
 ||7393.reminews.com^
+||7395.reminews.com^
 ||7397.jemonews.com^
 ||7398.deeginews.com^
+||73cc5e9bf8.feadbe5b97.com^
 ||74.tegronews.com^
 ||740.lycheenews.com^
 ||7403.lookinews.com^
+||7409.selornews.com^
 ||7413.jemonews.com^
 ||74142961.xyz^
 ||742.th2mbxzqe.com^
@@ -8802,6 +8971,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||7524.lycheenews.com^
 ||7524.reminews.com^
 ||7525.deeginews.com^
+||7527.tegronews.com^
 ||7529.loopanews.com^
 ||7529.tegronews.com^
 ||7532.sifenews.com^
@@ -8820,7 +8990,9 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||7580.luronews.com^
 ||7583.jemonews.com^
 ||7584.luronews.com^
+||7587.sifenews.com^
 ||7588.lookinews.com^
+||7592.jemonews.com^
 ||7592.luronews.com^
 ||7595.lycheenews.com^
 ||76.lycheenews.com^
@@ -8853,6 +9025,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||7674.selornews.com^
 ||7676.com^$third-party
 ||7676.lookinews.com^
+||7678.gofenews.com^
 ||7681.luronews.com^
 ||7686.gofenews.com^
 ||7689.huronews.com^
@@ -8882,6 +9055,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||7729.luronews.com^
 ||7732.deeginews.com^
 ||7736.lookinews.com^
+||7740.reminews.com^
 ||7746.jemonews.com^
 ||7748.gofenews.com^
 ||7750.deeginews.com^
@@ -8894,6 +9068,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||7762.deeginews.com^
 ||7763.jemonews.com^
 ||7763.luronews.com^
+||777.lycheenews.com^
+||7771.deeginews.com^
 ||7772.tegronews.com^
 ||7773.lookinews.com^
 ||7773.tegronews.com^
@@ -8932,9 +9108,11 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||7816.lookinews.com^
 ||7816.luronews.com^
 ||7818.lookinews.com^
+||7818.reminews.com^
 ||7822.jemonews.com^
 ||7824.jemonews.com^
 ||7829.gofenews.com^
+||7831.deeginews.com^
 ||7831.gofenews.com^
 ||7831.lootynews.com^
 ||7834.luronews.com^
@@ -8944,6 +9122,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||7844.guesswhatnews.com^
 ||7845.deeginews.com^
 ||7845.luronews.com^
+||7848.tegronews.com^
 ||7849.jemonews.com^
 ||7850.lookinews.com^
 ||7852.gofenews.com^
@@ -9000,9 +9179,11 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||7953.reminews.com^
 ||7954.reminews.com^
 ||7957.lookinews.com^
+||7957.luronews.com^
 ||7957.reminews.com^
 ||7959.lookinews.com^
 ||7965.lookinews.com^
+||7968.luronews.com^
 ||7969.jemonews.com^
 ||7969.loopanews.com^
 ||7969.reminews.com^
@@ -9041,6 +9222,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||7fc8.site^
 ||7fverver.lycheenews.com^
 ||7hb.icu^
+||7ierfgdyu4yuf5ueq.lookinews.com^
 ||7junshi.com/con/ad
 ||7junshi.com/static/red-envelopes.js
 ||7k7k.com^*/loding.htm
@@ -9072,6 +9254,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||8008.luronews.com^
 ||80133082.xyz^
 ||8015.tegronews.com^
+||8021.jemonews.com^
 ||8025.lookinews.com^
 ||8027.rookinews.com^
 ||8027.selornews.com^
@@ -9091,11 +9274,14 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||8056.jemonews.com^
 ||8057.gofenews.com^
 ||8061.lookinews.com^
+||8061.reminews.com^
 ||8067.reminews.com^
 ||8070.guesswhatnews.com^
 ||8070.lookinews.com^
 ||8070kk.com/statics/js/guo
+||8074.lootynews.com^
 ||8075.gofenews.com^
+||8075.luronews.com^
 ||8077.reminews.com^
 ||8079.reminews.com^
 ||8082.reminews.com^
@@ -9122,6 +9308,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||81.lycheenews.com^
 ||8100.luronews.com^
 ||8100.selornews.com^
+||8101.reminews.com^
 ||8102.jemonews.com^
 ||8102.luronews.com^
 ||8103.jemonews.com^
@@ -9143,6 +9330,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||8135.lootynews.com^
 ||8137.gofenews.com^
 ||8137.jemonews.com^
+||8138.jemonews.com^
 ||8140.reminews.com^
 ||8141.lookinews.com^
 ||8141.reminews.com^
@@ -9151,16 +9339,20 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||8147.luronews.com^
 ||8151.deeginews.com^
 ||8151.jemonews.com^
+||8151.reminews.com^
 ||8152.reminews.com^
 ||8155.luronews.com^
+||8158.jemonews.com^
 ||8160.jemonews.com^
 ||8164.gofenews.com^
+||8165.lookinews.com^
 ||8169.tegronews.com^
 ||8170.lookinews.com^
 ||8173.lookinews.com^
 ||8176.lookinews.com^
 ||8176.reminews.com^
 ||8182.gofenews.com^
+||8182.reminews.com^
 ||8184.lookinews.com^
 ||8184.reminews.com^
 ||8185.luronews.com^
@@ -9173,6 +9365,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||81book.com/static/scripts/1.js
 ||81book.com/static/scripts/common.
 ||81c875a340.com^
+||82.tegronews.com^
 ||8202.jemonews.com^
 ||8204.gofenews.com^
 ||8206.reminews.com^
@@ -9198,6 +9391,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||8243.reminews.com^
 ||8255.lookinews.com^
 ||8256.gofenews.com^
+||8259.lookinews.com^
 ||8260.lookinews.com^
 ||8262.gofenews.com^
 ||8264.lookinews.com^
@@ -9253,6 +9447,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||8380.reminews.com^
 ||8381.luronews.com^
 ||8381.tegronews.com^
+||8386.luronews.com^
 ||8387.gofenews.com^
 ||83887336.xyz^
 ||8390.lycheenews.com^
@@ -9363,10 +9558,12 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||8584.reminews.com^
 ||8585.selornews.com^
 ||8585go.com/recommend
+||8588.jemonews.com^
 ||8590.sifenews.com^
 ||8593.gofenews.com^
 ||8596.lookinews.com^
 ||8598.jemonews.com^
+||85aac18807.d95bda138b.com^
 ||85tube.com/player/html.php?aid=*_html&video_id=*&*&referer
 ||85wp.com/ad/
 ||8601.jemonews.com^
@@ -9404,6 +9601,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||8677.rookinews.com^
 ||8678.gofenews.com^
 ||8680.jemonews.com^
+||8683.jemonews.com^
 ||8684.cn/id/ad_
 ||8684.com/com/sys_ad_
 ||8684.com/local/bdadv.
@@ -9439,6 +9637,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||8740.reminews.com^
 ||8741.lookinews.com^
 ||8742.lookinews.com^
+||8743.loopanews.com^
 ||874547.men^
 ||8747.deeginews.com^
 ||8747.jemonews.com^
@@ -9456,9 +9655,11 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||8792.lookinews.com^
 ||8793.deeginews.com^
 ||8795.sifenews.com^
+||8796.jemonews.com^
 ||8797.sifenews.com^
 ||8797.tegronews.com^
 ||8799.jemonews.com^
+||8799.reminews.com^
 ||87c96e5e53.f74f316370.com^
 ||87mao.com/52
 ||87uq.com^
@@ -9466,6 +9667,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||88.guesswhatnews.com^
 ||8805.lookinews.com^
 ||880sy.com/Public/js/*_gg.js
+||8811.gofenews.com^
 ||8812.lootynews.com^
 ||88129513.xyz^
 ||88148.com/UpFile/a/2016040849191350.jpg
@@ -9477,7 +9679,9 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||883.engine.mobileapptracking.com^
 ||8830.loopanews.com^
 ||88362zubo95838.com^
+||8840.reminews.com^
 ||88448.com/images/appkai980x100.gif
+||8848.5clo0xmbf.com^
 ||8851.luronews.com^
 ||8853.jemonews.com^
 ||88545539.xyz^
@@ -9540,6 +9744,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||8921.jemonews.com^
 ||89263907.xyz^
 ||8929.guesswhatnews.com^
+||8929.lookinews.com^
 ||8933.5clo0xmbf.com^
 ||89407765.xyz^
 ||8942.luronews.com^
@@ -9549,9 +9754,12 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||8950.deeginews.com^
 ||8951.gofenews.com^
 ||8952.gofenews.com^
+||8952.jemonews.com^
 ||8954.lootynews.com^
 ||8958.deeginews.com^
 ||8961.jianbihua.com^
+||8961.reminews.com^
+||8963.jemonews.com^
 ||8964.luronews.com^
 ||8965.reminews.com^
 ||8965.tegronews.com^
@@ -9566,6 +9774,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||89871256.xyz^
 ||8988.lookinews.com^
 ||8988.reminews.com^
+||8989.sifenews.com^
 ||8999.jemonews.com^
 ||8999.luronews.com^
 ||8acc5c.site^
@@ -9623,12 +9832,15 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||9014.jemonews.com^
 ||9014.lootynews.com^
 ||9017.jemonews.com^
+||9021.guesswhatnews.com^
 ||9023.jemonews.com^
 ||9029.jemonews.com^
 ||9034.luronews.com^
+||9035.jemonews.com^
 ||9039.luronews.com^
 ||9043.luronews.com^
 ||9045.lookinews.com^
+||9046.reminews.com^
 ||9047.deeginews.com^
 ||9048.jemonews.com^
 ||9054.luronews.com^
@@ -9640,9 +9852,12 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||9077.guesswhatnews.com^
 ||9080.5clo0xmbf.com^
 ||9080.lootynews.com^
+||9080.tegronews.com^
+||9083.jemonews.com^
 ||9085.deeginews.com^
 ||9087.selornews.com^
 ||9088.luronews.com^
+||9092.gofenews.com^
 ||9093.reminews.com^
 ||9094.luronews.com^
 ||9094.reminews.com^
@@ -9673,6 +9888,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||9118.lookinews.com^
 ||912.lycheenews.com^
 ||9122.gofenews.com^
+||9126.jemonews.com^
 ||9129.reminews.com^
 ||9129666tp.com^$domain=9xav.cc
 ||91301246.xyz^
@@ -9681,12 +9897,14 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||9137.gofenews.com^
 ||9137.jemonews.com^
 ||9137.reminews.com^
+||9140.lootynews.com^
 ||9141.lootynews.com^
 ||9144.reminews.com^
 ||9146.luronews.com^
 ||9147.selornews.com^
 ||9149.luronews.com^
 ||9151.deeginews.com^
+||9151.reminews.com^
 ||9155.huronews.com^
 ||9156.luronews.com^
 ||9157.selornews.com^
@@ -9722,6 +9940,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||920share.com/layer/layer.js
 ||920share.com/wp-content/uploads/*/911
 ||9210.reminews.com^
+||9211.luronews.com^
 ||9212.lookinews.com^
 ||9212.lycheenews.com^
 ||9212.reminews.com^
@@ -9735,6 +9954,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||9224.guesswhatnews.com^
 ||9226.luronews.com^
 ||9227.lookinews.com^
+||9228.reminews.com^
 ||9229.rookinews.com^
 ||922tp.com/wp-content/uploads/*0x
 ||9230.luronews.com^
@@ -9790,6 +10010,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||9351.rookinews.com^
 ||9354ee72.xyz^
 ||9361.jemonews.com^
+||9362.luronews.com^
 ||9363.rookinews.com^
 ||9365.deeginews.com^
 ||9367.jemonews.com^
@@ -9797,8 +10018,10 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||93692zubo66936.com^
 ||9370.gofenews.com^
 ||937e30a10b.com^
+||9381.reminews.com^
 ||9382.deeginews.com^
 ||9383.jemonews.com^
+||9384.jemonews.com^
 ||9389.luronews.com^
 ||9390.luronews.com^
 ||9391.luronews.com^
@@ -9821,10 +10044,12 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||9428.deeginews.com^
 ||9429.selornews.com^
 ||9433.lookinews.com^
+||9439.reminews.com^
 ||9441.reminews.com^
 ||9443.reminews.com^
 ||9447.reminews.com^
 ||9447.tegronews.com^
+||9448.reminews.com^
 ||945.lycheenews.com^
 ||9450.jemonews.com^
 ||9453.reminews.com^
@@ -9850,6 +10075,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||94itv.net/f/
 ||94lm.com^
 ||94x.icu^
+||9503.lookinews.com^
 ||9507.lookinews.com^
 ||9507.sifenews.com^
 ||9509.reminews.com^
@@ -9861,6 +10087,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||9525.deeginews.com^
 ||9527yy.com/images/02/9527.jpg
 ||9527yy.com/js/data2.js
+||9531.deeginews.com^
 ||9540.lookinews.com^
 ||9543.reminews.com^
 ||9549.lookinews.com^
@@ -9868,6 +10095,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||9553.com/otherhtml/
 ||9556.reminews.com^
 ||9557.luronews.com^
+||9558.5clo0xmbf.com^
 ||9558.reminews.com^
 ||9559.jemonews.com^
 ||95590.org/v1.
@@ -9876,6 +10104,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||9578.lootynews.com^
 ||9582.jemonews.com^
 ||9582.luronews.com^
+||9585.lookinews.com^
 ||9592.gofenews.com^
 ||9595.deeginews.com^
 ||9595.jemonews.com^
@@ -9916,6 +10145,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||9656.luronews.com^
 ||9659.jemonews.com^
 ||9662.selornews.com^
+||9664.lookinews.com^
 ||9668.luronews.com^
 ||9669.cn/ipdat/duilian/
 ||9669.cn/jsam/play_
@@ -9928,6 +10158,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||9687.gofenews.com^
 ||9688.jemonews.com^
 ||9690.jemonews.com^
+||9695.selornews.com^
 ||9698.reminews.com^
 ||96rj.icu^
 ||9706.reminews.com^
@@ -9947,17 +10178,20 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||9743.guesswhatnews.com^
 ||9743.loopanews.com^
 ||9745.lootynews.com^
+||9746.34gwl8v1a.com^
 ||9749.jemonews.com^
 ||97496b9d.xyz^
 ||9752.gofenews.com^
 ||9756.jemonews.com^
 ||9762.rookinews.com^
+||9763.luronews.com^
 ||9769.tegronews.com^
 ||9771.lookinews.com^
 ||9772.lookinews.com^
 ||9778.reminews.com^
 ||977878.xyz^
 ||9779.lookinews.com^
+||9782.sifenews.com^
 ||9793.selornews.com^
 ||9798.lootynews.com^
 ||97b448.xyz^
@@ -9968,6 +10202,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||9801.jemonews.com^
 ||9802.deeginews.com^
 ||9808.luronews.com^
+||9811.reminews.com^
 ||98140548.xyz^
 ||9814b49f.xyz^
 ||98158.com^
@@ -9986,6 +10221,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||9843.jemonews.com^
 ||9843.lookinews.com^
 ||9845.reminews.com^
+||9847.luronews.com^
 ||9853.luronews.com^
 ||9854.reminews.com^
 ||9855.sifenews.com^
@@ -10042,10 +10278,12 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||996js123.com^
 ||9973.reminews.com^
 ||9982.gofenews.com^
+||9985.jemonews.com^
 ||9985.lookinews.com^
 ||99886aaa.com^
 ||9989.selornews.com^
 ||998sus.com^
+||9992.gofenews.com^
 ||9992.tegronews.com^
 ||9993.luronews.com^
 ||9996777888.com^
@@ -10060,6 +10298,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||999xx333kk.com^
 ||999xx999kk.com^
 ||99danji.com/kchtml/
+||99ef5999fe.ff73564366.com^
 ||99jinpin.com^
 ||99lb.net/index_files/*/970
 ||99meiju.tv/js/tj.js
@@ -10073,6 +10312,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||9analytics.live^
 ||9bc639da.xyz^
 ||9br.lycheenews.com^
+||9c5203d24f.bca10c62ca.com^
 ||9cbj41a5.de^
 ||9d6d1163fa.8c2012e141.com^
 ||9d87b35397.com^
@@ -10141,6 +10381,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||a.baidinet.com^
 ||a.bake818.cn^
 ||a.baomihua.com^
+||a.benue.site^
 ||a.bestcontentitem.top^$third-party
 ||a.bfking.cn^
 ||a.breaktime.com.tw^$third-party
@@ -10271,6 +10512,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||a32a.com.cn^$third-party
 ||a3b2c775eb.com^
 ||a4.hotpornfile.org^
+||a4422148cd.0aabc05067.com^
 ||a49ebd.xyz^
 ||a4b.guesswhatnews.com^
 ||a5.lookinews.com^
@@ -10299,6 +10541,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||aa993366aa.com^$domain=9xav.cc
 ||aaa.tumanyi.com^
 ||aaa85877ba.com^
+||aaaacdn.com^
 ||aaacompany.net^
 ||aaaf.info^$script
 ||aaaimg.com/images*.gif
@@ -10435,6 +10678,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||ac-room.cc/images/ad_
 ||ac.86huoche.com^
 ||ac.art456.com^
+||ac.fapnado.xxx^
 ||ac.forwank.com^
 ||ac.tc.qq.com/store_file_download?*&dir_path=/admin/swf/
 ||ac1.pingpingw.com^
@@ -10763,6 +11007,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||adaround.net^
 ||adarutoad.com^
 ||adasdz.cn^
+||adasgmp.cc^
 ||adasgsts.cc^
 ||adatrix.com^$third-party
 ||adb.*.online/o.js$third-party
@@ -12396,6 +12641,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||alackzokor.com^
 ||alaeshire.com^
 ||alagaodealing.com^
+||alalos.com^
 ||alaoena.xyz^
 ||alargeredrubygsw.info^
 ||alarmsubjectiveanniversary.com^
@@ -13225,6 +13471,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||assiatv.com/css/mob/jquerymin*.js
 ||assignmentlonesome.com^
 ||assimilatecigarettes.com^
+||assisantornus.top^
 ||assoc-amazon.com^
 ||assp.sohu.com^
 ||asswalotr.com^
@@ -13290,6 +13537,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||atonato.de^
 ||atonementelectronics.com^
 ||atool.org/res/ads/
+||atoqkcpvmru.com^
 ||atorks.xyz^
 ||atpanchama.com^
 ||atpansagean.com^
@@ -13569,6 +13817,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||b3z29k1uxb.com^
 ||b41eaf5815.197ca1c853.com^
 ||b477.life^$third-party
+||b4c797e677.e4f7e35c25.com^
 ||b4dg.life/love/
 ||b51475b8.xyz^
 ||b59c.xyz^
@@ -13765,6 +14014,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||banclip.com^
 ||bandborder.com^$third-party
 ||banddisordergraceless.com^
+||bandoraclink.com^
 ||banglanews24.com/public/uploads/ad/
 ||banhq.com^
 ||bankerconcludeshare.com^
@@ -13828,6 +14078,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||baskettexture.com^$third-party
 ||bastsmorular.shop^
 ||bat.storyplay.no^
+||bat13.gimmeporn.xyz^
 ||batch.com^$third-party
 ||bathepoliteness.com^
 ||batheunits.com^
@@ -13899,6 +14150,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||bcquan.me/front/*_ad
 ||bcquan.me/front/*_game
 ||bcquan.me/front/home/render
+||bctuapia.icu^
 ||bd-china-1.appmobile.cn^
 ||bd-js.duote.com^
 ||bd-js1.2345.com^
@@ -13927,6 +14179,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||bd11.nipic.com^
 ||bd2.guancha.cn^$domain=m.guancha.cn
 ||bd3.chuiyue.com^
+||bd43e502ad.4f8303ce57.com^
 ||bd5a57.xyz^
 ||bd888.qizuang.com^
 ||bd9wv.icu^
@@ -14221,6 +14474,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||bfjszxzfvf.com^
 ||bflnandtxqb.com^
 ||bfpgf.com/wp-content/uploads/2015/08/360dxs.jpg
+||bfvadionchrecq.com^
 ||bfxytxdpnk.com^
 ||bg4nxu2u5t.com^
 ||bgbg00.fun^
@@ -14354,6 +14608,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||biqiuge8.cc/js/p
 ||biqivge.cc/e*/*.js
 ||biquge96.com/123.
+||biquxs.com/js/detail.js
 ||birdeangioid.com^
 ||birdmedia.com^$third-party
 ||birlersbhunder.com^
@@ -14429,6 +14684,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||blacklinknowss.co^
 ||blackname.biz^
 ||blacknesskeepplan.com^
+||bladeofsteel.com/clic.php?
 ||blancoshrimp.com^
 ||blaring-chocolate.com^
 ||blarnyzizzles.shop^
@@ -14526,6 +14782,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||bmqulua.icu^
 ||bmtmicro.com^
 ||bmwebm.org^
+||bn.adasgmp.cc^
+||bn.adasgsts.cc^
 ||bn.gogo.mn^
 ||bn5x.net^
 ||bnalzlv.top^
@@ -14826,6 +15084,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||bservr.com^
 ||bshrdr.com^
 ||bsplh.cn^
+||bssaly.com^
 ||bt-tt.com/ad
 ||bt.cn/bbs/newsimg/
 ||bt1.patexplorer.com^
@@ -15084,6 +15343,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||c114.com.cn^*/js/ad_load-new.js
 ||c1km4.com/mobile/app.js
 ||c2000.cn/c2000/
+||c24ca9e0d8.d170971757.com^
 ||c26b742fa3.com^
 ||c2a0076d.xyz^
 ||c2c24.pl^$domain=sport.pl|gazeta.pl|plotek.pl|moto.pl|haps.pl|edziecko.pl
@@ -15334,6 +15594,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||cazamba.com^$third-party
 ||cb.baidu.com^
 ||cb.com.cn/index/ad/
+||cb44e02059.7cffee2baf.com^
 ||cb530ae596.66a5e92d66.com^
 ||cb61190372.com^
 ||cb9825.wbur.org/app/js/api.min.js
@@ -15410,6 +15671,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||cdhfvrug.xyz^
 ||cdickef.top^
 ||cdilm.cn^
+||cdinmaf.top^
 ||cdipsumf.top^
 ||cdlekgr.icu^
 ||cdmgac.xyz^
@@ -15513,6 +15775,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||cdn.pn.vg^$third-party
 ||cdn.porngames.tv/images/skyscrapers
 ||cdn.porngames.tv/images/videos
+||cdn.pornhaven.ai/design/ads/
 ||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=marketwatch.com
 ||cdn.pushowl.com^$third-party
 ||cdn.questvert.pl/publishers/*/qpscript.js
@@ -16448,6 +16711,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||commonwealthproficient.com^
 ||communicatedsuitcompartment.com^
 ||communication3x.fun^
+||community.noozhawk.com^
 ||compare.thecrazytourist.com/*/javascripts/intent_media_sca_ads.js
 ||comparepoisonous.com^
 ||comparereaction.com^$third-party
@@ -16692,7 +16956,6 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||cpm.oppa.media^
 ||cpm.pushub.net^
 ||cpm.revbid.net^
-||cpm.smoads.com^
 ||cpm20.com^
 ||cpmclktrk.online^
 ||cpmgatenetwork.com^
@@ -16868,6 +17131,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||cruhut.com^
 ||cruiserx.net^
 ||crulxoits.com^$third-party
+||crumberstoa.com^
 ||crumblerefunddiana.com^
 ||crumbtypewriterhome.com^
 ||crumpet.xxxpornhd.pro^
@@ -17138,6 +17402,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||d1eyw3m16hfg9c.cloudfront.net^
 ||d1ezlc9vy4yc7g.cloudfront.net^$third-party
 ||d1f05vr3sjsuy7.cloudfront.net^
+||d1f2095e51.3e0605983a.com^
 ||d1f5r3d462eit5.cloudfront.net^
 ||d1f76eb5a4.com^
 ||d1f7vr2umogk27.cloudfront.net^
@@ -17585,6 +17850,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||dcad1d97.xyz^
 ||dcaf9fe2a0.3dc5ee5ae1.com^
 ||dcai7bdiz5toz.cloudfront.net^
+||dcb8fc1e42.6974f3c479.com^
 ||dcba.zle.com^
 ||dcbbwymp1bhlf.cloudfront.net^
 ||dceuhnpc57.shop^
@@ -17632,6 +17898,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||dealabs.com/assets/js/PushNotifications_
 ||dealmoon.com/hotdeals/hotdeals_scroller.php
 ||dealmoon.com/upload/dealmoon_app.jpg
+||dealsfor.life^
 ||deapi.sooplive.co.kr^
 ||deavelydragees.shop^
 ||debaucky.com^
@@ -17661,6 +17928,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||dedicateimaginesoil.com^
 ||dedispot.com^
 ||deditiontowritin.com^
+||deductionobtained.com^
 ||deebcards-themier.com^
 ||deedeedwinos.com^
 ||deedeisasbeaut.info^
@@ -17680,6 +17948,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||deepsaifaide.net^
 ||deeptack.com^$third-party
 ||deerbeginner.com^$third-party
+||def41eaf93.1177651727.com^
 ||defas.site^
 ||defeatedbadge.com^$third-party
 ||defendantlucrative.com^
@@ -17858,6 +18127,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||dgyrizngtcfck.cloudfront.net^
 ||dhalafbwfcv.com^
 ||dheirzeh.com^
+||dhemixu.com^
 ||dhkqqe.top^
 ||dhl.135320.com^
 ||dhnnbfok.icu^
@@ -18324,6 +18594,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||downxia.com/dgjs/download.js
 ||downyi.com/tg/
 ||doxihz.xyz^
+||doyoudi.com^
 ||doyougothere.com^$third-party
 ||dozzlegram-duj-i-280.site^
 ||dphwyvcmdki.com^
@@ -19142,6 +19413,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||eoof.net/PicZone/qzgg
 ||eoqmbnaelaxrg.com^
 ||eoredi.com^
+||eotaioa.xyz^
 ||eoubliw.top^
 ||eoucxzw.icu^
 ||eouvxliw.top^
@@ -19473,6 +19745,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||f2f8.xyz^
 ||f33d11b5.xyz^
 ||f362.nola.com/script.js
+||f371f06fb4.7c549a0612.com^
 ||f417a726.xyz^
 ||f4180a6e8c.ed908e7884.com^
 ||f4c9a0fb.xyz^
@@ -19640,6 +19913,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||fbappi.co^
 ||fbasd.qwoudjbk.com^$third-party
 ||fbbfde9989.fc9fef32e2.com^
+||fbc0a22821.e109412a60.com^
 ||fbcdn2.com^
 ||fbfec2.xyz^
 ||fbfrbt.xyz^
@@ -19805,6 +20079,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||filter-eu.boffoadsfeeds.com^
 ||filter-eu.optumads.com^
 ||filter-eu.srvqck2.com^
+||filter-eu.vespymedia.com^
 ||filter.appmonsta.ai^
 ||filter.contentsrch.com^
 ||filter.rastyclick.com^
@@ -20103,6 +20378,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||fpfbbn.xyz^
 ||fpgedsewst.com^
 ||fpgonuk.icu^
+||fpialotwhquuw.com^
 ||fpjjjh.xyz^
 ||fpninv.xyz^
 ||fpnpmcdn.net^
@@ -20747,6 +21023,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||gg88.bj.bcebos.com^
 ||ggcode.2345.com^
 ||ggdm1.nhaidu.net^
+||ggetr43fvg.guesswhatnews.com^
 ||ggfdgd88.fun^
 ||ggg*.com/static/js/common.js
 ||gggpht.com^
@@ -21032,6 +21309,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||gockardajaiheb.net^
 ||gocye.com^$third-party
 ||godacepic.com^
+||godamanga.online/ad/
 ||godlessabberant.com^
 ||godloveme.cn^
 ||godlu.com^
@@ -21221,8 +21499,10 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||grayreceipt.com^$third-party
 ||grazingmarrywomanhood.com^
 ||greasysquare.com^$third-party
+||greatappland.com^
 ||greatdexchange.com^
 ||greatlifebargains2024.com^
+||grecizing26.fun^
 ||greckoaghoate.net^
 ||grecmaru.com^
 ||gredritchupsa.net^
@@ -21508,6 +21788,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||h74v6kerf.com^
 ||h78xb.pw^$third-party
 ||h8.lookinews.com^
+||h9.lookinews.com^
+||h9.tegronews.com^
 ||ha-api.pushwoosh.com^
 ||ha.liuye.club^
 ||ha723.icu^
@@ -21658,6 +21940,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||haveflat.com^
 ||havegrosho.com^
 ||havejav11.fun^
+||havenclick.com/www/delivery/*vast
 ||haychalk.com^
 ||haymowsrakily.com^
 ||hazmo.stream/hazmo.js$script
@@ -22178,6 +22461,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||hosr.xyz^
 ||hostadsmarkets.com^
 ||hostave4.net^
+||hosted.muses.org/mrp.js
 ||hostedmovieupdates.aebn.net^$domain=datingpornstar.com
 ||hostgrater.com^$third-party
 ||hostingcloud.racing^
@@ -22194,6 +22478,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||hotavxxx.com/images/*96
 ||hotbbuvifu.cc^
 ||hotbonus.loopanews.com^
+||hotbonus.reminews.com^
 ||hotbraraja.cc^
 ||hotchatdate.com^
 ||hoteastday.com/newspc/show?
@@ -22314,6 +22599,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||htl.bid^
 ||htlbid.com^
 ||html-load.cc/script/$script
+||html-load.com/loader.min.js$domain=nikkansports.com
 ||htmonster.com^
 ||htoetgk.icu^
 ||htoptracker11072023.com^
@@ -22380,6 +22666,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||humatecortin.com^
 ||humble-gap.com^$third-party
 ||humbleromecontroversial.com^
+||humiliatingregion.com^
 ||humilityslammedslowing.com^
 ||humix.com/video.js
 ||hummingexam.com^
@@ -23526,6 +23813,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||javgenetic11.fun^
 ||javgg.eu^
 ||javgg.me/wp-content/plugins/1shortlink/js/shorten.js
+||javgle.tokyo^
 ||javgulf.fun^
 ||javhd.com/*/300x250.html?
 ||javhd.com/banners-mainpage/
@@ -24126,6 +24414,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||juznlx.xyz^
 ||jvspin91603.top/bundle/app/Default/Desktop/pushfree_integrate.
 ||jwalf.com^
+||jwalkin.com^
 ||jwatera.top^
 ||jweisia.top^
 ||jweizaa.top^
@@ -24293,6 +24582,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||kcieo.xyz^$third-party
 ||kclimid.top^
 ||kcokamid.top^
+||kd8.lookinews.com^
 ||kdamcsd.top^
 ||kdicked.top^
 ||kdinmid.top^
@@ -24577,6 +24867,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||krbulhb.com^
 ||krikului.com^
 ||krinkred.com^
+||krirkroins.com^
 ||krisydark.com^
 ||kritgu.xyz^
 ||krjxhvyyzp.com^
@@ -24944,6 +25235,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||lewrutl.top^
 ||lezhutv.com/static/jquerys.js
 ||lf9-static.bytednsdoc.com/obj/tos-cn-i-0813
+||lfbfkkkqiza.com^
 ||lfhdryz.xyz^
 ||lfjslil.top^
 ||lfrdskwj.icu^
@@ -25251,6 +25543,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||login.kunvertads.com^
 ||login.mobipromote.com^
 ||login.rocoads.com^
+||login.spreadlink.co^
 ||logoquan.com/upload/prd/
 ||logsjthhxsbfzw.com^
 ||loheveeheegh.net^
@@ -25826,6 +26119,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||masadora.net/kakusan-
 ||masakeku.com^
 ||masaxe.xyz^
+||masdak.epsilonsoft.to^
 ||masklink.org^
 ||masqueradethousand.com^
 ||massacreintentionalmemorize.com^
@@ -26512,6 +26806,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||movemeforward.co^
 ||movesickly.com^
 ||movfull.com^
+||movie2free.tv/wp-content/uploads/*/*/*.gif
 ||moviead55.ru^
 ||movieclassic.net/pub/js_min.js
 ||movieclassic.net/templates/frontend/airav/js/*avs-0.4.js
@@ -27590,6 +27885,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||offpichuan.com^
 ||offshuppetchan.com^
 ||ofglicoron.net^
+||ofgogoatan.com^
 ||ofgsqic.cn^$~third-party
 ||ofhappinyer.com^
 ||ofhypnoer.com^
@@ -27626,6 +27922,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||ohtctjiuow.com^
 ||ohtusgy.icu^
 ||oiehxjpz.com^
+||oijsncvhg.com^
 ||oijzvhzt.com^
 ||oilwellsublot.top^
 ||ointmentapathetic.com^
@@ -28130,7 +28427,6 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||ozhmig.cn^
 ||ozmall.co.jp/scripts/js/user-notification.js
 ||ozobsaib.com^
-||ozonemedia.com^
 ||ozonerexhaled.click^
 ||ozongees.com^
 ||ozykeor.icu^
@@ -28240,6 +28536,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||panda.kdnet.net^
 ||pandora.com/api/v1/ad/
 ||panel-cn.com^
+||panel.adsaro.com^
 ||panel.smartpoint.pro^$third-party
 ||panelghostscontractor.com^
 ||panelook.com/images/ad/
@@ -28455,6 +28752,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||perlmaven.com/img/sticker-you.jpg
 ||perpetraterummage.com^
 ||perryvolleyball.com^
+||persistarcticthese.com^
 ||persona3.tech^
 ||personaclick.com^$third-party
 ||personantaeus.top^
@@ -28578,6 +28876,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||pianbar.net/JS/hottj.js
 ||piankudy.com/gg$script
 ||piano.io/api/tinypass.min.js$domain=kathimerini.gr
+||pianwela.xyz^
 ||pianyuan.org/zfb.
 ||piaodown.com/xtm/
 ||piaohua.com/js/yzz/$script
@@ -28745,6 +29044,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||player.twitch.tv^$domain=aetherhub.com
 ||playeranyd.org^
 ||players.brightcove.net^$script,domain=military.com|pedestrian.tv
+||players.radioonlinehd.net^$domain=flamecomics.xyz
 ||playerseo.club^
 ||playerstrivefascinated.com^
 ||playerswhisper.com^
@@ -29207,6 +29507,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||ppshk.com^*banner/
 ||ppsj.com.cn/images/ppsj300.gif
 ||pptv.com/game/aplus/client/gamedetail.html
+||ppu.adasgmp.cc^
 ||ppxndfgf.icu^
 ||pq-mzfusgpzt.xyz^
 ||pqfpvb.icu^
@@ -29308,6 +29609,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||prizefrenzy.top^
 ||prizetopsurvey.top^
 ||prjcq.com^
+||prl.adasgmp.cc^
+||prl.adasgsts.cc^
 ||prmtracking.com^
 ||pro-adblocker.com^
 ||pro-market.net^
@@ -29467,6 +29770,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||psomsoorsa.com^
 ||psonstrentie.info^
 ||psoostelrupt.net^
+||psootaun.com^
 ||psoricremast.com^
 ||psoroumukr.com^
 ||psothoms.com^
@@ -29560,6 +29864,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||public.app.autohome.com.cn^
 ||public.bnbstatic.com/unpkg/web-push-odin/
 ||public.porn.fr^$third-party
+||publicityclerks.com^$third-party
 ||publicsofa.com^
 ||publir.com^$third-party
 ||publish0x.com^$image,script,third-party
@@ -29948,6 +30253,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||qmbdta.cn^
 ||qmgria.cn^
 ||qmrelvezolbrv.top^
+||qmrmcqnktmhn.com^
 ||qmwxb.com/skins/2/images/qp001.gif
 ||qnalzly.top^
 ||qncye.com/ads/
@@ -30650,6 +30956,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||riatahemapod.com^
 ||riaway.com/statics/idea.jpg
 ||riazrk-oba.online^
+||ricarvort.com^
 ||ricewaterhou.xyz^
 ||richaudience.com^$third-party
 ||richh.cn^
@@ -30886,6 +31193,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||rtb-1.jizzberry.com^
 ||rtb-1.mylust.com^
 ||rtb-3.xgroovy.com^
+||rtb-apac-v4.oppa.media^
 ||rtb-apac-v4.rxnetwork.net^
 ||rtb-apac.ezmob.com^
 ||rtb-eu-v4.adsfloow.net^
@@ -30910,6 +31218,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||rtb-useast.adsfloow.net^
 ||rtb-useast.babanetwork.net^
 ||rtb-useast.clickmi.net^
+||rtb-useast.cpmme.com^
 ||rtb-useast.prertbdir.com^
 ||rtb-useast.tri.media^
 ||rtb-useast.vespymedia.com^
@@ -31026,7 +31335,6 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||rw.pleatpipe.com^
 ||rwdjrn.icu^
 ||rwoscaonf.com^
-||rwpgtlurfllti.com^
 ||rwukupjis.com^
 ||rxeosevsso.com^
 ||rxfygd.cn^
@@ -31057,7 +31365,9 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||s.ds7eji.com^
 ||s.ds8wql.com^
 ||s.dsa9k5.com^
+||s.dsau5u.com^
 ||s.eln14e.com^
+||s.eln16e.com^
 ||s.elnp12.com^
 ||s.eunow4u.com^
 ||s.everydayporn.co^
@@ -31271,6 +31581,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||saycasksabnegation.com^
 ||saymedia.com^
 ||sayyidsspintry.com^
+||sbazar.cz/*/static/js/ssp.js
 ||sbbanner.com^$third-party
 ||sbbd1.qulishi.com^
 ||sbcjahdc.com^$third-party
@@ -31567,6 +31878,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||servebom.com^
 ||servecontent.net^$third-party
 ||servedby-buysellads.com^$third-party,domain=~buysellads.com
+||servedby.jacilla.no^
 ||servedby.o2.co.uk^
 ||servedbyadbutler.com^
 ||servedbysmart.com^
@@ -32063,6 +32375,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||sjalipa.cn^
 ||sjbaiduadv1.redou.com^
 ||sjdfuvz.cn^
+||sjdgkfhwkrkmi.com^
 ||sjetnf-oizyo.buzz^
 ||sjezce.xyz^
 ||sjgsgy.xyz^
@@ -32729,11 +33042,13 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||static-web.stcn.com/static/images/aside-app-download.png
 ||static.adconnect.vn^
 ||static.adkriv.media^
+||static.adoptadx.com^
 ||static.adzealous.com^
 ||static.afkwa.com^
 ||static.ahk.de^
 ||static.antaranews.com/js/notification.min.js
 ||static.appbroda.com^
+||static.audiencedevelopers.com^
 ||static.birgun.net/images/abone_banner_light
 ||static.c4assets.com/all4-ad-code/latest/adverts.js
 ||static.chinatimes.com/scripts/2019/ad2019.min.js
@@ -32746,6 +33061,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||static.doyouhike.net/partner/
 ||static.fastpic.ru/android.png
 ||static.flairadscpc.com^
+||static.frownedand-bid.com^
 ||static.game-state.com/images/main/alert/replacement/
 ||static.gamedistribution.com/ad-block/
 ||static.gaomaer.cn^
@@ -32762,6 +33078,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||static.klaviyo.com/onsite/js/klaviyo.js$domain=kontrolfreek.com|stetson.com|cooksy.com|rabbitholehay.com|bellesa.co|newwell.*|gamedev.tv
 ||static.kunvertads.com^
 ||static.lot-tissimo.com^
+||static.mediadobrasil.com^
 ||static.mediafire.com/images/backgrounds/download/affiliate_fullpage/
 ||static.meijiacun.com^
 ||static.namethatporn.com/assets/prod/fab
@@ -32827,6 +33144,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||steakeffort.com^
 ||steamjaws.com^
 ||steefuceestoms.net^
+||steegnow.com^
 ||steelcn.cn/img/bj_*_146_315.jpg
 ||steepsister.com^$third-party
 ||steepsquirrel.com^$third-party
@@ -32995,6 +33313,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||stylish-airport.com^
 ||styusib.top^
 ||su.bdimg.com/static/dspui/js/
+||su4.tegronews.com^
 ||sub.powerapple.com^
 ||sub.xxx-porn-tube.com^
 ||subag.freexxxbase.com^
@@ -33413,6 +33732,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||tc911.vip^
 ||tcare.today^
 ||tccbanner.com^
+||tccnqgnmeveay.com^
 ||tcfgtd.xyz^
 ||tcheeter.com^
 ||tclimii.top^
@@ -33575,6 +33895,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||tgp.notifysrv.com^
 ||tgrpzl.xyz^
 ||tgwfaz.icu^
+||th.tubetruck.com^
 ||thacreks.com^
 ||thadairteetchar.net^
 ||thagegroom.net^
@@ -34073,8 +34394,10 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||tptoon.com/skin/js/tjtjkk.
 ||tpx.tesseradigital.com^
 ||tpyerxzn.xyz^
+||tq-eu.foseller-a.online^
 ||tq-eu.lensgard-4.online^
 ||tq-eu.uclpointer.online^
+||tq.foseller-a.online^
 ||tq.lensgard-4.online^
 ||tq.uclpointer.online^
 ||tq121.com.cn/j/ad/
@@ -34196,6 +34519,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||tranquilside.com^$third-party
 ||tranquilveil.com^
 ||tranquilveranda.com^
+||trans.firm.in/*.js
+||transcriptswarm.com^
 ||transferloitering.com^
 ||transgressmeeting.com^
 ||trapexpansionmoss.com^
@@ -34316,6 +34641,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||trusting-secret.pro^
 ||trustisimportant.fun^
 ||trustmaxonline.com^
+||trustvarietywee.com^
 ||trusty-research.com^
 ||trustyable.com^
 ||trustyfine.com^
@@ -35249,6 +35575,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||ventralwries.com^
 ||venturead.com^
 ||venturepeasant.com^
+||venueartisticdisinterested.com^
 ||venueitemmagic.com^
 ||venulaeriggite.com^
 ||venusfritter.com^
@@ -35418,6 +35745,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||vindexmesode.com^
 ||vindicosuite.com^
 ||vinegardaring.com^
+||vinelethoner.com^
 ||vinosedermol.com^
 ||vinsgcs.com^
 ||vintagerespectful.com^
@@ -36408,44 +36736,62 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||wwowww.xyz^
 ||wwursere.top^
 ||www-dnwx-com.anquanbao.cn/pic
+||www.00404850.xyz^
+||www.00857731.xyz^
 ||www.01045395.xyz^
 ||www.02085170.xyz^
 ||www.0420.loopanews.com^
 ||www.0433.lookinews.com^
+||www.04424170.xyz^
 ||www.0490.reminews.com^
+||www.05420795.xyz^
 ||www.05454674.xyz^
 ||www.0614.huronews.com^
+||www.06969451.xyz^
+||www.07327127.xyz^
 ||www.0740.reminews.com^
 ||www.07421283.xyz^
+||www.0891.reminews.com^
 ||www.08f8f073.xyz^
 ||www.0918.gofenews.com^
+||www.09745951.xyz^
 ||www.10288299.xyz^
+||www.10523745.xyz^
 ||www.10753990.xyz^
+||www.11006451.xyz^
 ||www.124512.lycheenews.com^
+||www.1404.luronews.com^
 ||www.1564.gofenews.com^
 ||www.15752525.xyz^
 ||www.1577.gofenews.com^
 ||www.1644.lookinews.com^
 ||www.16972675.xyz^
+||www.17022993.xyz^
 ||www.1723.reminews.com^
 ||www.1762.lookinews.com^
+||www.1866.jemonews.com^
 ||www.1869.gofenews.com^
 ||www.19009143.xyz^
 ||www.19199675.xyz^
 ||www.1936.lookinews.com^
 ||www.1957.reminews.com^
+||www.1964.luronews.com^
 ||www.19706903.xyz^
 ||www.2016.lookinews.com^
 ||www.2018.luronews.com^
 ||www.2024.jemonews.com^
+||www.22117898.xyz^
 ||www.2213.gofenews.com^
 ||www.2229.jemonews.com^
 ||www.224cc86d.xyz^
+||www.2356.reminews.com^
 ||www.2363.jemonews.com^
+||www.2376.gofenews.com^
 ||www.24052107.live^
 ||www.2431.lookinews.com^
 ||www.2442.reminews.com^
 ||www.2445.jemonews.com^
+||www.24837724.xyz^
 ||www.2500.luronews.com^
 ||www.2704.reminews.com^
 ||www.2706.lycheenews.com^
@@ -36453,75 +36799,118 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||www.27714296.xyz^
 ||www.2806.reminews.com^
 ||www.2815.reminews.com^
+||www.2859.lookinews.com^
+||www.2870.gofenews.com^
 ||www.2903.luronews.com^
+||www.2951.jemonews.com^
 ||www.2979.loopanews.com^
+||www.3026.reminews.com^
 ||www.3154.selornews.com^
 ||www.3160.luronews.com^
+||www.32472254.xyz^
 ||www.3262.lookinews.com^
 ||www.3359.jemonews.com^
+||www.33848102.xyz^
 ||www.33862684.xyz^
+||www.35452888.xyz^
+||www.3554.luronews.com^
+||www.3581.luronews.com^
 ||www.3598461.notify6.com^
+||www.3764.loopanews.com^
 ||www.3765.gofenews.com^
 ||www.38167473.xyz^
+||www.38941752.xyz^
 ||www.3904.jemonews.com^
 ||www.3979.jemonews.com^
 ||www.4029.lookinews.com^
 ||www.40451343.xyz^
 ||www.4062.luronews.com^
+||www.4084.reminews.com^
 ||www.4126fe80.xyz^
+||www.4134.gofenews.com^
 ||www.41818491.xyz^
 ||www.4194382.notify6.com^
 ||www.4397.loopanews.com^
 ||www.45496fee.xyz^
+||www.4572.reminews.com^
 ||www.46276192.xyz^
 ||www.4669.luronews.com^
 ||www.4696.lookinews.com^
 ||www.4710.gofenews.com^
 ||www.47206262.xyz^
 ||www.47235645.xyz^
+||www.47296536.xyz^
 ||www.4778.jemonews.com^
 ||www.4783.reminews.com^
+||www.4785.reminews.com^
+||www.49333767.xyz^
+||www.49766251.xyz^
+||www.4afa45f1.xyz^
 ||www.4puuqeh41.com^
 ||www.5121.lookinews.com^
+||www.5130.reminews.com^
 ||www.5248.gofenews.com^
 ||www.5330.jemonews.com^
 ||www.54019033.xyz^
 ||www.5437.luronews.com^
 ||www.5526.lookinews.com^
+||www.5530.reminews.com^
+||www.5543.jemonews.com^
+||www.56514411.xyz^
+||www.5678.lookinews.com^
 ||www.5681.gofenews.com^
+||www.5709.gofenews.com^
+||www.5766.reminews.com^
 ||www.5896.loopanews.com^
+||www.5896.reminews.com^
+||www.5929.reminews.com^
 ||www.5949.jemonews.com^
 ||www.59768910.xyz^
+||www.5cc3ac02.xyz^
+||www.6114.gofenews.com^
 ||www.6140.jemonews.com^
 ||www.6268.reminews.com^
 ||www.62842068.xyz^
 ||www.6300.jemonews.com^
 ||www.6308.jemonews.com^
 ||www.6328.jemonews.com^
+||www.6368.luronews.com^
 ||www.63801782.xyz^
 ||www.6434.gofenews.com^
 ||www.6484.jemonews.com^
 ||www.65122038.xyz^
 ||www.6550.gofenews.com^
 ||www.656f1ba3.xyz^
+||www.65894140.xyz^
 ||www.6610.loopanews.com^
 ||www.6738.jemonews.com^
 ||www.6748.gofenews.com^
 ||www.6832.lookinews.com^
+||www.6855.reminews.com^
 ||www.6864.gofenews.com^
+||www.6877.luronews.com^
 ||www.7052.gofenews.com^
 ||www.7063.luronews.com^
 ||www.7064.jemonews.com^
 ||www.7090.gofenews.com^
+||www.70b927c8.live^
 ||www.7199.gofenews.com^
 ||www.72075223.xyz^
+||www.72560514.xyz^
 ||www.7262.reminews.com^
+||www.7279.luronews.com^
 ||www.7281.selornews.com^
+||www.72888710.xyz^
+||www.7294.luronews.com^
 ||www.7321.gofenews.com^
+||www.73568955.xyz^
 ||www.7360.deeginews.com^
 ||www.7390.deeginews.com^
 ||www.7395.reminews.com^
+||www.7439.lookinews.com^
+||www.7466.huronews.com^
 ||www.7490.jemonews.com^
+||www.75690049.xyz^
 ||www.7740.reminews.com^
 ||www.7757.gofenews.com^
 ||www.7765.selornews.com^
@@ -36529,10 +36918,14 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||www.7779.gofenews.com^
 ||www.77886044.xyz^
 ||www.7827.reminews.com^
+||www.7841ffda.xyz^
+||www.78587924.xyz^
 ||www.7874.gofenews.com^
 ||www.78847798.xyz^
 ||www.79180284.xyz^
+||www.7932.reminews.com^
 ||www.7944.gofenews.com^
+||www.7980.reminews.com^
 ||www.79893962.xyz^
 ||www.7ierfgdyu4yuf5ueq.lookinews.com^
 ||www.8000.lookinews.com^
@@ -36545,31 +36938,45 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||www.8326.reminews.com^
 ||www.83761158.xyz^
 ||www.8410.gofenews.com^
+||www.84631949.xyz^
 ||www.8511.reminews.com^
 ||www.8584.gofenews.com^
+||www.8611.jemonews.com^
 ||www.8631.jemonews.com^
 ||www.8741.jemonews.com^
 ||www.8786.lookinews.com^
 ||www.8884.gofenews.com^
+||www.89263907.xyz^
 ||www.89871256.xyz^
 ||www.8988.jemonews.com^
 ||www.8992.gofenews.com^
 ||www.8994.gofenews.com^
 ||www.8eef59a5.live^
+||www.91301246.xyz^
+||www.9266.gofenews.com^
 ||www.9310.lookinews.com^
 ||www.9321.gofenews.com^
 ||www.9327.jemonews.com^
+||www.9354ee72.xyz^
 ||www.9369.jemonews.com^
 ||www.9393.gofenews.com^
+||www.9403.reminews.com^
+||www.9405.gofenews.com^
 ||www.9420.lookinews.com^
+||www.94597672.xyz^
 ||www.9480.reminews.com^
+||www.9549.lookinews.com^
 ||www.9614.jemonews.com^
 ||www.9625.reminews.com^
 ||www.9664.lookinews.com^
 ||www.9696.lookinews.com^
 ||www.9708.reminews.com^
 ||www.9801.gofenews.com^
+||www.98140548.xyz^
+||www.98383163.xyz^
 ||www.9855.reminews.com^
+||www.98643801.xyz^
+||www.98738797.xyz^
 ||www.9992.gofenews.com^
 ||www.a49ebd.xyz^
 ||www.a67d12.xyz^
@@ -36603,6 +37010,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||www.guesswhatnews.com^
 ||www.hubhubhub.name^
 ||www.ilviaggionellatesta.hubhubhub.name^
+||www.insecure-motor.pro^
 ||www.javtvnow.xyz^
 ||www.jemonews.com^
 ||www.lootynews.com^
@@ -36944,11 +37352,13 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||xml-eu-v4.adxpoint.com^
 ||xml-eu-v4.appmonsta.ai^
 ||xml-eu-v4.blastmedia.site^
+||xml-eu-v4.foseller-a.online^
 ||xml-eu-v4.h12ads.net^
 ||xml-eu-v4.insightadz.com^
 ||xml-eu-v4.lensgard-4.online^
 ||xml-eu-v4.ngcluster-c.site^
 ||xml-eu-v4.optumads.com^
+||xml-eu-v4.programmaticnexus.com^
 ||xml-eu-v4.srvqck3.com^
 ||xml-eu-v4.zeusadx.com^
 ||xml-eu.adportonic.com^
@@ -36960,9 +37370,11 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||xml-v4.blastmedia.site^
 ||xml-v4.contentsrch.com^
 ||xml-v4.epikads.com^
+||xml-v4.foseller-a.online^
 ||xml-v4.lensgard-3.online^
 ||xml-v4.lensgard-4.online^
 ||xml-v4.rastyclick.com^
+||xml-v4.rocotraff.xyz^
 ||xml-v4.srvqck3.com^
 ||xml-v4.swelltomedia.com^
 ||xml-v4.xmlwolf.com^
@@ -36971,6 +37383,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||xml.adxpoint.com^
 ||xml.appmonsta.ai^
 ||xml.epikads.com^
+||xml.foseller-a.online^
 ||xml.lensgard-4.online^
 ||xml.popviking.com^
 ||xml.responseservez.com^
@@ -37107,6 +37520,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||xunsu.cc/js/indexbottom.js
 ||xunyugong.xyz/sitejs/xunyugong.js
 ||xuoizbtl.xyz^
+||xutvbt.icu^
 ||xuugnuits.com^
 ||xuxwvh.xyz^
 ||xuzhi.net/uploadfile/poster/960x50.jpg
@@ -37452,6 +37866,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||ykxwn.com^
 ||yl-sooippd.vip^
 ||yl04z4v.cn^
+||ylcziaipyztvv.com^
 ||yldbt.com^
 ||yldxphtg.xyz^
 ||ylgvlvbc.xyz^
@@ -37715,6 +38130,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||yyefao.com^
 ||yylady.cn^
 ||yyselrqpyu.com^
+||yyuhb543.lookinews.com^
 ||yywz123.com/file/A*.js
 ||yyyaih.icu^
 ||yzdh44.com/js/
@@ -38111,7 +38527,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>8459
+!<<<<<网站单独规则>>>>>8467
 $third-party,domain=1337x.buzz|adblockeronstape.me|adblockeronstreamtape.me|adblockeronstrtape.xyz|adblockplustape.com|adblockplustape.xyz|adblockstreamtape.art|adblockstreamtape.fr|adblockstreamtape.site|adblocktape.online|adblocktape.store|adblocktape.wiki|advertisertape.com|animepl.xyz|animeworld.biz|antiadtape.com|atrocidades18.net|cloudemb.com|cloudvideo.tv|d000d.com|databasegdriveplayer.xyz|dembed1.com|diampokusy.com|dir-proxy.net|dirproxy.info|dood.la|dood.li|dood.pm|dood.re|dood.sh|dood.so|dood.to|dood.watch|dood.wf|dood.ws|dood.yt|doods.pro|dooood.com|ds2play.com|embedsito.com|fembed-hd.com|file-upload.com|filemoon.sx|freeplayervideo.com|geoip.redirect-ads.com|gettapeads.com|gogoanime.lol|gogoanime.nl|haes.tech|hentai2read.com|highstream.tv|hubfiles.ws|hydrax.xyz|katfile.com|kissanime.lol|kokostream.net|livetv498.me|loader.to|luluvdo.com|mixdroop.co|mixdrop.ag|mixdrop.bz|mixdrop.click|mixdrop.club|mixdrop.nu|mixdrop.ps|mixdrop.si|mixdrop.sx|mixdrop.to|mixdrp.co|mixdrp.to|monstream.org|noblocktape.com|okru.link|oneproxy.org|piracyproxy.biz|piraproxy.info|pixroute.com|playtube.ws|porn-tube-club.com|pouvideo.cc|projectfreetv2.com|proxyer.org|raes.tech|sbfast.com|sbplay2.com|sbplay2.xyz|sbthe.com|scloud.online|shavetape.cash|slmaxed.com|ssbstream.net|stapadblockuser.info|stapadblockuser.xyz|stape.fun|stape.me|stapewithadblock.beauty|stapewithadblock.monster|stapewithadblock.xyz|strcloud.in|streamadblocker.cc|streamadblocker.com|streamadblocker.store|streamadblocker.xyz|streamlare.com|streamnoads.com|streamta.pe|streamtape.cc|streamtape.com|streamtape.to|streamtape.xyz|streamtapeadblock.art|streamtapeadblockuser.art|streamtapeadblockuser.homes|streamtapeadblockuser.monster|streamtapeadblockuser.xyz|streamz.ws|strtape.cloud|strtapeadblocker.xyz|strtapewithadblock.art|strtapewithadblock.xyz|strtpe.link|supervideo.tv|suzihaza.com|tapeadsenjoyer.com|tapeadvertisement.com|tapeantiads.com|tapeblocker.com|tapelovesads.org|tapenoads.com|tapewithadblock.com|tapewithadblock.org|theproxy.ws|trafficdepot.xyz|tubeload.co|un-block-voe.net|uploadfiles.pw|uproxy.co|upstream.to|upvid.biz|uqload.com|userload.co|vanfem.com|vgfplay.com|vidcloud9.com|vidlox.me|viewsb.com|vivo.sx|voe-unblock.com|voe-unblock.net|voe.sx|voeunblock1.com|voeunblock2.com|voiranime.com|watchsb.com|welovemanga.one|wiztube.xyz|wootly.ch|y2mate.is|youtubedownloader.sh|ytmp3.cc|ytmp3.sh
 $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fastpic.ru|fileone.tv|filmlinks4u.is|imagefap.com|keepvid.com|megaup.net|olympicstreams.me|pocketnow.com|pornhub.com|pornhubthbh7ap3u.onion|powvideo.net|redtube.com|redtube.com.br|roadracerunner.com|shorte.st|tribune.com.pk|tube8.com|tube8.es|tube8.fr|tune.pk|vcpost.com|vidmax.com|vidoza.net|vidtodo.com|xtube.com|youporn.com|youporngay.com
@@ -39289,6 +39705,7 @@ brazzers-hdx.club##.adblck
 brightside.me##div[data-test-id="article"] div.article + div:not([class]):not([id]):not([data-test-id]):not([data-sharing-target])
 brightside.me##div[data-test-id="articles-list"] > div:not([data-sharing-target]):not([data-test-id])
 broadwayworld.com##.disnep-area > div[style^="width:"]
+brow2ing.com##iframe[src*="//brow2ing.up.seesaa.net/image/loopadspone.html"]
 btc-echo.de##.btce-ad-mob
 btnull.com,btnull.org,btnull.to,btnull.si,btnull.in,btnull.nu,btnull.fun##[href$=".apk"]
 btnull.com,btnull.org,btnull.to,btnull.si,btnull.in,btnull.nu,btnull.fun##[style*="position: fixed; bottom:"][style*="z-index: 99999;"]
@@ -39895,6 +40312,7 @@ edition.cnn.com##.zn-body__read-more-outbrain
 edition.cnn.com##.zn-story-bottom-second
 edition.cnn.com##div[data-bundle="adzones"]
 edition.cnn.com##section[id^="ad-spon-"]
+eegg.fun##iframe[id^="rlad_"][src^="/ad_html/"]
 eenadu.net##.add-block
 eenadu.net##.n-ads
 eenadu.net##.n-ads-nt
@@ -40355,6 +40773,7 @@ fuckhdtube.com,hdpornfree.xxx,easyporn.xxx,hdpornmax.com##.recomend-container
 fuckler.com##.container-fluid > div[class="page-header text-center"]
 fucksporn.com###FloatingLayer
 fucksporn.com##a[href^="https://searchxt.com/"]
+fujingaho.jp##section[data-vars-block-curation] > div[class*=" "]:has(> #gpt-ad-vertical-top)
 fukuishimbun.co.jp##div[id^="uz-"][id*="fukuishimbun_sp-"]
 fukuishimbun.co.jp##div[style="text-align: center; padding: 10px 0px; min-height: 100px;"]
 fukutubu.jp##.td-header-sp-recs
@@ -41820,6 +42239,7 @@ kurashi-no.jp##.Ad_Rectangle
 kurashi-no.jp##div[id^="kurashino1_SP_article_"][style*="min-height: 280px"]
 kurashi-no.jp##div[style$="height: 250px; margin-bottom: 32px;"]
 kurashi-no.jp,minpachi.com##.ad_overlay
+kurashinista.jp###sp_column_header_ad
 kurashiru.com###footer_banner_app
 kurashiru.com##.AdsWrapper
 kurashiru.com##.BlankSpace
@@ -44106,6 +44526,7 @@ publico.es##.pb-mobile-ads
 pulzo.com###spacer
 pulzo.com##.INREAD_HOME_CONTAINER
 pulzo.com##.connatix-spacer
+puntodebreak.com##.summary-ad
 pure-t.ru,m.mangafox.la,gifporntube.com,homemoviestube.com##.mobile-banner
 purecalculators.com##div[class^="thing-square-"]
 purecalculators.com##div[style="height:250px;min-height:250px"]
@@ -44587,6 +45008,9 @@ sexyandfunny.com###sexy-links
 sexyandfunny.com##.content-source
 sexyandfunny.com##.firstblock
 sexybabegirls.com##.girlsgirls
+sexygirl.cc##.overflow-auto:has(script[src$="/invoke.js"])
+sexygirl.cc##.overflow-auto:has(script[src*="/ad-provider.js"])
+sexygirl.cc##.overflow-auto:has(script[src*="jads"])
 sexysluts.tv##body > .wrapper ~ div[style*="z-index: 9999999;"]
 sexystars.online##.str_left > table[style] + center
 sexystars.online##a[href^="/red/red.php"]
@@ -46573,7 +46997,7 @@ zzz.gamers-luck.com##.gamer-sp_postbottom
 zzztube.com,videoporn.tube##.b-random-column
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>4307
+!<<<<<通用Css规则>>>>>4309
 ###ADbox
 ###ADtip
 ###Ad-Container
@@ -49997,6 +50421,8 @@ zzztube.com,videoporn.tube##.b-random-column
 ##a[href="紳士冒險"][target="_blank"]
 ##a[href="賢者同盟"][target="_blank"]
 ##a[href]  > img[alt][src^="/6666"]
+##a[href] > img[alt="HG"]
+##a[href] > img[alt="TYC"]
 ##a[href] > img[alt][src^="/static/resources/lp.php"]
 ##a[href][data-ad]
 ##a[href][rel="nofollow"] > img.nature

@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2025-02-02 08:04:00(GMT+8) 
-! Total count: 34020
+! ! Version: 2025-02-03 21:08:14(GMT+8) 
+! Total count: 34030
  
 ###ADtip
 ###AdBlockDialog
@@ -1848,7 +1848,7 @@ $websocket,domain=wap.yushuwu.cloud
 .com/zz/*2.txt$xmlhttprequest
 .com/zz/tcc2.js
 .com/zz/yd2.js
-.com:*.js?v=17$third-party
+.com:*.js?v=17*$third-party
 .com:*/cc/*?is_not=*&target=*
 .com:*/d/*?c=*$third-party
 .com:*/sc/*?n=$third-party
@@ -1958,7 +1958,7 @@ $websocket,domain=wap.yushuwu.cloud
 .site:20443/*.js^$script,third-party
 .st/ads/
 .test15./
-.top/*/*.js?ts=$third-party
+.top/*/*.js?ts=*$third-party
 .top/*/2022*/.js$third-party
 .top/*_*_vw*sbjs?$third-party
 .top/*q=*form=*&*url=http*$third-party
@@ -12440,7 +12440,7 @@ lvmama.com###centerDialog
 lvmama.com###leftDialog
 lwgod.me###wp > a:first-child
 lxapk.com,lzacg.one##.custom-html-widget
-lxmanga.info#$#abort-current-inline-script $ PopUnder
+lxmanga.cloud#$#abort-current-inline-script $ PopUnder
 lyd.com.cn##.ad:not(:nth-child(15))
 lysq.com###diyad
 lysq.com##div[id^="followDiv_"]
@@ -19416,6 +19416,7 @@ zzzyk.com###Tinfo
 ||aiyuke.com/position_js*_*_
 ||aizhan.com/images/img/ios-sign.png
 ||aizhan.com/imagesa/
+||aizhantj.com^
 ||aj4j.icu^
 ||ajax.googleapis.com/ajax/libs/jquery/$domain=darkcomet-rat.com
 ||ajcode.co^
@@ -20254,6 +20255,7 @@ zzzyk.com###Tinfo
 ||bcquan.me/front/home/render
 ||bcsijjgck.xyz^
 ||bcthd12.shop^
+||bctuapia.icu^
 ||bd-a-1.appmobile.cn^
 ||bd-china-1.appmobile.cn^
 ||bd-js.duote.com^
@@ -21234,6 +21236,7 @@ zzzyk.com###Tinfo
 ||chengtongled.com/gg/
 ||chengtu.com/api.php?mod=ad&adid=
 ||chengzijianzhan.cc^$subdocument,third-party
+||chenhao97.top^
 ||chenjiayu.cn/gg.js
 ||cherriescare.com^$third-party
 ||cherylssb.com^
@@ -23365,6 +23368,7 @@ zzzyk.com###Tinfo
 ||feofamdak.top^
 ||feptbh.xyz^
 ||feq853.com^
+||feronyv.com^
 ||ferriesendless.com^
 ||feubgzfx.icu^
 ||fewjuice.com^$third-party
@@ -24250,6 +24254,7 @@ zzzyk.com###Tinfo
 ||guli21.com/js/ggdm
 ||gulliblegrip.com^$third-party
 ||gumgo.cn^$third-party
+||gumnus.com^
 ||gunmi.cn^$third-party
 ||guohexinxiang.com^
 ||guojitv.com/m/ad/
@@ -26430,6 +26435,7 @@ zzzyk.com###Tinfo
 ||krbulhb.com^
 ||krikului.com^
 ||krinkred.com^
+||krirkroins.com^
 ||kritgu.xyz^
 ||krr894.top^
 ||krtlisd.top^
@@ -29636,6 +29642,7 @@ zzzyk.com###Tinfo
 ||rrgapzw.cn^
 ||rrjc.com/home/seo/ad/
 ||rrkouuz.icu^
+||rrxapb.icu^
 ||rrxddl.xyz^
 ||rryy99.com/statics/js/stat.js
 ||rsanciz.top^
@@ -31756,6 +31763,7 @@ zzzyk.com###Tinfo
 ||uslsxe.com^
 ||uspauline.com^
 ||usphfiona.com^
+||usrzh.cn^
 ||ustv123.com/images/axd.js
 ||usyliet.top^
 ||utbyvyl.icu^
@@ -33010,6 +33018,7 @@ zzzyk.com###Tinfo
 ||xunsu.cc/js/indexbottom.js
 ||xunyugong.xyz/sitejs/xunyugong.js
 ||xuoizbtl.xyz^
+||xutvbt.icu^
 ||xuugnuits.com^
 ||xuwfmhh.icu^
 ||xuxwvh.xyz^
@@ -33830,6 +33839,7 @@ zzzyk.com###Tinfo
 ||zjzh2019.com^
 ||zk.91post.com^
 ||zk789.cn/Res/Scripts/Show/NetSys/Show.ashx
+||zkdefuiz.icu^
 ||zkrdzn.xyz^
 ||zlbcxr.xyz^
 ||zlclgzs.cn^
