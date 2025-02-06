@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 7irynaYO7VcIR1v+t7gRZg
-! Diff-Path: ../patches/11/11-s-1738745104-3600.patch
+! Checksum: dZmUkRoR4RIGfLsDJYQlzQ
+! Diff-Path: ../patches/11/11-s-1738856729-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.58.1
-! TimeUpdated: 2025-02-05T08:40:21+00:00
+! Version: 2.0.58.7
+! TimeUpdated: 2025-02-06T15:40:34+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -155,6 +155,9 @@
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||api.youngle.tech^
+||api.myadsget.com^
+||api.sve.cc^
 ||adx-sg-req.bridgeoos.com^
 ||adx-os.bridgeoos.com^
 ||api.kickoffo.site^
@@ -2341,6 +2344,10 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+mediacourant.nl##div[id^="ada-inread-"]
+apnews.com###mobile-entitlements
+apnews.com##.LeaderBoardAd-Mobile
+||navitime.co.jp/static/pc/l/202502041800/img/sp/transfer/searchlist/banner-s-ride-sp-last-train.png
 canal26.com##nav > .top-0.h-10.z-20
 peing.net##body > button.close-button[style^="position: fixed; left: 50%; background: none;"]
 ipaidia.gr##.inarticle-add-mob
@@ -3840,6 +3847,7 @@ g-journal.jp##div[style*="min-height: 250px;"]
 e1.ru##div[data-test="sticky-header"] + div[class]
 friday.kodansha.co.jp##div[class^="styles_period"] > ol[class^="styles_rankingList"] > li:not([data-cx-position])
 moqlog.jp##.spbill
+cityheaven.net##.noguide_banner
 cityheaven.net##.adm-layoutshift-loading
 m.ura.news##div[class$="placeholder"]
 search.yahoo.co.jp##.TSg_Ad
@@ -5008,7 +5016,7 @@ erogazopple.com###ad06
 erogazopple.com##.book_ad
 erogazoufactory.com##.index_top > br
 metacritic.com##.mobile_nav_ad_space
-adult-machiko.com##div[class^="ad_"]
+eclat.hpplus.jp,adult-machiko.com##div[class^="ad_"]
 onmanorama.com##.promotionblocks
 taxtax.hatenablog.jp##.adx-responsive-mode
 jahannews.com##.stickadtop
