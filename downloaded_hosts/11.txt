@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 4hi9EvT/46+Fq5pz3S4BJg
-! Diff-Path: ../patches/11/11-s-1739191738-3600.patch
+! Checksum: p07lDPQrsoNNNokmciQyzA
+! Diff-Path: ../patches/11/11-s-1739285084-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.58.16
-! TimeUpdated: 2025-02-10T12:39:21+00:00
+! Version: 2.0.58.23
+! TimeUpdated: 2025-02-11T14:40:09+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -155,6 +155,7 @@
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||san.myadssupport.com^
 ||api.youngle.tech^
 ||api.myadsget.com^
 ||api.sve.cc^
@@ -1327,6 +1328,8 @@ pornhd.com##+js(abort-on-property-read, popUnderUrl)
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/198342
+lapaginamillonaria.com#$#header { top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/195880
 m.yeniakit.com.tr#$#.dfp { display: none !important; }
 m.yeniakit.com.tr#$#.gallery-page { min-height: 2630px !important; }
@@ -2344,6 +2347,15 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+esse-online.jp##.ats-glia-ad
+zaxid.net##.mobile-branding-wrapper
+lapaginamillonaria.com##.bg-adContainerHeaderMobile
+lapaginamillonaria.com###__next > div#top-sticky:has(> div.ad-container)
+brow2ing.com##iframe[src^="//brow2ing.up.seesaa.net/"]
+dnes.bg##div[class^="article-"][class*="-banner"]
+dnes.bg##.top-megaboard
+foodnetwork.com##.o-Recipe > div[id^="mod-dynamic-bigbox-"]
+mydealz.de##.listLayout-main > div[class^="hide--from"]
 news.careerconnection.jp###sp_article_inarticle
 news.careerconnection.jp###JP_CNS_SP_article_head
 labaq.com###article-contents > div[style="margin-left:-10px;text-align:center"]
@@ -4666,7 +4678,6 @@ eromanga-life.com,eromanga-moeerolibrar.com,eromanga-life.com,moeero-library.com
 eromanga-select.com,doujin-night.com##.sp_adwidget
 free-erobooks.*##.abox
 free-erobooks.*##.pbox
-dokuha.jp##.ad-size-rect
 wired.com##amp-subscriptions-dialog
 am-our.com##div[style="min-height: 100px"]
 abendzeitung-muenchen.de##.ad-widebox
