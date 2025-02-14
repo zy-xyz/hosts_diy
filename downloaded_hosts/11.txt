@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: I7IvFwpLEQhvyY8EmA/J/A
-! Diff-Path: ../patches/11/11-s-1739371516-3600.patch
+! Checksum: LEqZUXaOG811qYcWVvcVMA
+! Diff-Path: ../patches/11/11-s-1739544226-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.58.28
-! TimeUpdated: 2025-02-12T14:40:30+00:00
+! Version: 2.0.58.31
+! TimeUpdated: 2025-02-14T14:39:05+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -110,8 +110,12 @@
 ||criteo.com^
 ||criteo.net^
 !
+! Appodeal
 ||appodeal.com^
-||a.320981a9244924ef86ebdbb9eb877e9f21ce83f1e3cc89b2c5e7c3ff.com^
+! ||a.320981a9244924ef86ebdbb9eb877e9f21ce83f1e3cc89b2c5e7c3ff.com^
+/^https:\/\/a\.[0-9a-f]{56}\.com$/
+! For DNS filtering
+/^a\.[0-9a-f]{56}\.com$/
 !
 ||ad.buzzvil.com^
 ||screen.buzzvil.com^
@@ -155,6 +159,7 @@
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||ads.appbundledownload.com^
 ||san.myadssupport.com^
 ||api.youngle.tech^
 ||api.myadsget.com^
@@ -193,8 +198,6 @@
 ||news-cdn.site^
 ||mossru.com^
 ||jjpp.lmtjapi.com^
-||a.07aa269c0e76550c929640c170af557c7371753ba1b580236d7fa0a4.com^
-||a.64e98469810bd13e2b45e52d19d6fddfe333b3528350d8cfa792d478.com^
 ||ad.zijieapi.com^
 ||ads*-normal-*.zijieapi.com^
 ||frontier100-toutiao-lf.fqnovel.com^
@@ -2347,6 +2350,7 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+productreview.com.au##div[class]:has(> div[class]:only-child > a[rel="sponsored"]:only-child)
 fmworld.net##.advertisementright_sp
 ||navitime.jp/scripts/media/web/infeed/realestate/
 ||kyujin.navitime.co.jp/view/platform/banner?
@@ -7631,6 +7635,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_mobile
 !
 !
 ! Yandex ads in mobile apps
+! Less dangerous: 77.88.55.88, 77.88.44.55, 5.255.255.77
 ! BUG: https://github.com/AdguardTeam/CoreLibs/issues/1951
 ! Don't add more than 200 apps per rule
 ! TODO: merge app lists of the same rules after fixing
@@ -7668,7 +7673,6 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_mobile
 ! https://github.com/AdguardTeam/AdguardFilters/issues/134473
 ! https://github.com/AdguardTeam/AdguardFilters/issues/133274
 ! https://github.com/AdguardTeam/AdguardFilters/issues/129011
-! https://github.com/AdguardTeam/AdguardFilters/issues/124995
 ! https://github.com/AdguardTeam/AdguardFilters/issues/121406
 ! https://github.com/AdguardTeam/AdguardFilters/issues/119448
 ! https://github.com/AdguardTeam/AdguardFilters/issues/119419
