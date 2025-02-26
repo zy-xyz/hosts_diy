@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: SUKPPPC8cYy+mRjrm6LCDQ
-! Diff-Path: ../patches/11/11-s-1740491035-3600.patch
+! Checksum: 8FU2epgDlTI5e40f7fZ3Lg
+! Diff-Path: ../patches/11/11-s-1740573968-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.58.61
-! TimeUpdated: 2025-02-25T13:38:52+00:00
+! Version: 2.0.58.65
+! TimeUpdated: 2025-02-26T12:41:07+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1968,6 +1968,8 @@ deviantart.com#$#div[class*="dp-ad-"] {height: 0!important; width: 0!important; 
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/199147
+@@||cmp.inmobi.com/geoip$domain=express.co.uk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/197717
 ! https://github.com/AdguardTeam/AdguardFilters/issues/192392
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188534
@@ -2354,6 +2356,13 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+forbes.com##.inlineAdMobileContainer
+forbes.com##div[data-testid="ad-container"]
+express.co.uk##.stories > ul > li:has(> div.native-slot)
+visualcapitalist.com##div[id^="IC_"][id*="x"]
+mamagirl.jp###sp_all_instream
+39mag.benesse.ne.jp###ad-gallery
+wsj.com##.css-c54t2t
 tft.op.gg##main .wrapper ~ .mobile:has(> div[style^="display"] > div)
 tft.op.gg###video-deck-detail-ad
 gendai.media##div.flex:has(> div[class] > div[style^="width"] > div[data-testid^="FR_SP_"])
