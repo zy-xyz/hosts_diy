@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: BuMRYTASq8O1ec3hKUDSLg
-! Diff-Path: ../patches/11/11-s-1741776264-3600.patch
+! Checksum: AwlRs735gZfTpj8OomdZfg
+! Diff-Path: ../patches/11/11-s-1741862595-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.59.11
-! TimeUpdated: 2025-03-12T10:39:03+00:00
+! Version: 2.0.59.16
+! TimeUpdated: 2025-03-13T10:38:04+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1335,6 +1335,8 @@ pornhd.com##+js(abort-on-property-read, popUnderUrl)
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/200684
+financial-field.com#$#body.jackbanner { margin-top: 0 !important; padding-bottom: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/198853
 redgol.cl#$#header { top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/198342
@@ -2363,6 +2365,15 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+gendai.media##div[style="width:320px;min-width:320px;min-height:50px"]
+pogovorim.by##.fsm_news_body > div[style]:has(> div[id*="ScriptRoot"])
+pornl.com#?#.wrapper > section:has(> div > span:matches-css(after, content: AD))
+pornl.com#?#.wrapper > div[class]:has(> div > div > span:matches-css(after, content: Advertisement))
+navitime.co.jp##.st-koten-naviad-list
+financial-field.com##.bottom-jack-banner
+financial-field.com###adz-skin-wrapper-bg
+redd.tube#$#section[style^="min-height:"] { min-height: auto !important; }
+redd.tube#$#.fixed-container[style^="min-height:"] { min-height: auto !important; }
 lipscosme.com##div[id^="adslot-"]
 op.gg##div[class]:has(> div:empty:only-child)
 ndtvprofit.com##div[class*="BelowHeroImage-ad"]
@@ -4090,8 +4101,6 @@ gsp.ro##div[style="height: 601px"]
 m.ceneo.pl##.page-content .js_product-list.promoted-items
 lagaceta.com.ar###addTop
 perfil.com,batimes.com.ar##.sticky-bottom-ads
-progorod76.ru##div[class^="banner-push_"]
-progorod76.ru##div[class^="banner-top"]
 101kofemashina.ru##a[href="https://ru.jura.com/ru"] > img
 gayforit.eu##div[id^="video_advert"]
 autozeitung.de##body .adAnything.dikr-responsive-ads-mca
@@ -4137,7 +4146,6 @@ chordu.com##.chordu_above_similar
 chordu.com###in_chord_sheet_ad
 playai.nu##div[style="width:100%;height:300px"]
 proboards.com###ProBoards_com_Mobile_Adhesion
-shazoo.ru##img[width="1024"][height="252"]
 m.blogtruyen.vn##a[href^="https://www.i9bet106.com/"]
 officelife.media##.custom-banner
 rokemoba.com###sp-fixed-menu
