@@ -1,10 +1,12 @@
-! Checksum: hLsb67AJsAAECeMdFUWwSw
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1742474209-3600.patch
+! Checksum: yPnBqm/cwhPcne61sonDOQ
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1742560604-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.77.98
-! TimeUpdated: 2025-03-20T12:32:18+00:00
+! Version: 2.0.78.2
+! TimeUpdated: 2025-03-21T12:32:23+00:00
 ! Expires: 5 days (update frequency)
+||ogaku.site^
+||waaz.wjebboljobvaj.top^
 ||hakurei.cdnbo.org^
 ||nkdccsiwixvzj.world^
 ||organicowner.com^
@@ -630,8 +632,6 @@
 ||yesadvertising.com^
 ||zanox.com^
 ||zeti.com^
-!+ NOT_OPTIMIZED
-||embed.sendtonews.com^
 !+ NOT_OPTIMIZED
 ||o333o.com^
 !+ NOT_OPTIMIZED
@@ -34070,6 +34070,7 @@ vkcdnservice.appspot.com^
 ||79893962.xyz^
 ||7fc8.site^
 ||80133082.xyz^
+||80582834.xyz^
 ||83409127.xyz^
 ||83761158.xyz^
 ||83887336.xyz^
@@ -34335,6 +34336,7 @@ vkcdnservice.appspot.com^
 ||static.tradetracker.net^
 ||supply.upjers.com^
 ||syndicate.payloadz.com^
+||t.babelmedia.global^
 ||tag.regieci.com^
 ||tags.refinery89.com^
 ||tcadserver.rain-digital.ca^
@@ -36600,6 +36602,8 @@ vkcdnservice.appspot.com^
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||install*.zonastat.com^
+||tags.pw.adn.cloud^
 ||api-notify.markarch.com^
 ||venatusmedia.com^
 ||metrics.nsureapi.com^
@@ -37984,6 +37988,7 @@ vkcdnservice.appspot.com^
 ||amc.yandex.ru^
 ||mc.yandex.ru^
 ||mc.yandex.com^
+||mc.yandex.md^
 ||track.segmentstream.com^
 ||vboro.de^
 ||barddfvgkhctch11.ru^
@@ -89234,6 +89239,7 @@ inapps.appsflyersdk.com^
 ||x.weather.com^
 ||xp2023-pix.s3.amazonaws.com^
 ||yoast-schema-graph.com^
+||yotrack.cdn.ybn.io^
 ||adsdk.yandex.ru^
 ||analytics.samsungknox.com^
 ||extmaps-api.yandex.net^
@@ -90054,7 +90060,6 @@ inapps.appsflyersdk.com^
 ||xad.dnoticias.pt^
 ||adclient-uol.lp.uol.com.br^
 ||adv.r7.com^
-||t.babelmedia.global^
 ||butlercdn.com^
 ||assets.etus.digital^
 ||lyappreciat.info^
@@ -90160,6 +90165,7 @@ inapps.appsflyersdk.com^
 ||templates.buscape.com^
 ||yestorrents.org^
 ||oecistbenton.com^
+||vvdrhe.win^
 ||adwadvert.com.ua^
 ||nanthou.life^
 ||wrapper.bracdn.online^
@@ -92239,6 +92245,7 @@ inapps.appsflyersdk.com^
 ||zorkabiz.ru^
 ||zqizn.com^
 ||zqmwf.xyz^
+/62.76.25.2(7|8)/
 /193.200.64.24:/
 ||193.200.64.24^
 ||206.54.181.250^
@@ -100033,10 +100040,16 @@ inapps.appsflyersdk.com^
 ||51tongji.trafficmanager.net^
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
+||feernhuhe.com^
+||vhje.cn^
+||bptnzp.top^
+||ajoxxit.top^
 ||spkh.cn^
 ||sodenneyg.com^
 ||zqntbc.top^
 ||lcidauv.top^
+||bekd.cn^
+||uhityllhn.com^
 ||xunqrutsl.com^
 ||jslxzx.icu^
 ||xeccotftw.com^
