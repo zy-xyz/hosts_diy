@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 0F4GdQMRig+awNXaATosug
-! Diff-Path: ../patches/11/11-s-1744477791-3600.patch
+! Checksum: C75S4LMj9YZTMF481lm+EA
+! Diff-Path: ../patches/11/11-s-1744618374-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.59.80
-! TimeUpdated: 2025-04-12T17:06:16+00:00
+! Version: 2.0.59.81
+! TimeUpdated: 2025-04-14T08:09:15+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2370,6 +2370,7 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+wife.koe-koe.com##div[style="min-height:240px"]
 juken-mikata.net##.\31 th-ad
 pokeca-zanmai.jp##.mobile-anchor-ad
 blog.2nt.com##.fc2spad_noactive + div[style="font-size:8px;"]
@@ -3440,7 +3441,6 @@ porngo.com##.center-spot
 overclockers.ru##.container-block:has(> div[id^="yandex_rtb"])
 overclockers.ru##.container-block.woback:has(> div > ins[data-revive-zoneid])
 tupaki.com###roadblocker-wrapper
-perfectgirls.xxx#?#.right-player-col:contains(Advertising)
 vxxx.com#$?#.video-page div[class]:not([style]):not([class*=" "]):not([class*="-"]):is(:has(> div[id][class]), :has(> div[class] > div[id][class])):contains(Advertisement) { remove: true; }
 youporn.com###mobileContainer div[class$="Ad"] > div[class*=" "]
 augsburger-allgemeine.de##div[style="min-height:20338px;"]
