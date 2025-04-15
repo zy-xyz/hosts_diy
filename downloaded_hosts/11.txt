@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: C75S4LMj9YZTMF481lm+EA
-! Diff-Path: ../patches/11/11-s-1744618374-3600.patch
+! Checksum: OmgNJ6r5gtXCqwL+jwtK1A
+! Diff-Path: ../patches/11/11-s-1744729857-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.59.81
-! TimeUpdated: 2025-04-14T08:09:15+00:00
+! Version: 2.0.59.85
+! TimeUpdated: 2025-04-15T15:07:03+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -159,6 +159,8 @@
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||apishow.babybus.com^
+||apppromoteapi.babybus.com^
 ||tiktokpangle.us^
 ||api16-access-ttp*.tiktokpangle-b.us^
 ||lf-static.tiktokpangle-cdn-us.com^
@@ -2363,13 +2365,17 @@ celeby-media.net,kyun2-girls.com,hapiee.com,2ch-c.net,4p.de,www-cbc-ca.cdn.amppr
 ! ##.Ad
 chip.de,gamesworld.de,fnn.jp##.Ad
 ! ##body .banner
-genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,ranking.goo.ne.jp,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
+medipalette.lotte.co.jp,genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,ranking.goo.ne.jp,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 !
 ! TODO: Replace by class rule when https://github.com/AdguardTeam/FiltersCompiler/issues/221 is resolved.
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+||m.iyinghua.com/bar/gudingb.js
+sondakika.com###ana_masthead_320x100
+sondakika.com##div[id="336x280_Mobil"]
+motorsport.com##div[data-msnt-label="Advertisement"]
 wife.koe-koe.com##div[style="min-height:240px"]
 juken-mikata.net##.\31 th-ad
 pokeca-zanmai.jp##.mobile-anchor-ad
