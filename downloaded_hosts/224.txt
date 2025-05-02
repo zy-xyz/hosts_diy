@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: H9XJ5Ai0eXGUiLx992m83w
-! Diff-Path: ../patches/224/224-s-1746112248-3600.patch
+! Checksum: KjAqDZrjoRpd8+lHzjBBtw
+! Diff-Path: ../patches/224/224-s-1746198655-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.36.8
-! TimeUpdated: 2025-05-01T15:07:21+00:00
+! Version: 2.1.36.14
+! TimeUpdated: 2025-05-02T15:07:23+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1177,6 +1177,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 ! NOTE: Specific rules
 !
+ddys.*,ddrk.me##.entry div[id] > a[target="_blank"] > img
 league-funny.com##.w-full > div.fixed:has(> a[href^="https://civerasandalliesasia.go.link/"] > img)
 league-funny.com##.w-full > div.fixed:has(> a[href^="https://civerasandalliesasia.go.link/"] > img) + div[class^="mt-"]
 league-funny.com##article > div.w-full:has(> div[id^="div-gpt-ad-"])
@@ -5086,6 +5087,15 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||vldp.cn^
+||ghgietuthz.com^
+||qqosk05020llo.com^
+||xlnlvf.top^
+||qqosk05021llo.com^
+||inwucno.top^
+||inulgaenypa.com^
+||okpl05021ai.com^
+||ddow.cn^
 ||rgtghulduk.com^
 ||uaqe.cn^
 ||okpl05010ai.com^
@@ -5096,6 +5106,8 @@ newduba.cn###jq_youxi
 ||okpl05011ai.com^
 ||yaltchoaiz.com^
 ||svnf.cn^
+||aeinkailrupe.com^
+||hnwucnu.top^
 ||qsoc.cn^
 ||wwok04300kl.com^
 ||oia04300klq.com^
@@ -20406,6 +20418,8 @@ _rony.js$script,third-party
 .cn/nd389.js$script,third-party
 .cn/FI390rd2.js$script,third-party
 .cn/Zg389.js$script,third-party
+.cn/Pu390ft2.js
+.cn/lV389.js
 _vwnrsbjs?
 _vwisbjs?
 yydstxt*.com/js/html
