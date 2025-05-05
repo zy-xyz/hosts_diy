@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: TJ54wh5zX+Bi+bxbolld8A
-! Diff-Path: ../patches/11/11-s-1746342631-3600.patch
+! Checksum: Y6fzujQSoBe4hObWgIlLjQ
+! Diff-Path: ../patches/11/11-s-1746457884-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.60.36
-! TimeUpdated: 2025-05-04T07:06:51+00:00
+! Version: 2.0.60.40
+! TimeUpdated: 2025-05-05T15:07:21+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2382,6 +2382,14 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+snapedit.app##.hero-ads
+liquipedia.net#$#.mobile-sticky-ad { display: none !important; }
+liquipedia.net#$#.mobile-sticky-ad ~ #main-nav { top: 0 !important; }
+liquipedia.net#$#.mobile-sticky-ad ~ #wiki-nav { top: 3.125rem !important; }
+liquipedia.net#$#body:has(> .mobile-sticky-ad) { padding-top: 5.375rem !important; }
+navitime.co.jp##.japan-travel-banner
+gqjapan.jp##.ad-stickyhero
+thecourier.co.uk###leaderboard-mobile-only
 hepsiburada.com###hyd-adx
 bestbuy.com##.widget-container > .container > .row.contained-row:has(.shop-display-ad)
 aajtak.in##.itgdAdsPlaceholder
@@ -7519,6 +7527,11 @@ womenshealth.de#?#body > .list__header:contains(Sponsored Section)
 contexto.me#$#.top-ad-padding { padding-top: 15px !important; }
 ! NOTE: Regular rules end ⬆️
 ! !SECTION: Regular rules
+!
+! m.yelp.com
+m.yelp.com##div[data-testid="suggested-search-bar"] ~ div[class*="border-color-"] > ol > li:has(> div[class*="sponsored-icon_"])
+m.yelp.com##div[data-testid="suggested-search-bar"] ~ div[class*="border-color-"] > ol > li:has(> div[class*="sponsored-icon_"]) + li[class]
+m.yelp.com##div[data-testid="suggested-search-bar"] ~ div[class*="border-color-"] > ol > li:has(> div[data-testid^="themed-ad-"])
 !
 ! Avito
 m.avito.ru#?#div[data-marker="new-item-wrapper"] ~ div[class]:has(> div[data-code] > div[id^="ads_"])
