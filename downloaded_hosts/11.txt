@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Y6fzujQSoBe4hObWgIlLjQ
-! Diff-Path: ../patches/11/11-s-1746457884-3600.patch
+! Checksum: 5n951y+SP/DfYDaFRZThcQ
+! Diff-Path: ../patches/11/11-s-1746533789-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.60.40
-! TimeUpdated: 2025-05-05T15:07:21+00:00
+! Version: 2.0.60.41
+! TimeUpdated: 2025-05-06T12:12:18+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1035,6 +1035,7 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/204413#issuecomment-2854199428
 ! https://github.com/AdguardTeam/AdguardFilters/issues/202334
 ! https://github.com/AdguardTeam/AdguardFilters/issues/202208
 ! https://github.com/AdguardTeam/AdguardFilters/issues/189769
