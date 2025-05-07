@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 5n951y+SP/DfYDaFRZThcQ
-! Diff-Path: ../patches/11/11-s-1746533789-3600.patch
+! Checksum: /zViID+YeSeFk/6sTnqfww
+! Diff-Path: ../patches/11/11-s-1746609124-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.60.41
-! TimeUpdated: 2025-05-06T12:12:18+00:00
+! Version: 2.0.60.48
+! TimeUpdated: 2025-05-07T09:07:53+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2383,6 +2383,13 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+wco.tv###sidebar_today > div[style^="float:right;"]
+free-codecs.com##.mobile-header-ad
+naughtymachinima.com##.content-recom
+||naughtymachinima.com/images/banners/
+novelba.com##footer div[style^="padding:"]
+||ig-store.ru/publications/get-banners
+news18.com##article > div.lazyload-wrapper:has(> div[data-lazy="ads"])
 snapedit.app##.hero-ads
 liquipedia.net#$#.mobile-sticky-ad { display: none !important; }
 liquipedia.net#$#.mobile-sticky-ad ~ #main-nav { top: 0 !important; }
@@ -2412,7 +2419,6 @@ republicworld.com##section.w-full:has(.adWidget) + div[style^="margin-bottom:"]
 vistanet.it##.row-mobile-top
 tecnoblog.net###ad-single-bottom
 firstpost.com##.mnvid-wrp > div.mn-rhs:has(> div.text-center > div[style] > div.myad)
-koreatimes.co.kr##div[class^="wrap DetailTaboola_only-"]
 koreatimes.co.kr##div[class^="Detail_ad-container"]
 nau.ch##div[data-sticky-height="1px"]
 rakukan.net##+js(addEventListener-defuser, DOMContentLoaded, interstitialAdDiv)
