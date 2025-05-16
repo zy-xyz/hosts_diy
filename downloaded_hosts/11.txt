@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 2enHTOA8hnwmCxFtZutdBg
-! Diff-Path: ../patches/11/11-s-1747315148-3600.patch
+! Checksum: 1WB6uHiboP/XKJGIpe3n3A
+! Diff-Path: ../patches/11/11-s-1747397740-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.60.78
-! TimeUpdated: 2025-05-15T13:14:50+00:00
+! Version: 2.0.60.81
+! TimeUpdated: 2025-05-16T12:11:29+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2387,6 +2387,11 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+nuipogoda.ru##div:has(> div[data-adtype]:only-child)
+nuipogoda.ru#$#div[id][style^="left:"][style*="height:"] { height: auto !important; }
+porndroids.com##.links-out__disclaimer
+porndroids.com##.wrapper > aside[class]:has(> header.aan__header)
+porndroids.com##.sticky-banner
 camwhores.ru.com##iframe[src^="https://a.adtng.com/"]
 ap7am.com##.first-ad-adp
 hentailib.net##center > div[style^="width:300px;height:"]
@@ -4630,7 +4635,7 @@ m.iamcook.ru##.block4
 applion.jp##div[style^="display: block; height: 250px"]
 applion.jp##div[style="display: block; height: 50px; text-align: center; margin: 5px 0px;"]
 swiki.jp##.container > span > a[href^="https://hb.afl.rakuten.co.jp"]
-swiki.jp##.adsense
+otakuma.net,swiki.jp##.adsense
 alphacoders.com##.scroller-ad-container
 unian.net##div[style="height: 335px"]
 unian.net##iframe[src="/content/redtram-mob-post.html"]
