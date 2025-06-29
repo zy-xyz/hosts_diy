@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2025-06-28 20:04:54(GMT+8)
-! Total count: 34503
+! ! Version: 2025-06-29 20:04:55(GMT+8)
+! Total count: 34501
  
 ###ADtip
 ###AdBlockDialog
@@ -1690,7 +1690,7 @@
 $csp=script-src 'self' * 'unsafe-inline',domain=pinshu.org|13xsw.com|bbiquge.cc|taobiquge.com|haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|yebiquge.com|jubiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|2dsk.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.chenkuan.com|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com
 $csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
 $csp=script-src 'self' * 'unsafe-inline',domain=zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com|wuwusk.com
-$csp=script-src 'self' *,domain=akexs.com|qqmmxs.com|qimiaoxs.cc|qimiaoxiaoshuo.com|wuwxs.com|biquge678.com|biqugezw.us|zk01.net
+$csp=script-src 'self' *,domain=sswwxs.com|akexs.com|qqmmxs.com|qimiaoxs.cc|qimiaoxiaoshuo.com|wuwxs.com|biquge678.com|biqugezw.us|zk01.net
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $domain=googleads.g.doubleclick.net
 $image,third-party,domain=258zw.com
@@ -8043,7 +8043,6 @@ btmulu.com#?#.item:-abp-has(> a[target="_blank"])
 btnull.org,gyg.la,gyg.si,gying.in,gying.net,gying.org,gying.si###ly
 bts.to##.dl_blue[href^="/goto_.php?url="]
 bttop.net###top_bottom + div[style="float:left;width:100%;"]
-btvsports.click#@##googleAD2
 btvsports.com###ai_tapar
 btyingshi.com##.aside > .card:last-child
 budport.com.ua##body > div[style^="position:fixed;"][style*="z-index"][style*="background"]
@@ -10283,14 +10282,6 @@ genshin.honeyhunterworld.com#@#.a_p
 geo.de##.lp_mwi_dialog-wrapper
 geo.de##div.lp_mwi_dialog-overlay.lp_mwi_dialog-overlay--is-active
 getitfree.cn#%#//scriptlet("abort-current-inline-script", "document.getElementById", "/!document\.getElementById\([\s\S]*?\.style\.display=/")
-getrelax.cc#$#iframe[src^="//adserver.juicyads.com/"] { display: none!important; }
-getrelax.cc#$#iframe[src^="https://syndication.exosrv.com/"] { display: none!important; }
-getrelax.cc#$?##main_content > .grid-boxes-in:has(> iframe[src^="//adserver.juicyads.com/"]) { remove: true; }
-getrelax.cc#$?##main_content > .grid-boxes-in:has(> iframe[src^="https://syndication.exosrv.com/"]) { remove: true; }
-getrelax.cc#%#//scriptlet('abort-current-inline-script', '$', '#adisblock')
-getrelax.cc#?#.nav > li.dropdown:has(> ul.dropdown-menu > li > div.mega-menu-content > div.container > div.row div.blog-grid > a[href^="https://getrelax.cc/ad"])
-getrelax.cc#?#.nav > li:has(> a[target="_blank"])
-getrelax.cc$$script[tag-content="#adisblock"][min-length="50"][max-length="200"]
 getsurl.com,gslink.co,gsurl.in,g5u.pw#$#abort-on-property-write Fingerprint2
 getsurl.com,gslink.co,gsurl.in,g5u.pw,clipwatching.com,protect-mylinks.com#$#abort-current-inline-script document.createElement String.fromCharCode
 gezila.com##.tishi + dl
@@ -18935,6 +18926,7 @@ zzzyk.com###Tinfo
 ||8suis.top^
 ||8u0.fun^
 ||8u6stvyww.top^
+||8x3wolchw.com^
 ||8xbook.org/scripts/ad/
 ||8xly.cn^
 ||8xtm6i.cn^
@@ -20936,6 +20928,7 @@ zzzyk.com###Tinfo
 ||bqg126.com/js/hf
 ||bqg23.cc/js/hf
 ||bqiapp.com/api/config/ad?
+||bqxyns0hv.com^
 ||br.bendan.shop^
 ||brainybasin.com^$third-party
 ||brainynut.com^$third-party
@@ -22205,6 +22198,7 @@ zzzyk.com###Tinfo
 ||daenf.cn^
 ||daf-rs.com/imageViewer/wpAd
 ||dafdf.cn^
+||daffodilo44.com^
 ||dafuhouse.com^
 ||dagou2018.com/js/item
 ||dagumanhua.com/style/mdagu.js
@@ -22458,6 +22452,7 @@ zzzyk.com###Tinfo
 ||dgkship.icu^
 ||dgrgr34.fun^
 ||dgvkrt.xyz^
+||dgxjxeuzm.com^
 ||dgxlm.xyz^
 ||dh1dh.top^
 ||dhaaralzz.com^
@@ -25894,6 +25889,7 @@ zzzyk.com###Tinfo
 ||iyxdm.*/js/gad_
 ||iyxh.cn^
 ||izalflh.cn^
+||izopsg.icu^
 ||izqeyo.xyz^
 ||izqogb.cn^
 ||iztwp.com/images/
@@ -27474,6 +27470,7 @@ zzzyk.com###Tinfo
 ||m51.icu^
 ||m6d.icu^
 ||m7g2v1b9.com^
+||m7xssfiit.com^
 ||m8ryjf38a.com^
 ||m8zgls6zt.com^
 ||m9s3h265lq.com^
@@ -28116,7 +28113,6 @@ zzzyk.com###Tinfo
 ||n2wqmr4lmaummar.xyz^
 ||n3567.com^
 ||n3xpjc.xyz^
-||n55cpw.vip^
 ||n55ylc001.vip^
 ||n5725.com^
 ||n5m5.com/static/js/playcon.js
@@ -29015,7 +29011,6 @@ zzzyk.com###Tinfo
 ||pic.gongkong.com/UploadPic/gongkong/
 ||pic.pimg.tw/cwyuni/*.gif?v=$domain=cwyuni.tw
 ||pic.pimg.tw/promo01/
-||pic.shedsgs.cn/upload_*/upload/*.gif$domain=91porna.com
 ||pic.yupoo.com/showflash/
 ||pic1.dianshu119.com^
 ||pic22222.com^
@@ -29112,6 +29107,7 @@ zzzyk.com###Tinfo
 ||plof69.com^
 ||plotparent.com^$third-party
 ||plotrabbit.com^$third-party
+||plthnh.icu^
 ||pluckypocket.com^$third-party
 ||pluckyzone.com^$third-party
 ||plumbicwooler.com^
@@ -31898,6 +31894,7 @@ zzzyk.com###Tinfo
 ||twerilxi.top^
 ||twgzgqqu.com^
 ||twilmii.top^
+||twjrxo.top^
 ||twjsx.cn^
 ||twkan.com/js/otherad
 ||twlcyc.cn^
@@ -32491,6 +32488,7 @@ zzzyk.com###Tinfo
 ||vkjqbb.xyz^
 ||vkjsnvk.com^
 ||vktztp.xyz^
+||vkxn.cn^
 ||vl3rw9roj.com^
 ||vldp.cn^
 ||vlgkotr.cn^
