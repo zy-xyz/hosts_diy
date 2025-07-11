@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 3M/dd2/6h2Vtnd112xixGg
-! Diff-Path: ../patches/11/11-s-1752153669-3600.patch
+! Checksum: PlBd9y8fwe6UkXrNXtm7pw
+! Diff-Path: ../patches/11/11-s-1752236340-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.62.28
-! TimeUpdated: 2025-07-10T13:17:05+00:00
+! Version: 2.0.62.34
+! TimeUpdated: 2025-07-11T12:11:02+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -161,6 +161,10 @@
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||tr.acobt.tech^
+||promotion.xmeye.net^
+||promotion-en.xmeye.net^
+||promotion-quicker.jftechsoft.com^
 ||ads*-normal*.zijieapi.com^
 ||sheilaqeb.com^
 ||api.adaether.com^
@@ -2328,6 +2332,10 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+m.vz.ru##.jscroll-inner > div.page-section > div.container:only-child:has(> div[id^="yandex_rtb"]:first-child + script:last-child)
+kayak.com.tr#$#div[class="i4It-mod-pointers"] { display: none !important; }
+kayak.com.tr##+js(remove-class, i4It-cmp2-toaster-visible, .i4It)
+webtekno.com##.sidebar-mosts__item__sponsor
 shimotsuke.co.jp##div[style="text-align:center;font-size:10px;color:#aaa"]
 epey.com##.tab:has(> div.cell > span.sponsormetni)
 toy1972.hatenablog.com###entry-footer-primary-modules
@@ -4366,7 +4374,7 @@ the-sun.com##.amp-adv-wrapper
 bookmaker-ratings.ru##.branding-top-wrapper
 washingtonpost.com##.tableAd1
 fistingplanet.com##.happy-related-videos-mobile
-villagesexvideos.com,xxxvideoindian2.com,fistingplanet.com##.happy-footer-mobile
+erotic-hentai.com,villagesexvideos.com,xxxvideoindian2.com,fistingplanet.com##.happy-footer-mobile
 coinwarz.com##div[id^="ad"]
 pornpapa.com##.mobile-device
 maximum.ru,rusradio.ru,dfm.ru##.advertising-mobile-popup-overlay
