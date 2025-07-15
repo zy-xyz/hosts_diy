@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: wixmXziZYxpCLTlhNL2MbQ
-! Diff-Path: ../patches/11/11-s-1752502361-3600.patch
+! Checksum: 2Il1VWVq1ykO0qqJy1S5Vw
+! Diff-Path: ../patches/11/11-s-1752574359-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.62.38
-! TimeUpdated: 2025-07-14T14:08:19+00:00
+! Version: 2.0.62.43
+! TimeUpdated: 2025-07-15T10:07:59+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2332,13 +2332,15 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+webtekno.com##.sidebar-mosts__item__sponsor:not(#style_important)
+xsharings.com##.mobile-nav-tabs > a[target="_blank"]
+timeanddate.de#$#.header__wrapper { height: auto !important; }
 pons.com##.ad_topslot
 umanity.jp##.sp_big_banner_bottom
 spread-sports.jp##.article-header > p[style^="display: block; text-align: center; color"]
 m.vz.ru##.jscroll-inner > div.page-section > div.container:only-child:has(> div[id^="yandex_rtb"]:first-child + script:last-child)
 kayak.com.tr#$#div[class="i4It-mod-pointers"] { display: none !important; }
 kayak.com.tr##+js(remove-class, i4It-cmp2-toaster-visible, .i4It)
-webtekno.com##.sidebar-mosts__item__sponsor
 shimotsuke.co.jp##div[style="text-align:center;font-size:10px;color:#aaa"]
 epey.com##.tab:has(> div.cell > span.sponsormetni)
 toy1972.hatenablog.com###entry-footer-primary-modules
@@ -2377,7 +2379,6 @@ viewweather.com###wwm_days_content > div:not([id]):has(> ins.adsbygoogle)
 gaming.tools##div[id*="mobile-bottom-"]
 wonporn.com##li[class^="adcls"]
 athomedaily.com,atworkdaily.com##div[class="mobile-only"]
-webtekno.com##.sidebar-mosts__item__sponsor
 softpedia.com##.applist > .nl_item:has(> .ad)
 tubator.com##.food_container
 area51.porn##.player-avd-mobile-wrap
@@ -4377,7 +4378,7 @@ the-sun.com##.amp-adv-wrapper
 bookmaker-ratings.ru##.branding-top-wrapper
 washingtonpost.com##.tableAd1
 fistingplanet.com##.happy-related-videos-mobile
-erotic-hentai.com,villagesexvideos.com,xxxvideoindian2.com,fistingplanet.com##.happy-footer-mobile
+familyxxxhd.com,erotic-hentai.com,villagesexvideos.com,xxxvideoindian2.com,fistingplanet.com##.happy-footer-mobile
 coinwarz.com##div[id^="ad"]
 pornpapa.com##.mobile-device
 maximum.ru,rusradio.ru,dfm.ru##.advertising-mobile-popup-overlay
@@ -7653,6 +7654,7 @@ m.vk.com,m.vk.ru##.wall_item[data-ad-view]
 ! xhamster.com
 xhamster43.desi,fullxh.com,interxh.site,xhspot.com,xhwide5.com,xhchannel.com,xhtotal.com,xhtree.com,xhwide2.com,xhlease.world,xhamsterporno.mx,valuexh.life,xhdate.world,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,xhamster42.desi,xhvid.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster22.com,xhamster27.com,openxh.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##+js(set-cookie-reload, pShowMob, true)
 xhamster43.desi,fullxh.com,interxh.site,xhspot.com,xhwide5.com,xhchannel.com,xhtotal.com,xhtree.com,xhwide2.com,xhlease.world,xhamsterporno.mx,valuexh.life,xhdate.world,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,xhamster42.desi,xhvid.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster22.com,xhamster27.com,openxh.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[data-role="bottom-popup-ads"]
+xhamster43.desi,fullxh.com,interxh.site,xhspot.com,xhwide5.com,xhchannel.com,xhtotal.com,xhtree.com,xhwide2.com,xhlease.world,xhamsterporno.mx,valuexh.life,xhdate.world,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,xhamster42.desi,xhvid.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster22.com,xhamster27.com,openxh.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com###video_info_container > div[class^="container-"]:has(> .dots-loader)
 xhamster43.desi,fullxh.com,interxh.site,xhspot.com,xhwide5.com,xhchannel.com,xhtotal.com,xhtree.com,xhwide2.com,xhlease.world,xhamsterporno.mx,valuexh.life,xhdate.world,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,xhamster42.desi,xhvid.com,xhamster20.desi,xhamster19.desi,xhadult2.com,xhmoon5.com,xhamster3.com,xhamster18.desi,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.com,xhamster14.com,xhamster15.com,xhamster17.com,xhamster18.com,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster22.com,xhamster27.com,openxh.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.video-type-video > aside[data-role]:has(> div[data-role])
 xhamster43.desi,fullxh.com,interxh.site,xhspot.com,xhwide5.com,xhchannel.com,xhtotal.com,xhtree.com,xhwide2.com,xhlease.world,xhamsterporno.mx,valuexh.life,xhdate.world,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,xhamster42.desi,xhvid.com,xhamster20.desi,xhamster19.desi,xhadult2.com,xhmoon5.com,xhamster3.com,xhamster18.desi,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.com,xhamster14.com,xhamster15.com,xhamster17.com,xhamster18.com,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster22.com,xhamster27.com,openxh.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[class*="init"]:has(> div > a[data-role="xhl-link-more-btn"])
 xhamster43.desi,fullxh.com,interxh.site,xhspot.com,xhwide5.com,xhchannel.com,xhtotal.com,xhtree.com,xhwide2.com,xhlease.world,xhamsterporno.mx,valuexh.life,xhdate.world,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,xhamster42.desi,xhvid.com,xhamster20.desi,xhamster19.desi,xhadult2.com,xhmoon5.com,xhamster3.com,xhamster18.desi,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.com,xhamster14.com,xhamster15.com,xhamster17.com,xhamster18.com,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster22.com,xhamster27.com,openxh.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.thumb-list-mobile-item--widget
