@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: JR62IyxYSqUd2c8nSi0Jgg
-! Diff-Path: ../patches/11/11-s-1753787466-3600.patch
+! Checksum: gBpTu/8UCBKYVw+YsRghIg
+! Diff-Path: ../patches/11/11-s-1753866930-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.62.91
-! TimeUpdated: 2025-07-29T11:07:16+00:00
+! Version: 2.0.62.95
+! TimeUpdated: 2025-07-30T09:11:28+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -161,6 +161,7 @@
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||mp-api.afafb.com^
 ||zmqdez.ru^
 ||tr.acobt.tech^
 ||promotion.xmeye.net^
@@ -1949,6 +1950,9 @@ deviantart.com#$#div[class*="dp-ad-"] {height: 0!important; width: 0!important; 
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/210010
+||dmcdn.net/playerv5/dmp.advertising.*.js$domain=dailymotion.com,badfilter
+||dmxleo.dailymotion.com/cdn/manifest/video/$xmlhttprequest,script,domain=dailymotion.com
 ! https://github.com/uBlockOrigin/uAssets/issues/28118
 my-angers.info#@#amp-auto-ads
 ! https://jbbs.shitaraba.net/bbs/read.cgi/internet/25463/1618326670/249
@@ -2331,6 +2335,13 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+losreplicantes.com##.pub-box-text
+book18.fans##.home-h:has(> a[href^="https://stripchat.com/"])
+book18.fans##div[style="margin: -12px -11px"]
+news4wide.net###container > .free-area:has(> #lite_link)
+news4wide.net###container > .free-area:has(> div[id^="im-"])
+news4wide.net###container > .free-area:has(> script)
+news4wide.net##div[style="width: 300px; height: 250px;"]
 telefonino.forumfree.it##.overlay_mgid
 tw.news.yahoo.com##div[class="Mih(250px)"]
 tw.news.yahoo.com##div[id^="defaultLREC"]
