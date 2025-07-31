@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: gBpTu/8UCBKYVw+YsRghIg
-! Diff-Path: ../patches/11/11-s-1753866930-3600.patch
+! Checksum: LnTRc5KL37SpbNExZk7Rhw
+! Diff-Path: ../patches/11/11-s-1753942452-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.62.95
-! TimeUpdated: 2025-07-30T09:11:28+00:00
+! Version: 2.0.63.0
+! TimeUpdated: 2025-07-31T06:10:23+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1339,7 +1339,7 @@ ppe.pl#$#a.opera-bar + .navbar-wrapper { top: 0 !important; }
 cultura.uol.com.br#$##main-menu { margin-top: 0px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188106
 ! https://github.com/AdguardTeam/AdguardFilters/issues/187947
-timeanddate.com#$##header__wrapper { height: auto !important; }
+timeanddate.*#$#.mob #header__wrapper { height: 50px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/187737
 unseki.co.jp#$##content_inner { margin-top: 0 !important; }
 unseki.co.jp#$##top { margin-top: 70px !important; }
@@ -2335,6 +2335,8 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+tarnkappe.info##.mobile-only:has(> .interscroller-wrapper:only-child)
+gallery.123telugu.com##.mobile-only-ad
 losreplicantes.com##.pub-box-text
 book18.fans##.home-h:has(> a[href^="https://stripchat.com/"])
 book18.fans##div[style="margin: -12px -11px"]
@@ -2383,7 +2385,6 @@ sportskeeda.com##.stickyarticlead
 lastampa.it###editorial-Top
 webtekno.com##.sidebar-mosts__item__sponsor:not(#style_important)
 xsharings.com##.mobile-nav-tabs > a[target="_blank"]
-timeanddate.de#$#.header__wrapper { height: auto !important; }
 pons.com##.ad_topslot
 umanity.jp##.sp_big_banner_bottom
 spread-sports.jp##.article-header > p[style^="display: block; text-align: center; color"]
@@ -5170,7 +5171,7 @@ wowhead.com##.is-btf
 wowhead.com###video-pos-page
 wowhead.com##.show-on-mobile.block-container
 laopiniondemurcia.es##._mo_recs
-oniyomediary.com,news4wide.net##.advertisement-position
+vsnp.net,mindhack2ch.com,oniyomediary.com,news4wide.net##.advertisement-position
 ||seesaa.net/common/under.html$domain=news4wide.net
 realsound.jp##.paragraphAd
 jpnumber.com##.frame-300-gray
