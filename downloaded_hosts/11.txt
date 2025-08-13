@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: dhS4V6RgSKlIdDctZwkYbg
-! Diff-Path: ../patches/11/11-s-1754741677-3600.patch
+! Checksum: KLx2k+hOQVsMkjOjtaXKZg
+! Diff-Path: ../patches/11/11-s-1755097836-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.63.25
-! TimeUpdated: 2025-08-09T12:10:38+00:00
+! Version: 2.0.63.32
+! TimeUpdated: 2025-08-13T15:06:46+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1009,6 +1009,7 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/211147
 ! ad wall
 mdpr.jp##+js(set-session-storage-item, gnrwdfreq, 1)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/204413#issuecomment-2854199428
@@ -2342,6 +2343,13 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+moovitapp.com#$#.header-sticky-ad-test { top: 0 !important; }
+missavtv.com##iframe[src^="https://creative.rmhfrtnd.com/"]
+igg-games.com##a[href*="?uaffer="]
+cielotv.it##main > div[type="skin"][class^="sc-"]
+tu93.org##+js(abort-current-script, document.createElement, )
+||tu93.org/mobile/w/*.min.js|$script
+||tj.com.day/js/*.js|$script,third-party
 tarnkappe.info##section[class="mobile-only"] > div[style^="height:"]
 borsaningundemi.com##.akAds
 beauty.oricon.co.jp##.ttl-kjbox + section:has(> ul.kjbox)
@@ -2948,7 +2956,7 @@ ooxxx.com#?#.wrapper > section[style]:has(> div > span:matches-css(after, conten
 ooxxx.com##.underplayer > section:has(> div > h4 > a[href^="https://clickadilla.com/"])
 hotmovs.com#?#.video-page > div[class]:has(> div > span:contains(/^AD/))
 tube8.com##.watchTopAd
-book18.fans##div[style^="width: 300px; height: 250px;"]
+blgo18.fans,book18.fans##div[style^="width: 300px; height: 250px;"]
 xjav.tube##.video__wrapper > div.wrapper:has(> article div[style="width: 156px; height: 130px;"])
 bm.best-hit.tv##iframe[style^="width:320px;height:100px;"]
 tporn.xxx##.video__und
