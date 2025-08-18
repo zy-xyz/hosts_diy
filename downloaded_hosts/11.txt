@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 8UaeQRqn7iS0JWGNSqy5ew
-! Diff-Path: ../patches/11/11-s-1755260080-3600.patch
+! Checksum: S4yFdd5er3syRRPQMh06xw
+! Diff-Path: ../patches/11/11-s-1755526302-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.63.42
-! TimeUpdated: 2025-08-15T12:10:47+00:00
+! Version: 2.0.63.46
+! TimeUpdated: 2025-08-18T14:07:52+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2340,7 +2340,7 @@ amp.marca.com,gamesradar.com,laptopmag.com,livescience.com,musicradar.com,pcgame
 ! ##amp-ad
 handelsblatt.com,moyens.net,ign.com,gazeteduvar.com.tr,innpoland.pl,wired.com,sports.ru,manager-magazin.de,amp.macwelt.de,amp.fitforfun.de,tomsguide.com,nordbayern.de,dallasnews.com,kansascity.com,futurezone.de,fr.de,spox.com,ran.de,stern.de,ruhr24.de,golem.de,berliner-zeitung.de,news.de,abendzeitung-muenchen.de,inside-digital.de,boerse.de,emtb-news.de,caravaning.de,areadvd.de,familie.de,derwesten.de,finanzen.net,o2.pl,onet.pl,whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwelt.de,tomshardware.com,techbook.de,forbes.com,auto-swiat.pl,dialog.ua,mobile.reuters.com,spiegel.de,amp.welt.de,forum.xda-developers.com,sueddeutsche.de,amp.usatoday.com,m.gadgets.ndtv.com##amp-ad
 ! ##.ads
-kalporn.com,canalporno.com,serviporno.com,livechat-ero.net,kingautos.net,ranky-ranking.net,memo.onl.jp,daily-sun.com,home.kingsoft.jp,berkem.ru,pixiv.net,cartoonpornvideos.com,m.economictimes.com,m.mistrzowie.org,m.ura.news,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,winfuture.de##.ads
+keisanki.me,kalporn.com,canalporno.com,serviporno.com,livechat-ero.net,kingautos.net,ranky-ranking.net,memo.onl.jp,daily-sun.com,home.kingsoft.jp,berkem.ru,pixiv.net,cartoonpornvideos.com,m.economictimes.com,m.mistrzowie.org,m.ura.news,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,winfuture.de##.ads
 ! ##.ad
 opinion.cw.com.tw,aidoly.net,celeby-media.net,kyun2-girls.com,hapiee.com,2ch-c.net,4p.de,www-cbc-ca.cdn.ampproject.org,m.geboren.am,dictionary.com,transfermarkt.de,iyf.tv,macwelt.de,pcwelt.de,xataka.com.mx,shikiho.toyokeizai.net,newsee-media.com,rank1-media.com,m.proporn.com,sugoren.com,dailynewsonline.jp,yakuji.co.jp,asahi.com,m.winporn.com,slate.com,sankei.com,gameranbu.jp,seiga.nicovideo.jp,m.arukikata.co.jp,setn.com,hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org,syosetu.org##.ad
 ! ##.Ad
@@ -2353,6 +2353,10 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+eromon.net##aside[style="min-height:312px;"]
+tvblog.it#$#body { margin-top: 0 !important; }
+tvblog.it#$#.flx-sticky { display: none !important; }
+ddd-smart.net##.ds-5__wrapper
 news.infoseek.co.jp##div[id^="ad-wrapper"]
 bebesetmamans.20minutes.fr##.page-masthead
 zdnet.fr##.pub_dfp
@@ -2800,7 +2804,6 @@ mindhack2ch.com###container > center:has(> ins[id^="zucks-widget"])
 mindhack2ch.com##div[id^="interstitial-ad"]
 nikkansports.com#$#body #ContentsArea { padding-top: 0 !important; }
 web.ultra-soccer.jp###under-breadcrumbs-ads
-mediacourant.nl##div[id^="ad"]
 apnews.com###mobile-entitlements
 apnews.com##.LeaderBoardAd-Mobile
 ||navitime.co.jp/static/pc/l/202502041800/img/sp/transfer/searchlist/banner-s-ride-sp-last-train.png
@@ -3011,7 +3014,6 @@ gazetasp.com.br##.coluna > div.mobile:has(> div.propaganda)
 app.famitsu.com##.fc-contents-wrapper
 j-antenna.net##._X_article_space_
 m.economictimes.com###wapFooter
-geinoukame.com##header + center
 geinoukame.com##.ninja-recommend-block + br + center
 iqossan.com,jumpmatome2ch.biz##.sp-ad
 fc1adult.com##.line_spc > div.grass_img[style="margin-bottom: 10px;"]
@@ -3116,7 +3118,6 @@ hostlove.com###vip2_2
 h-taikendan.net##.AdRectangle
 txxx.com#?#div[class^="video-conten"] > div[class] > div > div[class]:has(span:contains(AD))
 twivideo.net##.content_area > div[style]:has(> div[style] > iframe[src^="https://creative.bbrdbr.com/"])
-cumhuriyet.com.tr##div[style="min-height:100px;"]
 jiji.com##.ArticleText > span.notice
 menshealth.de##div[class^="mps-ad-container"]
 allabout.co.jp##li[data-tracking-zone*="gcInfeedFrame"]
@@ -3269,7 +3270,6 @@ asahi.com##.top-banner.sp
 recipe.rakuten.co.jp##.tab_content > section.section_common:has(> div.pl20.pr20.pb30 > a[href*="scid="][data-ratevent="click"][data-ratparam="all"] > img)
 gamerch.com##+js(abort-on-property-read, adsbyimobile)
 ft.com##.o-ads
-eromon.net##main > .container:has(> .row > aside > .is-centered > script[href^="https://img.ad-nex.com/"])
 news.audee.jp###sp_UZOUSPbnr
 m.airporthaber2.com##.Banner
 utaten.com##div[style="height: 180px; margin-bottom: 10px;"]
@@ -4474,7 +4474,7 @@ bookmaker-ratings.ru##.branding-top-wrapper
 washingtonpost.com##.tableAd1
 fistingplanet.com##.happy-related-videos-mobile
 familyxxxhd.com,erotic-hentai.com,villagesexvideos.com,xxxvideoindian2.com,fistingplanet.com##.happy-footer-mobile
-coinwarz.com##div[id^="ad"]
+mediacourant.nl,coinwarz.com##div[id^="ad"]
 pornpapa.com##.mobile-device
 maximum.ru,rusradio.ru,dfm.ru##.advertising-mobile-popup-overlay
 vesti-ua.net##amp-iframe[width="280"][height="852"]
@@ -4490,8 +4490,6 @@ primamedia.ru##.photorep_mobdirect
 primamedia.ru###default-page-no-padding > div.col-md-4.noprint
 vyatka-grad.ru##.f-w-f1
 vyatka-grad.ru##.widget-wrapper
-eromon.net##.my-1
-eromon.net##div[id^="im-"]
 president.jp##.area-billboard
 vokrugsveta.ru##.adfox-tgb
 sex-gen.com##body p[align="center"] > a[target="_blank"]
@@ -4999,9 +4997,6 @@ interfax.ru##.i_mobile_only:not(#style_important)
 ponycanyon.co.jp##.ad300sp50
 trilltrill.jp##.articleDetail-GAM
 stolica-s.su##.ad-fullscreen
-limia.jp##li[id^="js-inHouseRecommendAds"]
-limia.jp##.js-postElementTitleAds
-limia.jp##.Post > div.u-textCenter[style="min-height: 160px;"]
 washingtonpost.com###mobile-footer-ad-wrapper
 tanoshiiosake.jp##.globalFooter_banner
 arine.jp##.wrapper > div[align="center"][m-section]
@@ -5028,7 +5023,6 @@ finders.me##.__ad-sp
 mag.app-liv.jp##.bnr-infeed
 mag.app-liv.jp##.ad-area-adsense-display
 sotokabe.net###footer_sticky_menu
-eromon.net##.promoTopSpace
 productreview.com.au##div[class^="before-filters-ad_"]
 productreview.com.au##.fixed-bottom_AWS
 showcase-tv.com##.dcard-banner
@@ -7393,7 +7387,6 @@ jbpress.ismedia.jp#?#.m-backnumber-list-item > div[id^="div-gpt-"]:upward(1)
 eromanga-kong.com#?#.out_single_under > div.img > a[href=""]:upward(2)
 forbesjapan.com#?#.stream-article > div[id^="div-gpt-"]:upward(1)
 trilltrill.jp#?#.articleDetail-RankingList > li.articleDetail-RankingList_Item:has(> div[id^="div-gpt-ad"])
-limia.jp#?#.Section > div.OUTBRAIN:upward(1)
 wetter.com#?#div[id^="somtag-container"]
 news.ntv.co.jp#?#.module-wrapper > div.contentsWrapper:has(> div.title-card-wrapper > div.OB-REACT-WRAPPER)
 fashion-press.net#?#.fp_list_each.mobile_only > div.mobile_only_ad:upward(1)
