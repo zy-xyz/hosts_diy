@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: vYE98Y34HkGlz/w6m6ghIg
-! Diff-Path: ../patches/11/11-s-1755782343-3600.patch
+! Checksum: g+BBSefvWHmtaClrtOR46w
+! Diff-Path: ../patches/11/11-s-1755871880-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.63.62
-! TimeUpdated: 2025-08-21T13:15:00+00:00
+! Version: 2.0.63.68
+! TimeUpdated: 2025-08-22T14:07:20+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2352,6 +2352,17 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+sporekrani.com#$##topBannerMobileDiv { display: none !important; }
+sporekrani.com#$#.header-container > .q-mb-sm { display: none !important; }
+sporekrani.com#$#header.header-helper { min-height: 84px !important; }
+megamich.com##.execphpwidget:has(> .PR-cm)
+blog.livedoor.jp###article-contents > a[rel="noopener sponsored"][href^="https://www.dlsite.com/maniax/dlaf/"]
+blog.livedoor.jp###article-contents > a[rel="noopener sponsored"][href^="https://dlaf.jp/maniax/dlaf/"]
+blog.livedoor.jp##.article-body-more > iframe[width="300"][height="250"]
+heraldodemexico.com.mx##.zona:has(> .add-div.banner)
+misatopi.com##.entry-list:has(> li > a[href^="https://px.a8.net"])
+misatopi.com##.etc-entry-link > h1:has(+ ul.entry-list > li > a[href^="https://px.a8.net"])
+misatopi.com##.add320100
 matomeantena.com##.list-group-item:has(> div.uniquest-widget)
 kum.com##.under_video_mobile_ad
 miohentai.com##.lazy-mobile-ad-container
@@ -7920,8 +7931,6 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_mobile
 ! ru.yandex.metro
 ||extmaps-api.yandex.net/promo/api/
 !
-! Fixing Google Play Services 11.7.* misbehavior (tries to open that file in browser when it's blocked)
-!
 ! Google ads (be careful)
 !
 ! Blocking specific apps tracking
@@ -7936,6 +7945,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_mobile
 ! Don't add more than 200 apps per rule
 ! TODO: merge app lists of the same rules after fixing
 !
+! TeraBox app (with root)
 ! APKPure
 ! https://github.com/AdguardTeam/AdguardFilters/issues/198022
 ! https://github.com/AdguardTeam/AdguardFilters/issues/198022
